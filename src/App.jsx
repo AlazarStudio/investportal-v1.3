@@ -5,8 +5,6 @@ import Main_Page from "./Components/Pages/Main_Page";
 import Non_Found_Page from "./Components/Pages/Non_Found_Page";
 import Layout from "./Components/Standart/Layout/Layout";
 
-import Admin_Page from "./Admin/Admin_Page";
-
 function App() {
   return (
     <>
