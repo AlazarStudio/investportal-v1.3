@@ -172,13 +172,40 @@ function Main_page_block({ children, ...props }) {
                     </WidthBlock>
                 </CenterBlock>
 
-
                 <CenterBlock>
                     <WidthBlock>
                         <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">Ресурсы</H2>
                     </WidthBlock>
                 </CenterBlock>
 
+                <CenterBlock>
+                    <WidthBlock>
+                        <div className={classes.resourses}>
+                            <a href="https://kchr.ru" target="_blank" className={classes.resourses_item}>
+                                <div className={classes.resourses_item__title}>Глава и Правительство</div>
+                                <div className={classes.resourses_item__linkName}>kchr.ru</div>
+                            </a>
+                            <a href="https://economykchr.ru" target="_blank" className={classes.resourses_item}>
+                                <div className={classes.resourses_item__title}>Минэкономразвития</div>
+                                <div className={classes.resourses_item__linkName}>economykchr.ru</div>
+                            </a>
+                            <a href="https://kchr-invest.ru" target="_blank" className={classes.resourses_item}>
+                                <div className={classes.resourses_item__title}>Корпорация развития</div>
+                                <div className={classes.resourses_item__linkName}>kchr-invest.ru</div>
+                            </a>
+                            <a href="https://moibiz09.ru" target="_blank" className={classes.resourses_item}>
+                                <div className={classes.resourses_item__title}>Поддержка МСП</div>
+                                <div className={classes.resourses_item__linkName}>moibiz09.ru</div>
+                            </a>
+                        </div>
+                    </WidthBlock>
+                </CenterBlock>
+
+                <CenterBlock>
+                    <WidthBlock>
+                        <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">Реализованные и реализуемые проекты</H2>
+                    </WidthBlock>
+                </CenterBlock>
             </ColumnBlock>
         </>
     );
