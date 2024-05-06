@@ -13,8 +13,6 @@ function App() {
           <Route index element={<Main_Page />} />
           <Route path="*" element={<Non_Found_Page />} />
         </Route>
-
-        <Route path="/admin" element={<Admin_Page />} />
       </Routes>
     </>
   )
