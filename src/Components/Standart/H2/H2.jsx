@@ -9,6 +9,7 @@ function H2({ children, ...props }) {
                 fontSize: props.font_size,
                 fontWeight: props.font_weight,
                 textAlign: props.text_align,
+                textTransform: props.text_transform,
                 lineHeight: props.line_height,
                 letterSpacing: props.letter_spacing,
                 width: props.width,
