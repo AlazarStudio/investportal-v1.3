@@ -28,16 +28,17 @@ main {
 }
 
 
-.mySwiper{
+.mySwiper {
     height: 100%;
 }
 
-.mySwiper img{
+.mySwiper img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.mySwiper .swiper-button-prev, .mySwiper .swiper-button-next{
+.mySwiper .swiper-button-prev,
+.mySwiper .swiper-button-next {
     color: #fff;
 }
