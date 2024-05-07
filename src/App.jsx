@@ -2,6 +2,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 
 import Main_Page from "./Components/Pages/Main_Page";
+import Region_Page from "./Components/Pages/Region_Page";
 import Non_Found_Page from "./Components/Pages/Non_Found_Page";
 import Layout from "./Components/Standart/Layout/Layout";
 
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Main_Page />} />
+          <Route path="region" element={<Region_Page />} />
           <Route path="*" element={<Non_Found_Page />} />
         </Route>
       </Routes>
