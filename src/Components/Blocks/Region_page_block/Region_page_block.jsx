@@ -82,11 +82,93 @@ function Region_page_block({ children, ...props }) {
                     >
                         <SwiperSlide>
                             <Link to={"/"} className={classes.region_slider__slide}>
-                                
+                                <div className={classes.region_slider__slide___title}>
+                                    Сельское хозяйство
+                                </div>
+                                <div className={classes.region_slider__slide___img}>
+                                    <img src="/regionSlide_1.png" alt="" />
+                                </div>
+                            </Link>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                            <Link to={"/"} className={classes.region_slider__slide}>
+                                <div className={classes.region_slider__slide___title}>
+                                    ПРОМЫШЛЕННОСТЬ
+                                </div>
+                                <div className={classes.region_slider__slide___img}>
+                                    <img src="/regionSlide_2.png" alt="" />
+                                </div>
+                            </Link>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                            <Link to={"/"} className={classes.region_slider__slide}>
+                                <div className={classes.region_slider__slide___title}>
+                                    туризм
+                                </div>
+                                <div className={classes.region_slider__slide___img}>
+                                    <img src="/regionSlide_3.png" alt="" />
+                                </div>
+                            </Link>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                            <Link to={"/"} className={classes.region_slider__slide}>
+                                <div className={classes.region_slider__slide___title}>
+                                    строительство
+                                </div>
+                                <div className={classes.region_slider__slide___img}>
+                                    <img src="/regionSlide_4.png" alt="" />
+                                </div>
+                            </Link>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                            <Link to={"/"} className={classes.region_slider__slide}>
+                                <div className={classes.region_slider__slide___title}>
+                                    энергетика
+                                </div>
+                                <div className={classes.region_slider__slide___img}>
+                                    <img src="/regionSlide_5.png" alt="" />
+                                </div>
+                            </Link>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                            <Link to={"/"} className={classes.region_slider__slide}>
+                                <div className={classes.region_slider__slide___title}>
+                                    рынок труда и потребительский рынок
+                                </div>
+                                <div className={classes.region_slider__slide___img}>
+                                    <img src="/regionSlide_6.png" alt="" />
+                                </div>
+                            </Link>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                            <Link to={"/"} className={classes.region_slider__slide}>
+                                <div className={classes.region_slider__slide___title}>
+                                    Население и демография
+                                </div>
+                                <div className={classes.region_slider__slide___img}>
+                                    <img src="/regionSlide_7.png" alt="" />
+                                </div>
+                            </Link>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                            <Link to={"/"} className={classes.region_slider__slide}>
+                                <div className={classes.region_slider__slide___title}>
+                                    Социально-экономическое развитие
+                                </div>
+                                <div className={classes.region_slider__slide___img}>
+                                    <img src="/regionSlide_8.png" alt="" />
+                                </div>
                             </Link>
                         </SwiperSlide>
                     </Swiper>
-  
+
                 </div>
             </ColumnBlock>
         </>

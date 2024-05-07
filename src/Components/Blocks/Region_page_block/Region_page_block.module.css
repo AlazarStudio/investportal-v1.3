@@ -67,12 +67,25 @@
     color: var(--blue_color);
 }
 
-.region_slider__slide{
-    height: 400px;
+.region_slider__slide {
+    height: 450px;
     background-color: #fff;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
     box-shadow: -3px 16px 33.1px 0px #0B0C6617;
+    gap: 60px;
+    padding: 30px;
+}
+
+.region_slider__slide___title {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.6000000238418579px;
+    text-align: center;
+    color: var(--blue_color);
+    text-transform: uppercase;
 }

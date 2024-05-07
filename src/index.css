@@ -78,14 +78,20 @@ main {
     transform: translate(0px, -150px);
 }
 
-.swiper-button-prev {
+.region_slider__elements .swiper-button-prev {
     top: auto;
     bottom: 0px;
     left: 30%;
+    color: var(--blue_color);
 }
 
-.swiper-button-next {
+.region_slider__elements .swiper-button-next {
     top: auto;
     bottom: 0px;
     right: 30%;
+    color: var(--blue_color);
+}
+
+.region_slider__elements .swiper-pagination-bullet-active {
+    background: var(--blue_color);
 }
