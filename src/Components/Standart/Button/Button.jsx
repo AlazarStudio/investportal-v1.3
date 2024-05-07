@@ -11,11 +11,6 @@ function Button({ children, timeLeft, ...props }) {
         opacity: props.opacity,
     };
 
-    if (timeLeft > 0) {
-        buttonStyles.cursor = 'not-allowed';
-        buttonStyles.opacity = '0.5';
-    }
-
     return (
         <Link to={props.link} className={classes.Button} style={buttonStyles} {...props}>
             {children}

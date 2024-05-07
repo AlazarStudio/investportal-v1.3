@@ -2,23 +2,25 @@ import React from "react";
 import classes from './Main_page_block.module.css';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation } from 'swiper/modules';
+import { Navigation, Pagination } from 'swiper/modules';
 
-import 'swiper/css';
 import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css';
 
 import WidthBlock from '../../Standart/WidthBlock/WidthBlock'
 import RowBlock from '../../Standart/RowBlock/RowBlock'
 import CenterBlock from '../../Standart/CenterBlock/CenterBlock'
 import ColumnBlock from '../../Standart/ColumnBlock/ColumnBlock'
 import H2 from '../../Standart/H2/H2'
+import Button from '../../Standart/Button/Button'
 
 function Main_page_block({ children, ...props }) {
     return (
         <>
             <ColumnBlock gap="80px">
                 <div className={classes.mainslider}>
-                    <Swiper navigation={true} modules={[Navigation]} loop={true} className="mySwiper">
+                    <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
                         <SwiperSlide>
                             <div className={classes.mainslider_slide} style={{ backgroundImage: `url('/main_slide1.png')` }} >
                                 <WidthBlock>
@@ -203,9 +205,112 @@ function Main_page_block({ children, ...props }) {
 
                 <CenterBlock>
                     <WidthBlock>
-                        <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">Реализованные и реализуемые проекты</H2>
+                        <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">
+                            Реализованные и реализуемые проекты
+                        </H2>
+                        <CenterBlock>
+                            <Button>Все проекты</Button>
+                        </CenterBlock>
+
+                        <div className={classes.projects}>
+                            <Swiper
+                                pagination={{
+                                    dynamicBullets: true,
+                                }}
+                                navigation={true}
+                                loop={true}
+                                modules={[Pagination, Navigation]}
+                                className="projectsSlider"
+                            >
+                                <SwiperSlide>
+                                    <div className={classes.projects_slide}>
+                                        <div className={classes.projects_slide__left}>
+                                            <div className={classes.projects_slide__left___img}>
+                                                <img src="/projectSlide_1.png" alt="" />
+                                            </div>
+                                        </div>
+                                        <div className={classes.projects_slide__right}>
+                                            <div className={classes.projects_slide__right___title}>
+                                                ОАО «Хабезский гипсовый завод»
+                                            </div>
+                                            <div className={classes.projects_slide__right___desc}>
+                                                Проект: «Модернизация оборудования ОАО «Хабезский гипсовый завод»
+                                                и расширение ассортимента продукции на основе гипсового
+                                                вяжущего». В рамках реализации инвестпроекта было создано 150 дополнительных рабочих мест.
+                                                Инвестиции в проект составили: 1,35 млрд руб.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </SwiperSlide>
+
+                                <SwiperSlide>
+                                    <div className={classes.projects_slide}>
+                                        <div className={classes.projects_slide__left}>
+                                            <div className={classes.projects_slide__left___img}>
+                                                <img src="/projectSlide_1.png" alt="" />
+                                            </div>
+                                        </div>
+                                        <div className={classes.projects_slide__right}>
+                                            <div className={classes.projects_slide__right___title}>
+                                                ОАО «Хабезский гипсовый завод»
+                                            </div>
+                                            <div className={classes.projects_slide__right___desc}>
+                                                Проект: «Модернизация оборудования ОАО «Хабезский гипсовый завод»
+                                                и расширение ассортимента продукции на основе гипсового
+                                                вяжущего». В рамках реализации инвестпроекта было создано 150 дополнительных рабочих мест.
+                                                Инвестиции в проект составили: 1,35 млрд руб.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </SwiperSlide>
+
+                                <SwiperSlide>
+                                    <div className={classes.projects_slide}>
+                                        <div className={classes.projects_slide__left}>
+                                            <div className={classes.projects_slide__left___img}>
+                                                <img src="/projectSlide_1.png" alt="" />
+                                            </div>
+                                        </div>
+                                        <div className={classes.projects_slide__right}>
+                                            <div className={classes.projects_slide__right___title}>
+                                                ОАО «Хабезский гипсовый завод»
+                                            </div>
+                                            <div className={classes.projects_slide__right___desc}>
+                                                Проект: «Модернизация оборудования ОАО «Хабезский гипсовый завод»
+                                                и расширение ассортимента продукции на основе гипсового
+                                                вяжущего». В рамках реализации инвестпроекта было создано 150 дополнительных рабочих мест.
+                                                Инвестиции в проект составили: 1,35 млрд руб.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </SwiperSlide>
+                                
+                                <SwiperSlide>
+                                    <div className={classes.projects_slide}>
+                                        <div className={classes.projects_slide__left}>
+                                            <div className={classes.projects_slide__left___img}>
+                                                <img src="/projectSlide_1.png" alt="" />
+                                            </div>
+                                        </div>
+                                        <div className={classes.projects_slide__right}>
+                                            <div className={classes.projects_slide__right___title}>
+                                                ОАО «Хабезский гипсовый завод»
+                                            </div>
+                                            <div className={classes.projects_slide__right___desc}>
+                                                Проект: «Модернизация оборудования ОАО «Хабезский гипсовый завод»
+                                                и расширение ассортимента продукции на основе гипсового
+                                                вяжущего». В рамках реализации инвестпроекта было создано 150 дополнительных рабочих мест.
+                                                Инвестиции в проект составили: 1,35 млрд руб.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </SwiperSlide>
+                            </Swiper>
+                        </div>
                     </WidthBlock>
                 </CenterBlock>
+
+
             </ColumnBlock>
         </>
     );

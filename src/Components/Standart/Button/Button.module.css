@@ -2,27 +2,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0000001A;
-    border: 1px solid #fff;
-    border-radius: 20px;
+    background-color: var(--blue_color);
+    border-radius: 5px;
     color: #FFFFFF;
-    gap: 20px;
+    font-family: Montserrat;
     font-size: 20px;
     font-weight: 500;
-    line-height: 30px;
-    backdrop-filter: blur(5px);
-    transition: all 0.3s ease-in-out;
-}
-
-.Button:hover{
-    background-color: #fff;
-    color: #000;
-}
-
-.Button svg path{
-    transition: all 0.3s ease-in-out;
-}
-
-.Button:hover svg path{
-    fill: #000;
+    line-height: 24.38px;
+    letter-spacing: 0.6000000238418579px;
+    background: linear-gradient(274.77deg, #058BBE 0%, #046FCB 100%),
+        linear-gradient(0deg, #0470CA, #0470CA),
+        linear-gradient(271.58deg, rgba(5, 136, 191, 0.54) 1.08%, rgba(0, 180, 255, 0) 85.53%);
+    padding: 20px 80px;
 }
