@@ -95,3 +95,15 @@ main {
 .region_slider__elements .swiper-pagination-bullet-active {
     background: var(--blue_color);
 }
+
+.region_slider__elements .swiper-pagination-bullet-active-next,
+.region_slider__elements .swiper-pagination-bullet-active-prev {
+    background: var(--blue_color);
+    opacity: 0.8;
+}
+
+.region_slider__elements .swiper-pagination-bullet-active-next-next,
+.region_slider__elements .swiper-pagination-bullet-active-prev-prev {
+    background: var(--blue_color);
+    opacity: 0.6;
+}

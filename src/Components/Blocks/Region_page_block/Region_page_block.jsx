@@ -16,7 +16,7 @@ import { Link } from "react-router-dom";
 function Region_page_block({ children, ...props }) {
     return (
         <>
-            <ColumnBlock gap="80px" overflow={'hidden'} padding={'10px 0 0 0'}>
+            <ColumnBlock gap="80px" overflow={'hidden'}>
                 <CenterBlock>
                     <WidthBlock>
                         <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">о регионе</H2>
@@ -66,6 +66,32 @@ function Region_page_block({ children, ...props }) {
                         </div>
                     </WidthBlock>
                 </CenterBlock>
+
+                <div className={classes.region_glava}>
+                    <CenterBlock>
+                        <WidthBlock>
+                            <div className={classes.region_glava__info}>
+                                <div className={classes.region_glava__info___text}>
+                                    <div className={classes.region_glava__info___text_____title}>
+                                        Рашид Темрезов
+                                    </div>
+                                    <div className={classes.region_glava__info___text_____desc}>
+                                        Глава Карачаево-Черкесской Республики
+                                    </div>
+                                    <div className={classes.region_glava__info___text_____text}>
+                                        «Мы ставим перед собой сугубо практические задачи, которые подчинены одной,
+                                        очень важной цели - повышение качества жизни населения Карачаево-Черкесской
+                                        Республики. Нужно стремиться к кардинальным переменам, которые должны
+                                        вывести экономику региона на качественно новый уровень»
+                                    </div>
+                                </div>
+                                <div className={classes.region_glava__info___img}>
+                                    <img src="/galva.png" alt="" />
+                                </div>
+                            </div>
+                        </WidthBlock>
+                    </CenterBlock>
+                </div>
 
                 <div className="region_slider">
                     <Swiper
@@ -170,6 +196,23 @@ function Region_page_block({ children, ...props }) {
                     </Swiper>
 
                 </div>
+
+                <CenterBlock>
+                    <WidthBlock>
+                        <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">Причины инвестировать в <br /> Карачаево-Черкесскую Республику</H2>
+
+                        <div className={classes.region_presentation}>
+                            <div className={classes.region_video__btn}>
+                                <img src="/play.png" alt="" />
+                                смотреть  презентацию
+                            </div>
+                            <div className={classes.region_video__btn}>
+                                <img src="/download.png" alt="" />
+                                скачать  презентацию
+                            </div>
+                        </div>
+                    </WidthBlock>
+                </CenterBlock>
             </ColumnBlock>
         </>
     );
