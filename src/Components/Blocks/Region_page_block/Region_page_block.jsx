@@ -4,23 +4,90 @@ import ColumnBlock from "../../Standart/ColumnBlock/ColumnBlock";
 import WidthBlock from "../../Standart/WidthBlock/WidthBlock";
 import CenterBlock from "../../Standart/CenterBlock/CenterBlock";
 import H2 from "../../Standart/H2/H2";
-import Button from "../../Standart/Button/Button";
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination } from 'swiper/modules';
+
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css';
+import { Link } from "react-router-dom";
 
 function Region_page_block({ children, ...props }) {
     return (
         <>
-            <ColumnBlock gap="80px">
+            <ColumnBlock gap="80px" overflow={'hidden'} padding={'10px 0 0 0'}>
                 <CenterBlock>
                     <WidthBlock>
+                        <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">о регионе</H2>
 
-                        <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">Ресурсы</H2>
+                        <div className={classes.region_text}>
+                            Карачаево-Черкесская Республика — один из наиболее успешных и динамично развивающихся
+                            регионов, входящих в состав Северо-Кавказского федерального округа, занимающий
+                            лидирующие позиции в Северо-Кавказском федеральном округе по многим
+                            социально-экономическим показателям. В Национальном рейтинге состояния инвестиционного
+                            климата, представленного на Петербургском международном экономическом форуме
+                            Агентством стратегических инициатив Карачаево-Черкесская Республика заняла высокие
+                            позиции, уступив только Чеченской Республике.
+                        </div>
 
-                        <CenterBlock>
-                            <Button>Все проекты</Button>
-                        </CenterBlock>
+                        <div className={classes.region_nums}>
+                            <div className={classes.region_nums__item}>
+                                <div className={classes.region_nums__item___num}>2</div>
+                                <div className={classes.region_nums__item___desc}>городских округа</div>
+                            </div>
 
+                            <div className={classes.region_nums__item}>
+                                <div className={classes.region_nums__item___num}>10</div>
+                                <div className={classes.region_nums__item___desc}>муниципальных районов</div>
+                            </div>
+
+                            <div className={classes.region_nums__item}>
+                                <div className={classes.region_nums__item___num}>5</div>
+                                <div className={classes.region_nums__item___desc}>городских поселений</div>
+                            </div>
+
+                            <div className={classes.region_nums__item}>
+                                <div className={classes.region_nums__item___num}>83</div>
+                                <div className={classes.region_nums__item___desc}>сельских поселений</div>
+                            </div>
+
+                            <div className={classes.region_nums__item}>
+                                <div className={classes.region_nums__item___num}>4</div>
+                                <div className={classes.region_nums__item___desc}>города</div>
+                            </div>
+                        </div>
+
+                        <div className={classes.region_video}>
+                            <div className={classes.region_video__btn}>
+                                <img src="/play.png" alt="" />
+                                Ролик о регионе
+                            </div>
+                        </div>
                     </WidthBlock>
                 </CenterBlock>
+
+                <div className="region_slider">
+                    <Swiper
+                        slidesPerView={5}
+                        spaceBetween={-50}
+                        centeredSlides={true}
+                        navigation={true}
+                        loop={true}
+                        pagination={{
+                            dynamicBullets: true,
+                        }}
+                        modules={[Pagination, Navigation]}
+                        className="region_slider__elements"
+                    >
+                        <SwiperSlide>
+                            <Link to={"/"} className={classes.region_slider__slide}>
+                                
+                            </Link>
+                        </SwiperSlide>
+                    </Swiper>
+  
+                </div>
             </ColumnBlock>
         </>
     );

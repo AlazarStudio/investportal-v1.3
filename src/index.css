@@ -41,3 +41,51 @@ main {
 .mySwiper .swiper-button-next {
     color: #fff;
 }
+
+
+.region_slider .swiper {
+    padding-top: 150px;
+    /* overflow: visible; */
+}
+
+.region_slider__elements .swiper-slide {
+    z-index: 1;
+    transition: all 0.7s ease-in-out;
+    transform: translate(0px, -50px);
+}
+
+.region_slider__elements .swiper-slide-next+.swiper-slide {
+    z-index: 2;
+    transition: all 0.5s ease-in-out;
+    transform: translate(0px, -50px);
+}
+
+.region_slider__elements .swiper-slide-next {
+    z-index: 3;
+    transition: all 0.5s ease-in-out;
+    transform: translate(0px, -100px);
+}
+
+.region_slider__elements .swiper-slide-prev {
+    z-index: 3;
+    transition: all 0.5s ease-in-out;
+    transform: translate(0px, -100px);
+}
+
+.region_slider__elements .swiper-slide-active {
+    z-index: 4;
+    transition: all 0.3s ease-in-out;
+    transform: translate(0px, -150px);
+}
+
+.swiper-button-prev {
+    top: auto;
+    bottom: 0px;
+    left: 30%;
+}
+
+.swiper-button-next {
+    top: auto;
+    bottom: 0px;
+    right: 30%;
+}
