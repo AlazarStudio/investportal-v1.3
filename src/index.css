@@ -38,6 +38,6 @@ main {
     object-fit: cover;
 }
 
-.swiper-button-prev, .swiper-button-next{
+.mySwiper .swiper-button-prev, .mySwiper .swiper-button-next{
     color: #fff;
 }
