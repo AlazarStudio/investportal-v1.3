@@ -105,7 +105,7 @@
 .municMap_data {
     display: flex;
     flex-wrap: wrap;
-    gap: 80px 20px;
+    gap: 60px 20px;
 }
 
 .municMap_info__item {
