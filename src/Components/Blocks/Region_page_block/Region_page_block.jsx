@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import classes from './Region_page_block.module.css';
 import ColumnBlock from "../../Standart/ColumnBlock/ColumnBlock";
 import WidthBlock from "../../Standart/WidthBlock/WidthBlock";
 import CenterBlock from "../../Standart/CenterBlock/CenterBlock";
 import H2 from "../../Standart/H2/H2";
+import Modal from "../Modal/Modal";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
@@ -11,9 +12,23 @@ import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css';
-import { Link } from "react-router-dom";
 
 function Region_page_block({ children, ...props }) {
+    const [modalOpen, setModalOpen] = useState(false);
+    const [modalContent, setModalContent] = useState('');
+
+    const handleOpenModal = (content) => {
+        document.body.classList.add('no-scroll');
+        setModalContent(content);
+        setModalOpen(true);
+    };
+
+    // Функция для закрытия модального окна
+    const handleCloseModal = () => {
+        document.body.classList.remove('no-scroll');
+        setModalOpen(false);
+        setModalContent('');
+    };
     return (
         <>
             <ColumnBlock gap="80px" overflow={'hidden'}>
@@ -106,96 +121,98 @@ function Region_page_block({ children, ...props }) {
                         modules={[Pagination, Navigation]}
                         className="region_slider__elements"
                     >
-                        <SwiperSlide>
-                            <Link to={"/"} className={classes.region_slider__slide}>
+                        <SwiperSlide onClick={() => handleOpenModal('Сельское хозяйство')}>
+                            <div className={classes.region_slider__slide}>
                                 <div className={classes.region_slider__slide___title}>
                                     Сельское хозяйство
                                 </div>
                                 <div className={classes.region_slider__slide___img}>
                                     <img src="/regionSlide_1.png" alt="" />
                                 </div>
-                            </Link>
+                            </div>
                         </SwiperSlide>
 
-                        <SwiperSlide>
-                            <Link to={"/"} className={classes.region_slider__slide}>
+                        <SwiperSlide onClick={() => handleOpenModal('Промышленность')}>
+                            <div className={classes.region_slider__slide}>
                                 <div className={classes.region_slider__slide___title}>
                                     ПРОМЫШЛЕННОСТЬ
                                 </div>
                                 <div className={classes.region_slider__slide___img}>
                                     <img src="/regionSlide_2.png" alt="" />
                                 </div>
-                            </Link>
+                            </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <Link to={"/"} className={classes.region_slider__slide}>
+                            <div className={classes.region_slider__slide}>
                                 <div className={classes.region_slider__slide___title}>
                                     туризм
                                 </div>
                                 <div className={classes.region_slider__slide___img}>
                                     <img src="/regionSlide_3.png" alt="" />
                                 </div>
-                            </Link>
+                            </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <Link to={"/"} className={classes.region_slider__slide}>
+                            <div className={classes.region_slider__slide}>
                                 <div className={classes.region_slider__slide___title}>
                                     строительство
                                 </div>
                                 <div className={classes.region_slider__slide___img}>
                                     <img src="/regionSlide_4.png" alt="" />
                                 </div>
-                            </Link>
+                            </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <Link to={"/"} className={classes.region_slider__slide}>
+                            <div className={classes.region_slider__slide}>
                                 <div className={classes.region_slider__slide___title}>
                                     энергетика
                                 </div>
                                 <div className={classes.region_slider__slide___img}>
                                     <img src="/regionSlide_5.png" alt="" />
                                 </div>
-                            </Link>
+                            </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <Link to={"/"} className={classes.region_slider__slide}>
+                            <div className={classes.region_slider__slide}>
                                 <div className={classes.region_slider__slide___title}>
                                     рынок труда и потребительский рынок
                                 </div>
                                 <div className={classes.region_slider__slide___img}>
                                     <img src="/regionSlide_6.png" alt="" />
                                 </div>
-                            </Link>
+                            </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <Link to={"/"} className={classes.region_slider__slide}>
+                            <div className={classes.region_slider__slide}>
                                 <div className={classes.region_slider__slide___title}>
                                     Население и демография
                                 </div>
                                 <div className={classes.region_slider__slide___img}>
                                     <img src="/regionSlide_7.png" alt="" />
                                 </div>
-                            </Link>
+                            </div>
                         </SwiperSlide>
 
-                        <SwiperSlide>
-                            <Link to={"/"} className={classes.region_slider__slide}>
+                        <SwiperSlide onClick={() => handleOpenModal('Социально-экономическое развитие')}>
+                            <div className={classes.region_slider__slide}>
                                 <div className={classes.region_slider__slide___title}>
                                     Социально-экономическое развитие
                                 </div>
                                 <div className={classes.region_slider__slide___img}>
                                     <img src="/regionSlide_8.png" alt="" />
                                 </div>
-                            </Link>
+                            </div>
                         </SwiperSlide>
                     </Swiper>
-
                 </div>
+
+                {/* Модальное окно */}
+                {modalOpen && <Modal content={modalContent} onClose={handleCloseModal} />}
 
                 <CenterBlock>
                     <WidthBlock>

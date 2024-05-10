@@ -79,6 +79,7 @@
     box-shadow: -3px 16px 33.1px 0px #0B0C6617;
     gap: 60px;
     padding: 30px;
+    cursor: pointer;
 }
 
 .region_slider__slide___title {
