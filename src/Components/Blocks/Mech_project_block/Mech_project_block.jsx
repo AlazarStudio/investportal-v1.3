@@ -27,7 +27,16 @@ function Mech_project_block({ children, ...props }) {
                             Действующие механизмы государственного стимулирования инвестиционной деятельности
                         </H2>
 
-
+                        <div className={classes.mech}>
+                            <div className={classes.mech_item}>
+                                <img src="/play.png" alt="" />
+                                смотреть  презентацию
+                            </div>
+                            <div className={classes.mech_item}>
+                                <img src="/download.png" alt="" />
+                                скачать  презентацию
+                            </div>
+                        </div>
 
                         <DocsBlock array={content.declaration.files} />
                     </WidthBlock>
