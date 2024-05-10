@@ -20,10 +20,12 @@ function Footer({ children, ...props }) {
                                 </div>
                             </div>
                             <div className={classes.footer_logoLine__right}>
-                                Инвестиционный портал Карачаево-Черкесской Республики ресурс,
-                                созданный специально для помощи предпринимателям и инвесторам.
-                                Здесь можно узнать, куда инвестировать в КЧР, а также о льготах
-                                для малого и среднего предпринимательства.
+                                <div className={classes.footer_logoLine__right___text}>
+                                    Инвестиционный портал Карачаево-Черкесской Республики ресурс,
+                                    созданный специально для помощи предпринимателям и инвесторам.
+                                    Здесь можно узнать, куда инвестировать в КЧР, а также о льготах
+                                    для малого и среднего предпринимательства.
+                                </div>
                             </div>
                         </div>
 
@@ -56,18 +58,24 @@ function Footer({ children, ...props }) {
                                 </div>
                             </div>
                         </div>
-
-                        <div className={classes.footer_makeLine}>
-                            <div className={classes.footer_makeLine__left}>
-                                © Инвестиционный портал Карачаево-Черкесской Республики <br />
-                                При использовании материалов ссылка на сайт <span>инвестиционного портала</span> обязательна
-                            </div>
-                            <div className={classes.footer_makeLine__right}>
-                                <img src="/alazar_light.png" alt="" />
-                            </div>
-                        </div>
                     </WidthBlock>
                 </CenterBlock>
+
+                <div className={classes.footer_bottom}>
+                    <CenterBlock>
+                        <WidthBlock>
+                            <div className={classes.footer_makeLine}>
+                                <div className={classes.footer_makeLine__left}>
+                                    © Инвестиционный портал Карачаево-Черкесской Республики <br />
+                                    При использовании материалов ссылка на сайт <span>инвестиционного портала</span> обязательна
+                                </div>
+                                <a href="https://alazarstudio.ru" target="_blank" className={classes.footer_makeLine__right}>
+                                    <img src="/alazar_light.png" alt="" />
+                                </a>
+                            </div>
+                        </WidthBlock>
+                    </CenterBlock>
+                </div>
             </div>
         </>
     );

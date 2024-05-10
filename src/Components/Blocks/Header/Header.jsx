@@ -17,7 +17,7 @@ function Header({ children, ...props }) {
                 <div className={classes.header_list}>
                     <ul>
                         <li><Link to="/region" style={{ color: props.color }}>Регион</Link></li>
-                        <li><Link to="/" style={{ color: props.color }}>Инвестору</Link></li>
+                        <li><Link to="/investor" style={{ color: props.color }}>Инвестору</Link></li>
                         <li><Link to="/" style={{ color: props.color }}>МСП</Link></li>
                         <li><Link to="/" style={{ color: props.color }}>Экспорт</Link></li>
                         <li><Link to="/" style={{ color: props.color }}>Все документы</Link></li>

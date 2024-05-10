@@ -211,7 +211,6 @@ function Region_page_block({ children, ...props }) {
                     </Swiper>
                 </div>
 
-                {/* Модальное окно */}
                 {modalOpen && <Modal content={modalContent} onClose={handleCloseModal} />}
 
                 <CenterBlock>

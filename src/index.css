@@ -42,6 +42,11 @@ main {
     color: #fff;
 }
 
+.projects_slider .swiper-button-prev,
+.projects_slider .swiper-button-next {
+    color: #fff;
+}
+
 
 .region_slider .swiper {
     padding-top: 150px;

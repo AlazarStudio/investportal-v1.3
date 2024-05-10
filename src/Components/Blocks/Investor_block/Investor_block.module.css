@@ -1,0 +1,54 @@
+.investor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+}
+
+.investor_element {
+    width: 31%;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #Fff;
+    gap: 25px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.investor_element:hover{
+    transform: translateY(-10px);
+    box-shadow: -3px 16px 33.1px 0px #0B0C6617;
+}
+
+.lowerPadding {
+    padding: 25px;
+}
+
+.investor_element__title {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.6000000238418579px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--blue_color);
+}
+
+.lowerFont {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.6000000238418579px;
+    text-align: center;
+}
+
+.investor_element__img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

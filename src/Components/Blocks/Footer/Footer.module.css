@@ -1,13 +1,21 @@
 .footer {
     background-color: #CDD2DD;
-    padding: 80px 0;
     margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding-top: 80px;
+}
+
+.footer_bottom{
+    background-color: var(--blue_color);
+    padding: 40px 0;
 }
 
 .footer_logoLine {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .footer_logoLine__left {
@@ -32,6 +40,12 @@
     font-weight: 400;
     line-height: 27px;
     color: var(--blue_color);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer_logoLine__right___text{
+    width: 83%;
 }
 
 .footer_infoLine {
@@ -82,7 +96,7 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    color: var(--blue_color);
+    color: #fff;
 }
 
 .footer_makeLine__left span{
