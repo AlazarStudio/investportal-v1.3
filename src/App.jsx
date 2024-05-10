@@ -20,6 +20,7 @@ function App() {
           <Route path="investor" element={<Investor_Page />} />
           <Route path="investor/:id" element={<Investor_Info_Page />} />
           <Route path="municipalnye_obrazovaniya" element={<Municipalnye_obrazovaniya_Page />} />
+          <Route path="municipalnye_obrazovaniya/:id" element={<Municipalnye_obrazovaniya_Page />} />
           <Route path="documents" element={<Documents_Page />} />
           <Route path="*" element={<Non_Found_Page />} />
         </Route>

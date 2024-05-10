@@ -26,6 +26,7 @@ function Municipalnye_obrazovaniya_block({ children, ...props }) {
         'Зеленчукский район': 'zelenchukskij_rajon',
         'Карачаевский район': 'karachaevskij_rajon',
     }
+    
     return (
         <>
             <ColumnBlock gap="80px">
@@ -59,7 +60,7 @@ function Municipalnye_obrazovaniya_block({ children, ...props }) {
                                     {currentId != '' ?
                                         <>
                                             <div className={classes.mapClickInfo_name}>{currentId}</div>
-                                            <Button link={names[currentId]} width="250px" font_size="14px">Подробнее</Button>
+                                            <Button link={`/municipalnye_obrazovaniya/${names[currentId]}`} width="250px" font_size="14px">Подробнее</Button>
                                         </>
                                         : null
                                     }
