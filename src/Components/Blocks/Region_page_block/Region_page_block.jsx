@@ -143,7 +143,7 @@ function Region_page_block({ children, ...props }) {
                             </div>
                         </SwiperSlide>
 
-                        <SwiperSlide>
+                        <SwiperSlide onClick={() => handleOpenModal('Туризм')}>
                             <div className={classes.region_slider__slide}>
                                 <div className={classes.region_slider__slide___title}>
                                     туризм
@@ -154,7 +154,7 @@ function Region_page_block({ children, ...props }) {
                             </div>
                         </SwiperSlide>
 
-                        <SwiperSlide>
+                        <SwiperSlide onClick={() => handleOpenModal('Строительство')}>
                             <div className={classes.region_slider__slide}>
                                 <div className={classes.region_slider__slide___title}>
                                     строительство
@@ -165,7 +165,7 @@ function Region_page_block({ children, ...props }) {
                             </div>
                         </SwiperSlide>
 
-                        <SwiperSlide>
+                        <SwiperSlide onClick={() => handleOpenModal('Энергетика')}>
                             <div className={classes.region_slider__slide}>
                                 <div className={classes.region_slider__slide___title}>
                                     энергетика
@@ -176,7 +176,7 @@ function Region_page_block({ children, ...props }) {
                             </div>
                         </SwiperSlide>
 
-                        <SwiperSlide>
+                        <SwiperSlide onClick={() => handleOpenModal('Рынок труда')}>
                             <div className={classes.region_slider__slide}>
                                 <div className={classes.region_slider__slide___title}>
                                     рынок труда и потребительский рынок
@@ -187,7 +187,7 @@ function Region_page_block({ children, ...props }) {
                             </div>
                         </SwiperSlide>
 
-                        <SwiperSlide>
+                        <SwiperSlide onClick={() => handleOpenModal('Население')}>
                             <div className={classes.region_slider__slide}>
                                 <div className={classes.region_slider__slide___title}>
                                     Население и демография
