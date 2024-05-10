@@ -20,8 +20,8 @@ function Header({ children, ...props }) {
                         <li><Link to="/investor" style={{ color: props.color }}>Инвестору</Link></li>
                         <li><Link to="/" style={{ color: props.color }}>МСП</Link></li>
                         <li><Link to="/" style={{ color: props.color }}>Экспорт</Link></li>
-                        <li><Link to="/" style={{ color: props.color }}>Все документы</Link></li>
-                        <li><Link to="/" style={{ color: props.color }}>Муниципальные образования</Link></li>
+                        <li><Link to="/documents" style={{ color: props.color }}>Все документы</Link></li>
+                        <li><Link to="/municipalnye_obrazovaniya" style={{ color: props.color }}>Муниципальные образования</Link></li>
                         <li><Link to="/" style={{ color: props.color }}>Обратная связь</Link></li>
                     </ul>
                 </div>
