@@ -5,6 +5,7 @@ import CenterBlock from "../../Standart/CenterBlock/CenterBlock";
 import ColumnBlock from "../../Standart/ColumnBlock/ColumnBlock";
 import H2 from "../../Standart/H2/H2";
 import Button from "../../Standart/Button/Button";
+import { Link } from "react-router-dom";
 
 function Municipalnye_obrazovaniya_block({ children, ...props }) {
     const [currentId, setCurrentId] = useState('');
@@ -18,6 +19,7 @@ function Municipalnye_obrazovaniya_block({ children, ...props }) {
         'Адыге-Хабльский район': 'adygehablskij_rajon',
         'Абазинский район': 'abazinskij_rajon',
         'г. Черкесск': 'cherkessk',
+        'г. Карачаевск': 'karachaevsk',
         'Ногайский район': 'nogajskij_rajon',
         'Хабезский район': 'habezskij_rajon',
         'Усть-Джегутинский район': 'ustdzhegutinskij_rajon',
@@ -115,73 +117,73 @@ function Municipalnye_obrazovaniya_block({ children, ...props }) {
                             <div className={classes.municipBlocks_item__img}><img src="/mo1.png" alt="" /></div>
                             <div className={classes.municipBlocks_item__place}>г. Черкесск</div>
                             <div className={classes.municipBlocks_item__site}>Сайт</div>
-                            <div className={classes.municipBlocks_item__more}>Подробнее</div>
+                            <Link to={`/municipalnye_obrazovaniya/${names['г. Черкесск']}`} className={classes.municipBlocks_item__more}>Подробнее</Link>
                         </div>
                         <div className={classes.municipBlocks_item}>
                             <div className={classes.municipBlocks_item__img}><img src="/mo2.png" alt="" /></div>
                             <div className={classes.municipBlocks_item__place}>г. Карачаевск</div>
                             <div className={classes.municipBlocks_item__site}>Сайт</div>
-                            <div className={classes.municipBlocks_item__more}>Подробнее</div>
+                            <Link to={`/municipalnye_obrazovaniya/${names['г. Карачаевск']}`}  className={classes.municipBlocks_item__more}>Подробнее</Link>
                         </div>
                         <div className={classes.municipBlocks_item}>
                             <div className={classes.municipBlocks_item__img}><img src="/mo3.png" alt="" /></div>
                             <div className={classes.municipBlocks_item__place}>Абазинский район</div>
                             <div className={classes.municipBlocks_item__site}>Сайт</div>
-                            <div className={classes.municipBlocks_item__more}>Подробнее</div>
+                            <Link to={`/municipalnye_obrazovaniya/${names['Абазинский район']}`}  className={classes.municipBlocks_item__more}>Подробнее</Link>
                         </div>
                         <div className={classes.municipBlocks_item}>
                             <div className={classes.municipBlocks_item__img}><img src="/mo4.png" alt="" /></div>
                             <div className={classes.municipBlocks_item__place}>Прикубанский район</div>
                             <div className={classes.municipBlocks_item__site}>Сайт</div>
-                            <div className={classes.municipBlocks_item__more}>Подробнее</div>
+                            <Link to={`/municipalnye_obrazovaniya/${names['Прикубанский район']}`}  className={classes.municipBlocks_item__more}>Подробнее</Link>
                         </div>
                         <div className={classes.municipBlocks_item}>
                             <div className={classes.municipBlocks_item__img}><img src="/mo5.png" alt="" /></div>
                             <div className={classes.municipBlocks_item__place}>Зеленчукский район</div>
                             <div className={classes.municipBlocks_item__site}>Сайт</div>
-                            <div className={classes.municipBlocks_item__more}>Подробнее</div>
+                            <Link to={`/municipalnye_obrazovaniya/${names['Зеленчукский район']}`}  className={classes.municipBlocks_item__more}>Подробнее</Link>
                         </div>
                         <div className={classes.municipBlocks_item}>
                             <div className={classes.municipBlocks_item__img}><img src="/mo6.png" alt="" /></div>
                             <div className={classes.municipBlocks_item__place}>Карачаевский район</div>
                             <div className={classes.municipBlocks_item__site}>Сайт</div>
-                            <div className={classes.municipBlocks_item__more}>Подробнее</div>
+                            <Link to={`/municipalnye_obrazovaniya/${names['Карачаевский район']}`}  className={classes.municipBlocks_item__more}>Подробнее</Link>
                         </div>
                         <div className={classes.municipBlocks_item}>
                             <div className={classes.municipBlocks_item__img}><img src="/mo7.png" alt="" /></div>
                             <div className={classes.municipBlocks_item__place}>Малокарачаевский район</div>
                             <div className={classes.municipBlocks_item__site}>Сайт</div>
-                            <div className={classes.municipBlocks_item__more}>Подробнее</div>
+                            <Link to={`/municipalnye_obrazovaniya/${names['Малокарачаевский район']}`}  className={classes.municipBlocks_item__more}>Подробнее</Link>
                         </div>
                         <div className={classes.municipBlocks_item}>
                             <div className={classes.municipBlocks_item__img}><img src="/mo8.png" alt="" /></div>
                             <div className={classes.municipBlocks_item__place}>Ногайский район</div>
                             <div className={classes.municipBlocks_item__site}>Сайт</div>
-                            <div className={classes.municipBlocks_item__more}>Подробнее</div>
+                            <Link to={`/municipalnye_obrazovaniya/${names['Ногайский район']}`}  className={classes.municipBlocks_item__more}>Подробнее</Link>
                         </div>
                         <div className={classes.municipBlocks_item}>
                             <div className={classes.municipBlocks_item__img}><img src="/mo9.png" alt="" /></div>
                             <div className={classes.municipBlocks_item__place}>Хабеский район</div>
                             <div className={classes.municipBlocks_item__site}>Сайт</div>
-                            <div className={classes.municipBlocks_item__more}>Подробнее</div>
+                            <Link to={`/municipalnye_obrazovaniya/${names['Хабеский район']}`}  className={classes.municipBlocks_item__more}>Подробнее</Link>
                         </div>
                         <div className={classes.municipBlocks_item}>
                             <div className={classes.municipBlocks_item__img}><img src="/moNone.png" alt="" /></div>
                             <div className={classes.municipBlocks_item__place}>Усть-Джегутинский район</div>
                             <div className={classes.municipBlocks_item__site}>Сайт</div>
-                            <div className={classes.municipBlocks_item__more}>Подробнее</div>
+                            <Link to={`/municipalnye_obrazovaniya/${names['Усть-Джегутинский район']}`}  className={classes.municipBlocks_item__more}>Подробнее</Link>
                         </div>
                         <div className={classes.municipBlocks_item}>
                             <div className={classes.municipBlocks_item__img}><img src="/moNone.png" alt="" /></div>
                             <div className={classes.municipBlocks_item__place}>Адыге-Хабльский район</div>
                             <div className={classes.municipBlocks_item__site}>Сайт</div>
-                            <div className={classes.municipBlocks_item__more}>Подробнее</div>
+                            <Link to={`/municipalnye_obrazovaniya/${names['Адыге-Хабльский район']}`}  className={classes.municipBlocks_item__more}>Подробнее</Link>
                         </div>
                         <div className={classes.municipBlocks_item}>
                             <div className={classes.municipBlocks_item__img}><img src="/moNone.png" alt="" /></div>
                             <div className={classes.municipBlocks_item__place}>Урупский район</div>
                             <div className={classes.municipBlocks_item__site}>Сайт</div>
-                            <div className={classes.municipBlocks_item__more}>Подробнее</div>
+                            <Link to={`/municipalnye_obrazovaniya/${names['Урупский район']}`}  className={classes.municipBlocks_item__more}>Подробнее</Link>
                         </div>
                     </div>
                 </div>
