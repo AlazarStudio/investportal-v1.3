@@ -122,3 +122,14 @@ main {
 .modalSlider .swiper-wrapper{
     align-items: center;
 }
+
+.newSlider .swiper-slide{
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.newSlider .swiper-button-prev,
+.newSlider .swiper-button-next {
+    color: #fff;
+}

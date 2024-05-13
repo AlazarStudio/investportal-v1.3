@@ -329,11 +329,11 @@ function Main_page_block({ children, ...props }) {
                         <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">Новости</H2>
 
                         <CenterBlock>
-                            <Button>Все новости</Button>
+                            <Button link={'/news'}>Все новости</Button>
                         </CenterBlock>
 
                         <div className={classes.news}>
-                            <div className={classes.news_item}>
+                            <Link to={'/news/new1'} className={classes.news_item}>
                                 <div className={classes.news_item__img}>
                                     <img src="/new1.jpg" alt="" />
                                 </div>
@@ -347,9 +347,9 @@ function Main_page_block({ children, ...props }) {
                                         <div className={classes.news_item__desc___hash}>#Кредит #фот 3.0</div>
                                     </div>
                                 </div>
-                            </div>
+                            </Link>
 
-                            <div className={classes.news_item}>
+                            <Link to={'/news/new1'} className={classes.news_item}>
                                 <div className={classes.news_item__img}>
                                     <img src="/new2.png" alt="" />
                                 </div>
@@ -365,9 +365,9 @@ function Main_page_block({ children, ...props }) {
                                     </div>
                                     <div className={classes.news_item__desc___hash}>#Кредит #фот 3.0</div>
                                 </div>
-                            </div>
+                            </Link>
 
-                            <div className={classes.news_item}>
+                            <Link to={'/news/new1'} className={classes.news_item}>
                                 <div className={classes.news_item__img}>
                                     <img src="/new3.jpg" alt="" />
                                 </div>
@@ -381,9 +381,9 @@ function Main_page_block({ children, ...props }) {
                                     </div>
                                     <div className={classes.news_item__desc___hash}>#Кредит #фот 3.0</div>
                                 </div>
-                            </div>
+                            </Link>
 
-                            <div className={classes.news_item}>
+                            <Link to={'/news/new1'} className={classes.news_item}>
                                 <div className={classes.news_item__img}>
                                     <img src="/new1.jpg" alt="" />
                                 </div>
@@ -397,9 +397,9 @@ function Main_page_block({ children, ...props }) {
                                         <div className={classes.news_item__desc___hash}>#Кредит #фот 3.0</div>
                                     </div>
                                 </div>
-                            </div>
+                            </Link>
 
-                            <div className={classes.news_item}>
+                            <Link to={'/news/new1'} className={classes.news_item}>
                                 <div className={classes.news_item__img}>
                                     <img src="/new2.png" alt="" />
                                 </div>
@@ -415,9 +415,9 @@ function Main_page_block({ children, ...props }) {
                                     </div>
                                     <div className={classes.news_item__desc___hash}>#Кредит #фот 3.0</div>
                                 </div>
-                            </div>
+                            </Link>
 
-                            <div className={classes.news_item}>
+                            <Link to={'/news/new1'} className={classes.news_item}>
                                 <div className={classes.news_item__img}>
                                     <img src="/new3.jpg" alt="" />
                                 </div>
@@ -431,7 +431,7 @@ function Main_page_block({ children, ...props }) {
                                     </div>
                                     <div className={classes.news_item__desc___hash}>#Кредит #фот 3.0</div>
                                 </div>
-                            </div>
+                            </Link>
                         </div>
                     </WidthBlock>
                 </CenterBlock>
