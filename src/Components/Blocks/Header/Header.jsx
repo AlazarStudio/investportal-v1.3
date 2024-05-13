@@ -18,7 +18,7 @@ function Header({ children, ...props }) {
                     <ul>
                         <li><Link to="/region" style={{ color: props.color }}>Регион</Link></li>
                         <li><Link to="/investor" style={{ color: props.color }}>Инвестору</Link></li>
-                        <li><Link to="/" style={{ color: props.color }}>МСП</Link></li>
+                        <li><Link to="/msp" style={{ color: props.color }}>МСП</Link></li>
                         <li><Link to="/" style={{ color: props.color }}>Экспорт</Link></li>
                         <li><Link to="/documents" style={{ color: props.color }}>Все документы</Link></li>
                         <li><Link to="/municipalnye_obrazovaniya" style={{ color: props.color }}>Муниципальные образования</Link></li>

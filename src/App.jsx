@@ -10,6 +10,7 @@ import Layout from "./Components/Standart/Layout/Layout";
 import Municipalnye_obrazovaniya_Page from "./Components/Pages/Municipalnye_obrazovaniya_Page";
 import Documents_Page from "./Components/Pages/Documents_Page";
 import Pricubanskij_rajon_page from "./Components/Pages/Pricubanskij_rajon_page/Pricubanskij_rajon_page";
+import MSP_Page from "./Components/Pages/MSP_Page";
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
           <Route path="region" element={<Region_Page />} />
           <Route path="investor" element={<Investor_Page />} />
           <Route path="investor/:id" element={<Investor_Info_Page />} />
+          <Route path="msp" element={<MSP_Page />} />
+
           <Route path="municipalnye_obrazovaniya" element={<Municipalnye_obrazovaniya_Page />} />
           <Route path="municipalnye_obrazovaniya/prikubanskij_rajon" element={<Pricubanskij_rajon_page />} />
           <Route path="municipalnye_obrazovaniya/adygehablskij_rajon" element={<Pricubanskij_rajon_page />} />
