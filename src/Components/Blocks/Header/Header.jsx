@@ -31,7 +31,7 @@ function Header({ children, ...props }) {
         investor: "Инвестору",
         msp: "МСП",
         export: "Экспорт",
-        documents: "Все документы",
+        // documents: "Все документы",
         municipalnye_obrazovaniya: "Муниципальные образования",
         feedback: "Обратная связь"
     };

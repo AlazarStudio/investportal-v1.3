@@ -20,6 +20,8 @@ import One_New_Page from "./Components/Pages/One_New_Page";
 import MP_Federal_Page from "./Components/Pages/MP_Federal_Page/MP_Federal_Page";
 import MP_Region_Page from "./Components/Pages/MP_Region_Page/MP_Region_Page";
 
+import Projects_All_Page from "./Components/Pages/Projects_All_Page";
+import Projects_One_Page from "./Components/Pages/Projects_One_Page";
 function App() {
   return (
     <>
@@ -36,6 +38,9 @@ function App() {
           <Route path="regionalniy_exportniy_standart" element={<Regionalniy_exportniy_standart_Page />} />
           <Route path="news" element={<News_Page />} />
           <Route path="news/:id" element={<One_New_Page />} />
+
+          <Route path="projects" element={<Projects_All_Page />} />
+          <Route path="projects/:title" element={<Projects_One_Page />} />
 
           <Route path="municipalnye_obrazovaniya" element={<Municipalnye_obrazovaniya_Page />} />
           <Route path="municipalnye_obrazovaniya/prikubanskij_rajon" element={<Pricubanskij_rajon_page />} />

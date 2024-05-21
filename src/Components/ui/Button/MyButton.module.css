@@ -1,0 +1,14 @@
+.MyButton{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    background: linear-gradient(274.77deg, #058BBE 0%, #046FCB 100%);
+}
