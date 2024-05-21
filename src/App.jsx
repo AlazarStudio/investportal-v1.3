@@ -9,6 +9,8 @@ import Non_Found_Page from "./Components/Pages/Non_Found_Page";
 import Layout from "./Components/Standart/Layout/Layout";
 import Municipalnye_obrazovaniya_Page from "./Components/Pages/Municipalnye_obrazovaniya_Page";
 import Documents_Page from "./Components/Pages/Documents_Page";
+import Documents_msp from "./Components/Pages/Documents_msp";
+import Documents_export from "./Components/Pages/Documents_export";
 import Pricubanskij_rajon_page from "./Components/Pages/Pricubanskij_rajon_page/Pricubanskij_rajon_page";
 import MSP_Page from "./Components/Pages/MSP_Page";
 import Export_Page from "./Components/Pages/Export_Page";
@@ -49,6 +51,8 @@ function App() {
           <Route path="municipalnye_obrazovaniya/zelenchukskij_rajon" element={<Pricubanskij_rajon_page />} />
           <Route path="municipalnye_obrazovaniya/karachaevskij_rajon" element={<Pricubanskij_rajon_page />} />
           <Route path="documents" element={<Documents_Page />} />
+          <Route path="documents_msp" element={<Documents_msp />} />
+          <Route path="documents_export" element={<Documents_export />} />
           <Route path="*" element={<Non_Found_Page />} />
         </Route>
       </Routes>
