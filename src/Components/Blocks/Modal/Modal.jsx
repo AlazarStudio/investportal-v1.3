@@ -11,6 +11,7 @@ import Nasel_modal from "../Modal_blocks/Nasel_modal/Nasel_modal";
 import Rinok_modal from "../Modal_blocks/Rinok_modal/Rinok_modal";
 import RES_modal from "../Modal_blocks/RES_modal/RES_modal";
 import PIVKCHR_modal from "../Modal_blocks/PIVKCHR_modal/PIVKCHR_modal";
+import Rolik_modal from "../Modal_blocks/Rolik_modal/Rolik_modal";
 
 function Modal({ children, content, onClose, ...props }) {
     return (
@@ -27,6 +28,7 @@ function Modal({ children, content, onClose, ...props }) {
                     {content=='Население' ? <Nasel_modal onClose={onClose}/> : null}
                     {content=='РЕГИОНАЛЬНЫЙ ЭКСПОРТНЫЙ СТАНДАРТ' ? <RES_modal onClose={onClose}/> : null}
                     {content=='Причины инвестировать в Карачаево-Черкесскую Республику' ? <PIVKCHR_modal onClose={onClose}/> : null}
+                    {content=='Ролик о регионе' ? <Rolik_modal onClose={onClose}/> : null}
                 </div>
             </div>
         </>

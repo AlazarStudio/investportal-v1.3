@@ -74,7 +74,7 @@ function Region_page_block({ children, ...props }) {
                         </div>
 
                         <div className={classes.region_video}>
-                            <div className={classes.region_video__btn}>
+                            <div className={classes.region_video__btn} onClick={() => handleOpenModal('Ролик о регионе')}>
                                 <img src="/play.png" alt="" />
                                 Ролик о регионе
                             </div>
