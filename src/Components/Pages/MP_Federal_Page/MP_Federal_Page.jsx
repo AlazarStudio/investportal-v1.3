@@ -6,6 +6,7 @@ import CenterBlock from "../../Standart/CenterBlock/CenterBlock";
 import ColumnBlock from "../../Standart/ColumnBlock/ColumnBlock";
 import Header from "../../Blocks/Header/Header";
 import Button from "../../Standart/Button/Button";
+import { Link } from "react-router-dom";
 
 const items = [
     {
@@ -61,12 +62,12 @@ function MP_Federal_Page({ children, ...props }) {
                                     </div>
                                 </div>
                                 <div className={classes.mp_tumbler_item___title}>
-                                    <div className={`${classes.mp_tumbler_item___title____el} ${classes.mp_tumbler_item___title____active}`}>
+                                    <Link to={'/federalniye_mery_podderjki'} className={`${classes.mp_tumbler_item___title____el} ${classes.mp_tumbler_item___title____active}`}>
                                         Федеральные
-                                    </div>
-                                    <div className={`${classes.mp_tumbler_item___title____el}`}>
+                                    </Link>
+                                    <Link to={'/regionalniye_mery_podderjki'}  className={`${classes.mp_tumbler_item___title____el}`}>
                                         Региональные
-                                    </div>
+                                    </Link>
                                 </div>
                             </div>
                         </CenterBlock>

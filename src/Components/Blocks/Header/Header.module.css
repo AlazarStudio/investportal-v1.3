@@ -38,8 +38,9 @@
 .header_list ul {
     display: flex;
     list-style: none;
-    gap: 40px;
+    gap: 10px;
     align-items: center;
+    cursor: pointer;
 }
 
 .header_list ul li a {
@@ -48,4 +49,63 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 21.94px;
+}
+
+
+.header_list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.header_list>ul>li {
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.header_list>ul>li:hover{
+    background-color: var(--blue_color);
+    color: #fff;
+}
+
+.header_list>ul>li:hover a{
+    color: #fff;
+}
+
+.header_list ul li:hover .dropdown {
+    display: block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    color: var(--blue_color);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.dropdown li {
+    white-space: nowrap;
+    transition: all 0.3s ease-in-out;
+}
+
+.dropdown li a:hover {
+    background-color: var(--blue_color);
+    color: #fff !important;
+}
+
+.dropdown li a {
+    padding: 10px 20px;
+    width: 100%;
+    text-decoration: none;
+    color: var(--blue_color) !important;
+    display: flex;
+    font-size: 16px !important;
 }
