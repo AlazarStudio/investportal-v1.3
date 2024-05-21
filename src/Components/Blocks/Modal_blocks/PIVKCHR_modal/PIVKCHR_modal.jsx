@@ -19,107 +19,107 @@ function PIVKCHR_modal({ children, onClose, ...props }) {
                     >
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/посление слайды меры поддержки_page-0001.jpg" alt="" />
+                                <img src="/Mpage-0001.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/посление слайды меры поддержки_page-0002.jpg" alt="" />
+                                <img src="/Mpage-0002.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/посление слайды меры поддержки_page-0003.jpg" alt="" />
+                                <img src="/Mpage-0003.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/посление слайды меры поддержки_page-0004.jpg" alt="" />
+                                <img src="/Mpage-0004.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/посление слайды меры поддержки_page-0005.jpg" alt="" />
+                                <img src="/Mpage-0005.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/посление слайды меры поддержки_page-0006.jpg" alt="" />
+                                <img src="/Mpage-0006.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/посление слайды меры поддержки_page-0007.jpg" alt="" />
+                                <img src="/Mpage-0007.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/посление слайды меры поддержки_page-0008.jpg" alt="" />
+                                <img src="/Mpage-0008.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/посление слайды меры поддержки_page-0009.jpg" alt="" />
+                                <img src="/Mpage-0009.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/посление слайды меры поддержки_page-0010.jpg" alt="" />
+                                <img src="/Mpage-0010.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/посление слайды меры поддержки_page-0011.jpg" alt="" />
+                                <img src="/Mpage-0011.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/посление слайды меры поддержки_page-0012.jpg" alt="" />
+                                <img src="/Mpage-0012.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/посление слайды меры поддержки_page-0013.jpg" alt="" />
+                                <img src="/Mpage-0013.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/посление слайды меры поддержки_page-0014.jpg" alt="" />
+                                <img src="/Mpage-0014.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/посление слайды меры поддержки_page-0015.jpg" alt="" />
+                                <img src="/Mpage-0015.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/посление слайды меры поддержки_page-0016.jpg" alt="" />
+                                <img src="/Mpage-0016.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/посление слайды меры поддержки_page-0017.jpg" alt="" />
+                                <img src="/Mpage-0017.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/посление слайды меры поддержки_page-0018.jpg" alt="" />
+                                <img src="/Mpage-0018.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/посление слайды меры поддержки_page-0019.jpg" alt="" />
+                                <img src="/Mpage-0019.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/посление слайды меры поддержки_page-0020.jpg" alt="" />
+                                <img src="/Mpage-0020.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/посление слайды меры поддержки_page-0021.jpg" alt="" />
+                                <img src="/Mpage-0021.webp" alt="" />
                             </div>
                         </SwiperSlide>
                     </Swiper>

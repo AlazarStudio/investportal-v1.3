@@ -19,77 +19,77 @@ function RES_modal({ children, onClose, ...props }) {
                     >
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/Презентация_page-0001.jpg" alt="" />
+                                <img src="/page-0001.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/Презентация_page-0002.jpg" alt="" />
+                                <img src="/page-0002.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/Презентация_page-0003.jpg" alt="" />
+                                <img src="/page-0003.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/Презентация_page-0004.jpg" alt="" />
+                                <img src="/page-0004.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/Презентация_page-0005.jpg" alt="" />
+                                <img src="/page-0005.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/Презентация_page-0006.jpg" alt="" />
+                                <img src="/page-0006.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/Презентация_page-0007.jpg" alt="" />
+                                <img src="/page-0007.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/Презентация_page-0008.jpg" alt="" />
+                                <img src="/page-0008.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/Презентация_page-0009.jpg" alt="" />
+                                <img src="/page-0009.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/Презентация_page-0010.jpg" alt="" />
+                                <img src="/page-0010.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/Презентация_page-0011.jpg" alt="" />
+                                <img src="/page-0011.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/Презентация_page-0012.jpg" alt="" />
+                                <img src="/page-0012.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/Презентация_page-0013.jpg" alt="" />
+                                <img src="/page-0013.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/Презентация_page-0014.jpg" alt="" />
+                                <img src="/page-0014.webp" alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/Презентация_page-0015.jpg" alt="" />
+                                <img src="/page-0015.webp" alt="" />
                             </div>
                         </SwiperSlide>
                     </Swiper>
