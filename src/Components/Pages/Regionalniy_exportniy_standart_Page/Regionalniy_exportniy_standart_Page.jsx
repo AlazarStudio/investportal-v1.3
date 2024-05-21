@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import classes from './Regionalniy_exportniy_standart_Page.module.css';
 import H2 from "../../Standart/H2/H2";
 import Text from "../../Standart/Text/Text";
@@ -7,6 +7,7 @@ import CenterBlock from "../../Standart/CenterBlock/CenterBlock";
 import ColumnBlock from "../../Standart/ColumnBlock/ColumnBlock";
 import DocsBlock from "../../Blocks/DocsBlock/DocsBlock";
 import Header from "../../Blocks/Header/Header";
+import Modal from "../../Blocks/Modal/Modal";
 
 function Regionalniy_exportniy_standart_Page({ children, ...props }) {
     const content = {
@@ -18,6 +19,22 @@ function Regionalniy_exportniy_standart_Page({ children, ...props }) {
 
             ],
         },
+    };
+
+    const [modalOpen, setModalOpen] = useState(false);
+    const [modalContent, setModalContent] = useState('');
+
+    const handleOpenModal = (content) => {
+        document.body.classList.add('no-scroll');
+        setModalContent(content);
+        setModalOpen(true);
+    };
+
+    // Функция для закрытия модального окна
+    const handleCloseModal = () => {
+        document.body.classList.remove('no-scroll');
+        setModalOpen(false);
+        setModalContent('');
     };
 
     return (
@@ -36,17 +53,17 @@ function Regionalniy_exportniy_standart_Page({ children, ...props }) {
                         <DocsBlock array={content.declaration.files} />
 
                         <div className={classes.mech}>
-                            <div className={classes.mech_item}>
+                            <div className={classes.mech_item} onClick={() => handleOpenModal('РЕГИОНАЛЬНЫЙ ЭКСПОРТНЫЙ СТАНДАРТ')}>
                                 <img src="/play.png" alt="" />
                                 смотреть  презентацию
                             </div>
-                            <div className={classes.mech_item}>
+                            <a href="/Презентация.pdf" target="_blank"  className={classes.mech_item}>
                                 <img src="/download.png" alt="" />
-                                <a href="/Презентация.pdf" target="_blank" >скачать  презентацию</a>
-                            </div>
+                                скачать  презентацию
+                            </a>
                         </div>
 
-                        
+                        {modalOpen && <Modal content={modalContent} onClose={handleCloseModal} />}
                     </WidthBlock>
                 </CenterBlock>
             </ColumnBlock>

@@ -29,6 +29,7 @@
     align-items: center;
     gap: 30px;
     color: #000;
+    cursor: pointer;
 }
 
 .mech_item a{
