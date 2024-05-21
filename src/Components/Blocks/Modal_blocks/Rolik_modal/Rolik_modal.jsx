@@ -11,7 +11,7 @@ function Rolik_modal({ children, onClose, ...props }) {
     return (
         <>
             <div className={classes.modal_content}>
-                <video src="/rolik_o_regione.mp4" controls autoplay loop>
+                <video src="/rolik_o_regione.mp4" controls autoPlay loop>
                     Ваш браузер не поддерживает видео тег.
                 </video>
                 <div className={classes.modal_close} onClick={onClose}><img src="/close.png" alt="" /></div>

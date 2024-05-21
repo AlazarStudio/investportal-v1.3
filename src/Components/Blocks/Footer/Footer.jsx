@@ -45,7 +45,7 @@ function Footer({ children, ...props }) {
                                 </div>
                                 <div className={classes.footer_infoLine__item___info}>
                                     <div className={classes.footer_infoLine__item___info____title}>Электронная почта</div>
-                                    <div className={classes.footer_infoLine__item___info____desc}>reception@moibiz09.ru</div>
+                                    <div className={classes.footer_infoLine__item___info____desc}>reception@investportal.ru</div>
                                 </div>
                             </div>
                             <div className={classes.footer_infoLine__item}>
