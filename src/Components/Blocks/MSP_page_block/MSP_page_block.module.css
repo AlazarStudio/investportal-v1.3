@@ -24,6 +24,7 @@
 
 .msp_bussiness {
     background-image: url('/msp_bussiness.png');
+    background-repeat: no-repeat;
     display: flex;
     justify-content: space-between;
     background-size: contain;
@@ -36,9 +37,9 @@
     line-height: 40.8px;
     text-align: left;
     padding: 60px 30px;
-    width: 800px;
+    width: 50%;
     background-color: #fff;
-    margin-right: 300px;
+    padding-right: 200px;
     text-indent: 50px;
 }
 

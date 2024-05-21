@@ -113,6 +113,10 @@
     right: 0;
 }
 
+.region_glava__info___img img{
+    height: 750px;
+}
+
 .region_glava__info___text {
     width: 50%;
     display: flex;

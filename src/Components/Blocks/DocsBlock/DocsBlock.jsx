@@ -12,7 +12,7 @@ function DocsBlock({ children, ...props }) {
                             <div className={classes.tabContentInfoElementLine}></div>
                             {file.name}
                         </div>
-                        <a href={`/${file.name}.${file.path}`}>Скачать</a>
+                        <a href={`/${file.name}.${file.path}`} target="_blank">Скачать</a>
                     </div>
                 ))}
             </div>

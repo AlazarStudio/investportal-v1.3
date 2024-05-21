@@ -1,0 +1,57 @@
+import React from "react";
+import classes from './Regionalniy_exportniy_standart_Page.module.css';
+import H2 from "../../Standart/H2/H2";
+import Text from "../../Standart/Text/Text";
+import WidthBlock from "../../Standart/WidthBlock/WidthBlock";
+import CenterBlock from "../../Standart/CenterBlock/CenterBlock";
+import ColumnBlock from "../../Standart/ColumnBlock/ColumnBlock";
+import DocsBlock from "../../Blocks/DocsBlock/DocsBlock";
+import Header from "../../Blocks/Header/Header";
+
+function Regionalniy_exportniy_standart_Page({ children, ...props }) {
+    const content = {
+        declaration: {
+            description: "Региональный экспортный стандарт 2.0 содержит унифицированные подходы по созданию благоприятных условий для экспорта с учетом региональной специфики, что, в свою очередь, позволит комплексно развивать систему поддержки экспорта в субъекте Российской Федерации. Цель Регионального экспортного стандарта 2.0 — закрепить комплекс мер, при внедрении которых региональные власти смогут простимулировать экспортную деятельность компаний, а также сформировать эффективную инфраструктуру поддержки экспорта. Региональный экспортный стандарт 2.0 разработан в соответствии с паспортом федерального проекта «Системные меры развития международной кооперации и экспорта», входящего в состав национального проекта «Международная кооперация и экспорт» в целях совершенствования институциональной экспортной среды в субъектах Российской Федерации и скорректирован по итогам второго года внедрения в 60 субъектах Российской Федерации в 2022 году. Новая редакция Стандарта утверждена протоколом заочного заседания проектного комитета по национальному проекту «Международная кооперация и экспорт» от 02 сентября 2022 года №5.",
+            files: [
+                { name: "РЭЦ 2.0", path: "docx" },
+                { name: "Региональный экспортный стандарт", path: "pdf" },
+
+            ],
+        },
+    };
+
+    return (
+        <>
+            <Header/>
+
+            <ColumnBlock gap="80px">
+                <CenterBlock>
+                    <WidthBlock>
+                        <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">
+                            Региональный экспортный стандарт
+                        </H2>
+
+                        <Text>{content.declaration.description}</Text>
+
+                        <DocsBlock array={content.declaration.files} />
+
+                        <div className={classes.mech}>
+                            <div className={classes.mech_item}>
+                                <img src="/play.png" alt="" />
+                                смотреть  презентацию
+                            </div>
+                            <div className={classes.mech_item}>
+                                <img src="/download.png" alt="" />
+                                <a href="/Презентация.pdf" target="_blank" >скачать  презентацию</a>
+                            </div>
+                        </div>
+
+                        
+                    </WidthBlock>
+                </CenterBlock>
+            </ColumnBlock>
+        </>
+    );
+}
+
+export default Regionalniy_exportniy_standart_Page;

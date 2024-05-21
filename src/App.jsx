@@ -12,6 +12,7 @@ import Documents_Page from "./Components/Pages/Documents_Page";
 import Pricubanskij_rajon_page from "./Components/Pages/Pricubanskij_rajon_page/Pricubanskij_rajon_page";
 import MSP_Page from "./Components/Pages/MSP_Page";
 import Export_Page from "./Components/Pages/Export_Page";
+import Regionalniy_exportniy_standart_Page from "./Components/Pages/Regionalniy_exportniy_standart_Page/Regionalniy_exportniy_standart_Page";
 import News_Page from "./Components/Pages/News_Page";
 import One_New_Page from "./Components/Pages/One_New_Page";
 
@@ -26,6 +27,7 @@ function App() {
           <Route path="investor/:id" element={<Investor_Info_Page />} />
           <Route path="msp" element={<MSP_Page />} />
           <Route path="export" element={<Export_Page />} />
+          <Route path="regionalniy_exportniy_standart" element={<Regionalniy_exportniy_standart_Page />} />
           <Route path="news" element={<News_Page />} />
           <Route path="news/:id" element={<One_New_Page />} />
 

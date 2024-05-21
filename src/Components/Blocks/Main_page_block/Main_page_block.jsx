@@ -23,33 +23,6 @@ function Main_page_block({ children, ...props }) {
                 <div className={classes.mainslider}>
                     <Swiper navigation={true} modules={[Navigation]} loop={true} className="mySwiper">
                         <SwiperSlide>
-                            <div className={classes.mainslider_slide} style={{ backgroundImage: `url('/main_slide1.png')` }} >
-                                <WidthBlock>
-                                    <RowBlock justifyContent="space-between">
-                                        <div className={classes.mainslider_slide__item}>
-                                            <div className={classes.mainslider_slide__item___text}>
-                                                Инвестиционные
-                                                проекты
-                                                реализованы на
-                                                общую сумму
-                                            </div>
-                                            <div className={classes.mainslider_slide__item___button}>
-                                                Узнать больше
-                                            </div>
-                                        </div>
-                                        <div className={classes.mainslider_slide__item}>
-                                            <div className={classes.mainslider_slide__item___large}>
-                                                18,9
-                                            </div>
-                                            <div className={classes.mainslider_slide__item___text}>
-                                                млрд. рублей
-                                            </div>
-                                        </div>
-                                    </RowBlock>
-                                </WidthBlock>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
                             <div className={classes.mainslider_slide} style={{ backgroundImage: `url('/main_slide2.png')` }} >
                                 <WidthBlock>
                                     <RowBlock justifyContent="space-between">
@@ -104,7 +77,7 @@ function Main_page_block({ children, ...props }) {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div className={classes.mainslider_slide} style={{ backgroundImage: `url('/main_slide4.png')` }} >
+                            <div className={classes.mainslider_slide} style={{ backgroundImage: `url('/main_slide5.png')` }} >
                                 <WidthBlock>
                                     <RowBlock justifyContent="space-between">
                                         <div className={classes.mainslider_slide__item}>
@@ -131,7 +104,116 @@ function Main_page_block({ children, ...props }) {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div className={classes.mainslider_slide} style={{ backgroundImage: `url('/main_slide5.png')` }} >
+                            <div className={classes.mainslider_slide} style={{ backgroundImage: `url('/main_slide1-1.png')` }} >
+                                <WidthBlock>
+                                    <RowBlock justifyContent="space-between">
+                                        <div className={classes.mainslider_slide__item}>
+                                            <div className={classes.mainslider_slide__item___text}>
+                                                Инвестиционные
+                                                проекты
+                                                реализованы на
+                                                общую сумму
+                                            </div>
+                                            <div className={classes.mainslider_slide__item___button}>
+                                                Узнать больше
+                                            </div>
+                                        </div>
+                                        <div className={classes.mainslider_slide__item}>
+                                            <div className={classes.mainslider_slide__item___large}>
+                                                18,9
+                                            </div>
+                                            <div className={classes.mainslider_slide__item___text}>
+                                                млрд. рублей
+                                            </div>
+                                        </div>
+                                    </RowBlock>
+                                </WidthBlock>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className={classes.mainslider_slide} style={{ backgroundImage: `url('/main_slide2-1.png')` }} >
+                                <WidthBlock>
+                                    <RowBlock justifyContent="space-between">
+                                        <div className={classes.mainslider_slide__item}>
+                                            <div className={classes.mainslider_slide__item___text}>
+                                                Инвестиционные
+                                                проекты
+                                                реализованы на
+                                                общую сумму
+                                            </div>
+                                            <div className={classes.mainslider_slide__item___button}>
+                                                Узнать больше
+                                            </div>
+                                        </div>
+                                        <div className={classes.mainslider_slide__item}>
+                                            <div className={classes.mainslider_slide__item___large}>
+                                                18,9
+                                            </div>
+                                            <div className={classes.mainslider_slide__item___text}>
+                                                млрд. рублей
+                                            </div>
+                                        </div>
+                                    </RowBlock>
+                                </WidthBlock>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className={classes.mainslider_slide} style={{ backgroundImage: `url('/main_slide3-1.png')` }} >
+                                <WidthBlock>
+                                    <RowBlock justifyContent="space-between">
+                                        <div className={classes.mainslider_slide__item}>
+                                            <div className={classes.mainslider_slide__item___text}>
+                                                Инвестиционные
+                                                проекты
+                                                реализованы на
+                                                общую сумму
+                                            </div>
+                                            <div className={classes.mainslider_slide__item___button}>
+                                                Узнать больше
+                                            </div>
+                                        </div>
+                                        <div className={classes.mainslider_slide__item}>
+                                            <div className={classes.mainslider_slide__item___large}>
+                                                18,9
+                                            </div>
+                                            <div className={classes.mainslider_slide__item___text}>
+                                                млрд. рублей
+                                            </div>
+                                        </div>
+                                    </RowBlock>
+                                </WidthBlock>
+                            </div>
+                        </SwiperSlide>
+                        
+                        <SwiperSlide>
+                            <div className={classes.mainslider_slide} style={{ backgroundImage: `url('/main_slide4-1.png')` }} >
+                                <WidthBlock>
+                                    <RowBlock justifyContent="space-between">
+                                        <div className={classes.mainslider_slide__item}>
+                                            <div className={classes.mainslider_slide__item___text}>
+                                                Инвестиционные
+                                                проекты
+                                                реализованы на
+                                                общую сумму
+                                            </div>
+                                            <div className={classes.mainslider_slide__item___button}>
+                                                Узнать больше
+                                            </div>
+                                        </div>
+                                        <div className={classes.mainslider_slide__item}>
+                                            <div className={classes.mainslider_slide__item___large}>
+                                                18,9
+                                            </div>
+                                            <div className={classes.mainslider_slide__item___text}>
+                                                млрд. рублей
+                                            </div>
+                                        </div>
+                                    </RowBlock>
+                                </WidthBlock>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className={classes.mainslider_slide} style={{ backgroundImage: `url('/main_slide5-1.png')` }} >
                                 <WidthBlock>
                                     <RowBlock justifyContent="space-between">
                                         <div className={classes.mainslider_slide__item}>
