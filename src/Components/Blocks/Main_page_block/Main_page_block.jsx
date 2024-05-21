@@ -36,9 +36,9 @@ function Main_page_block({ children, ...props }) {
                                                 реализованы на
                                                 общую сумму
                                             </div>
-                                            <div className={classes.mainslider_slide__item___button}>
+                                            <Link to={'/projects'} className={classes.mainslider_slide__item___button}>
                                                 Узнать больше
-                                            </div>
+                                            </Link>
                                         </div>
                                         <div className={classes.mainslider_slide__item}>
                                             <div className={classes.mainslider_slide__item___large}>
@@ -58,21 +58,15 @@ function Main_page_block({ children, ...props }) {
                                     <RowBlock justifyContent="space-between">
                                         <div className={classes.mainslider_slide__item}>
                                             <div className={classes.mainslider_slide__item___text}>
-                                                Инвестиционные
-                                                проекты
-                                                реализованы на
-                                                общую сумму
-                                            </div>
-                                            <div className={classes.mainslider_slide__item___button}>
-                                                Узнать больше
+                                                В 2024 году туристический поток в Карачаево-Черкесскую Республику вырос на 10%
                                             </div>
                                         </div>
                                         <div className={classes.mainslider_slide__item}>
                                             <div className={classes.mainslider_slide__item___large}>
-                                                18,9
+                                                2 млн
                                             </div>
                                             <div className={classes.mainslider_slide__item___text}>
-                                                млрд. рублей
+                                                100 тыс. туристов
                                             </div>
                                         </div>
                                     </RowBlock>
@@ -80,162 +74,20 @@ function Main_page_block({ children, ...props }) {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div className={classes.mainslider_slide} style={{ backgroundImage: `url('/main_slide5.png')` }} >
+                            <div className={classes.mainslider_slide} style={{ backgroundImage: `url('/main_slide6.webp')` }} >
                                 <WidthBlock>
                                     <RowBlock justifyContent="space-between">
                                         <div className={classes.mainslider_slide__item}>
                                             <div className={classes.mainslider_slide__item___text}>
-                                                Инвестиционные
-                                                проекты
-                                                реализованы на
-                                                общую сумму
-                                            </div>
-                                            <div className={classes.mainslider_slide__item___button}>
-                                                Узнать больше
+                                                По итогам 2022 года в хозяйствах всех категорий Карачаево-Черкесской Республики имеется более
                                             </div>
                                         </div>
                                         <div className={classes.mainslider_slide__item}>
                                             <div className={classes.mainslider_slide__item___large}>
-                                                18,9
+                                                149,8
                                             </div>
                                             <div className={classes.mainslider_slide__item___text}>
-                                                млрд. рублей
-                                            </div>
-                                        </div>
-                                    </RowBlock>
-                                </WidthBlock>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className={classes.mainslider_slide} style={{ backgroundImage: `url('/main_slide1-1.png')` }} >
-                                <WidthBlock>
-                                    <RowBlock justifyContent="space-between">
-                                        <div className={classes.mainslider_slide__item}>
-                                            <div className={classes.mainslider_slide__item___text}>
-                                                Инвестиционные
-                                                проекты
-                                                реализованы на
-                                                общую сумму
-                                            </div>
-                                            <div className={classes.mainslider_slide__item___button}>
-                                                Узнать больше
-                                            </div>
-                                        </div>
-                                        <div className={classes.mainslider_slide__item}>
-                                            <div className={classes.mainslider_slide__item___large}>
-                                                18,9
-                                            </div>
-                                            <div className={classes.mainslider_slide__item___text}>
-                                                млрд. рублей
-                                            </div>
-                                        </div>
-                                    </RowBlock>
-                                </WidthBlock>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className={classes.mainslider_slide} style={{ backgroundImage: `url('/main_slide2-1.png')` }} >
-                                <WidthBlock>
-                                    <RowBlock justifyContent="space-between">
-                                        <div className={classes.mainslider_slide__item}>
-                                            <div className={classes.mainslider_slide__item___text}>
-                                                Инвестиционные
-                                                проекты
-                                                реализованы на
-                                                общую сумму
-                                            </div>
-                                            <div className={classes.mainslider_slide__item___button}>
-                                                Узнать больше
-                                            </div>
-                                        </div>
-                                        <div className={classes.mainslider_slide__item}>
-                                            <div className={classes.mainslider_slide__item___large}>
-                                                18,9
-                                            </div>
-                                            <div className={classes.mainslider_slide__item___text}>
-                                                млрд. рублей
-                                            </div>
-                                        </div>
-                                    </RowBlock>
-                                </WidthBlock>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className={classes.mainslider_slide} style={{ backgroundImage: `url('/main_slide3-1.png')` }} >
-                                <WidthBlock>
-                                    <RowBlock justifyContent="space-between">
-                                        <div className={classes.mainslider_slide__item}>
-                                            <div className={classes.mainslider_slide__item___text}>
-                                                Инвестиционные
-                                                проекты
-                                                реализованы на
-                                                общую сумму
-                                            </div>
-                                            <div className={classes.mainslider_slide__item___button}>
-                                                Узнать больше
-                                            </div>
-                                        </div>
-                                        <div className={classes.mainslider_slide__item}>
-                                            <div className={classes.mainslider_slide__item___large}>
-                                                18,9
-                                            </div>
-                                            <div className={classes.mainslider_slide__item___text}>
-                                                млрд. рублей
-                                            </div>
-                                        </div>
-                                    </RowBlock>
-                                </WidthBlock>
-                            </div>
-                        </SwiperSlide>
-
-                        <SwiperSlide>
-                            <div className={classes.mainslider_slide} style={{ backgroundImage: `url('/main_slide4-1.png')` }} >
-                                <WidthBlock>
-                                    <RowBlock justifyContent="space-between">
-                                        <div className={classes.mainslider_slide__item}>
-                                            <div className={classes.mainslider_slide__item___text}>
-                                                Инвестиционные
-                                                проекты
-                                                реализованы на
-                                                общую сумму
-                                            </div>
-                                            <div className={classes.mainslider_slide__item___button}>
-                                                Узнать больше
-                                            </div>
-                                        </div>
-                                        <div className={classes.mainslider_slide__item}>
-                                            <div className={classes.mainslider_slide__item___large}>
-                                                18,9
-                                            </div>
-                                            <div className={classes.mainslider_slide__item___text}>
-                                                млрд. рублей
-                                            </div>
-                                        </div>
-                                    </RowBlock>
-                                </WidthBlock>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className={classes.mainslider_slide} style={{ backgroundImage: `url('/main_slide5-1.png')` }} >
-                                <WidthBlock>
-                                    <RowBlock justifyContent="space-between">
-                                        <div className={classes.mainslider_slide__item}>
-                                            <div className={classes.mainslider_slide__item___text}>
-                                                Инвестиционные
-                                                проекты
-                                                реализованы на
-                                                общую сумму
-                                            </div>
-                                            <div className={classes.mainslider_slide__item___button}>
-                                                Узнать больше
-                                            </div>
-                                        </div>
-                                        <div className={classes.mainslider_slide__item}>
-                                            <div className={classes.mainslider_slide__item___large}>
-                                                18,9
-                                            </div>
-                                            <div className={classes.mainslider_slide__item___text}>
-                                                млрд. рублей
+                                                тыс. голов крупного рогатого скота.
                                             </div>
                                         </div>
                                     </RowBlock>
