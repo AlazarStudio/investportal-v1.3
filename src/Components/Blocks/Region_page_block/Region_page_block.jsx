@@ -218,14 +218,14 @@ function Region_page_block({ children, ...props }) {
                         <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">Причины инвестировать в <br /> Карачаево-Черкесскую Республику</H2>
 
                         <div className={classes.region_presentation}>
-                            <div className={classes.region_video__btn}>
+                            <div className={classes.region_video__btn}  onClick={() => handleOpenModal('Причины инвестировать в Карачаево-Черкесскую Республику')}>
                                 <img src="/play.png" alt="" />
                                 смотреть  презентацию
                             </div>
-                            <div className={classes.region_video__btn}>
+                            <a href="/посление слайды меры поддержки.pdf" target="_blank" className={classes.region_video__btn}>
                                 <img src="/download.png" alt="" />
                                 скачать  презентацию
-                            </div>
+                            </a>
                         </div>
                     </WidthBlock>
                 </CenterBlock>
