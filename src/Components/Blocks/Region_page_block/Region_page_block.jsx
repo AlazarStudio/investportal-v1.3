@@ -222,7 +222,7 @@ function Region_page_block({ children, ...props }) {
                                 <img src="/play.png" alt="" />
                                 смотреть  презентацию
                             </div>
-                            <a href="/посление слайды меры поддержки.pdf" target="_blank" className={classes.region_video__btn}>
+                            <a href="/reg prezentation.pdf" target="_blank" className={classes.region_video__btn}>
                                 <img src="/download.png" alt="" />
                                 скачать  презентацию
                             </a>
