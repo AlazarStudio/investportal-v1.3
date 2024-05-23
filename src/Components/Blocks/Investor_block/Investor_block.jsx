@@ -27,6 +27,12 @@ function Investor_block({ children, ...props }) {
                                     <img src="/invest_icon_2.png" alt="" />
                                 </div>
                             </Link>
+                            <Link to={'/investor/gosudarstvenno_chastnoe_partnerstvo'} className={classes.investor_element}>
+                                <div className={classes.investor_element__title}>Государственно-частное партнерство</div>
+                                <div className={classes.investor_element__img}>
+                                    <img src="/partnership.png" alt="" />
+                                </div>
+                            </Link>
                             <Link to={'/investor/dejstvuyushchie_mekhanizmy_gosudarstvennogo_stimulirovaniya_investicionnoj_deyatelnosti'} className={`${classes.investor_element} ${classes.lowerPadding}`}>
                                 <div className={`${classes.investor_element__title} ${classes.lowerFont}`}>
                                     Действующие механизмы государственного стимулирования инвестиционной деятельности
@@ -53,6 +59,7 @@ function Investor_block({ children, ...props }) {
                                     <img src="/invest_icon_6.png" alt="" />
                                 </div>
                             </Link>
+
                         </div>
                     </WidthBlock>
                 </CenterBlock>

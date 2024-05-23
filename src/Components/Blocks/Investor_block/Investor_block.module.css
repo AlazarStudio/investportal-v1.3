@@ -49,6 +49,11 @@
 
 .investor_element__img {
     width: 100%;
+    max-height: 130px;
     display: flex;
     justify-content: center;
+}
+
+.investor_element__img img{
+    max-height: 100%;
 }
