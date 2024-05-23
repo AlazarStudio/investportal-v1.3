@@ -19,7 +19,7 @@ function Mech_project_block({ children, ...props }) {
         declaration: {
             description: "",
             files: [
-                // { name: "Документ 1", path: "doc" },
+                { title:'Инструменты государственной поддержки инвесторов', name: "Instrumenty gosudarstvennoj podderzhki investorov", path: "docx" },
             ],
         },
     };
