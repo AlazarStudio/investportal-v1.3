@@ -11,16 +11,9 @@ function KO_block({ children, ...props }) {
         declaration: {
             description: "",
             files: [
-                { title: 'презентация СЗПК', name: "prezentaciya SZPK", path: "pdf" },
-                { title: 'распоряжение № 107-р Об утверждении перечня законов и иных НПА (стабилизационная оговорка) по СЗПК', name: "rasporyazhenie № 107-r Ob utverzhdenii perechnya zakonov i inyh NPA (stabilizacionnaya ogovorka) po SZPK", path: "pdf" },
-                { title: 'ПП КЧР от 24.05.2023 № 114 Об утверждении порядка возмещения СЗПК', name: "PP KCHR ot 24.05.2023 № 114 Ob utverzhdenii poryadka vozmeshcheniya SZPK", path: "pdf" },
-                { title: 'ПП КЧР от 27.07.2022 № 208 О мерах по реализации некоторых постановлений Правительства РФ (НИП)', name: "PP KCHR ot 27.07.2022 № 208 O merah po realizacii nekotoryh postanovlenij Pravitel'stva RF (NIP)", path: "pdf" },
-                { title: '117-РЗ по СЗПК', name: "117-RZ po SZPK", path: "docx" },
-                { title: 'Клиентский путь', name: "Klientskij put'", path: "pdf" },
-                { title: 'ПП КЧР 265 Об утверждении формы декларации СЗПК', name: "PP KCHR 265 Ob utverzhdenii formy deklaracii SZPK", path: "pdf" },
-                { title: 'ПП КЧР 309 Об утверждении порядка мониторинга СЗПК', name: "PP KCHR 309 Ob utverzhdenii poryadka monitoringa SZPK", path: "pdf" },
-                { title: 'ПП КЧР 336 О порядке оценки инвестиционного проекта в отношении которого планируется СЗПК', name: "PP KCHR 336 O poryadke ocenki investicionnogo proekta v otnoshenii kotorogo planiruetsya SZPK", path: "pdf" },
-                { title: 'ПП КЧР от 23.11.2022 № 335 О порядке заключения СЗПК', name: "PP KCHR ot 23.11.2022 № 335 O poryadke zaklyucheniya SZPK", path: "pdf" },
+                { title: 'Об-утверждении-дорожной-карты-Стандарта-кадрового-обеспечения-промышленного-роста', name: "Ob-utverzhdenii-dorozhnoj-karty-Standarta-kadrovogo-obespecheniya-promyshlennogo-rosta", path: "pdf" },
+                { title: 'О-порядке-организации-кадрового-обеспечения-инвестиционных-проектов-в-КЧР', name: "O-poryadke-organizacii-kadrovogo-obespecheniya-investicionnyh-proektov-v-KCHR", path: "pdf" },
+                { title: 'О-координационном-совете-по-реализации-кадрового-обеспесения-промышленного-роста-в-КЧР', name: "O-koordinacionnom-sovete-po-realizacii-kadrovogo-obespeseniya-promyshlennogo-rosta-v-KCHR", path: "pdf" },
             ],
         },
     };
