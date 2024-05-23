@@ -9,6 +9,7 @@ function Button({ children, timeLeft, ...props }) {
         height: props.height, 
         cursor: props.cursor, 
         opacity: props.opacity,
+        taget: props.target
     };
 
     return (

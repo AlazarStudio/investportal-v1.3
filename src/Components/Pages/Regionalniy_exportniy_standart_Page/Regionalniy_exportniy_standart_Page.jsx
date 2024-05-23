@@ -56,7 +56,7 @@ function Regionalniy_exportniy_standart_Page({ children, ...props }) {
                                 <img src="/play.png" alt="" />
                                 смотреть  презентацию
                             </div>
-                            <a href="reg prezentation.pdf" target="_blank" download={true} className={classes.mech_item}>
+                            <a href="reg prezentation.pdf" target="_blank" className={classes.mech_item}>
                                 <img src="/download.png" alt="" />
                                 скачать  презентацию
                             </a>

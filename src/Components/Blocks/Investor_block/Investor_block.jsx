@@ -15,7 +15,7 @@ function Investor_block({ children, ...props }) {
                         <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">Инвестору</H2>
 
                         <div className={classes.investor}>
-                            <Link to={'/projects'} className={classes.investor_element}>
+                            <Link to={'/investor/investicionnye_proekty'} className={classes.investor_element}>
                                 <div className={classes.investor_element__title}>Инвестиционные проекты</div>
                                 <div className={classes.investor_element__img}>
                                     <img src="/invest_icon_1.png" alt="" />

@@ -32,7 +32,7 @@ function MSP_page_block({ children, ...props }) {
                             Центром «Мой бизнес» Карачаево-Черкесской Республики оказываются информационно-консультационные услуги и услуги нефинансового характера (форумы, семинары, образовательные курсы и т.д.) субъектам МСП. Кроме того, субъектам МСП республики оказывается поддержка по их выходу на внешние рынки на безвозмездной основе.
                         </div>
 
-                        <CenterBlock><Button width={'350px'}>Перейти на сайт</Button></CenterBlock>
+                        <CenterBlock><Button link={'https://moibiz09.ru'} target={'_blank'} width={'350px'}>Перейти на сайт</Button></CenterBlock>
 
                         <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">Гарантийный фонд поддержки предпринимательства Кчр</H2>
 
@@ -57,7 +57,7 @@ function MSP_page_block({ children, ...props }) {
                             </div>
                         </div>
 
-                        <CenterBlock><Button width={'350px'}>Перейти на сайт</Button></CenterBlock>
+                        <CenterBlock><Button link={'https://economykchr.ru/protivodejstvie-korruptsii/910'} target={'_blank'} width={'350px'}>Перейти на сайт</Button></CenterBlock>
 
                         <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">Микрокредитная компания поддержки субъектов малого и среднего предпринимательства Кчр</H2>
 
@@ -65,7 +65,7 @@ function MSP_page_block({ children, ...props }) {
                             Автономное учреждение Карачаево-Черкесской Республики «Микрокредитная компания поддержки субъектов малого и среднего предпринимательства Карачаево-Черкесской Республики» оказывает поддержку субъектам малого и среднего предпринимательства, зарегистрированным на территории Карачаево-Черкесской Республики в виде выдачи краткосрочных микрозаймов на срок до 36 месяцев в размере от 50 000 до 5 000 000 рублей. Процентная ставка равна ключевой ставке ЦБРФ.
                         </div>
 
-                        <CenterBlock><Button width={'350px'}>Перейти на сайт</Button></CenterBlock>
+                        <CenterBlock><Button link={'https://mckchr.ru/'} target={'_blank'} width={'350px'}>Перейти на сайт</Button></CenterBlock>
 
                         <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">Малое и среднее предпринимательство и поддержка индивидуальной предпринимательской инициативы</H2>
 
@@ -94,7 +94,7 @@ function MSP_page_block({ children, ...props }) {
                             </div>
                         </div>
 
-                        <CenterBlock><Button width={'350px'}>Перейти на сайт</Button></CenterBlock>
+                        <CenterBlock><Button link={'https://'} target={'_blank'} width={'350px'}>Перейти на сайт</Button></CenterBlock>
 
 
                     </WidthBlock>

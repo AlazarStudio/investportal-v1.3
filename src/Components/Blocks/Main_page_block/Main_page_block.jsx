@@ -171,8 +171,8 @@ function Main_page_block({ children, ...props }) {
                             </Swiper>
                         </div>
 
-                        <div className={classes.project_links}>
-                            <Link to={"#"} className={classes.project_links__item}>
+                        {/* <div className={classes.project_links}>
+                            <Link to={"investor/investicionnye_proekty"} className={classes.project_links__item}>
                                 <div className={classes.project_links__item___img}>
                                     <img src="/invest_1.png" alt="" />
                                 </div>
@@ -190,7 +190,7 @@ function Main_page_block({ children, ...props }) {
                                     <img src="/Arrow 1.png" alt="" />
                                 </div>
                             </Link>
-                            <Link to={"#"} className={classes.project_links__item}>
+                            <Link to={"/projects"} className={classes.project_links__item}>
                                 <div className={classes.project_links__item___img}>
                                     <img src="/invest_3.png" alt="" />
                                 </div>
@@ -199,7 +199,7 @@ function Main_page_block({ children, ...props }) {
                                     <img src="/Arrow 1.png" alt="" />
                                 </div>
                             </Link>
-                        </div>
+                        </div> */}
 
                         <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">Новости</H2>
 
