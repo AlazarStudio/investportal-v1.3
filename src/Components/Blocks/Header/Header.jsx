@@ -22,7 +22,7 @@ function Header({ children, ...props }) {
         export: [
             { to: "/export", text: "Экспорт в КЧР" },
             { to: "/regionalniy_exportniy_standart", text: "Региональный экспортный стандарт" },
-            { to: "/documents_export", text: "Документы" },
+            // { to: "/documents_export", text: "Документы" },
         ]
     };
 

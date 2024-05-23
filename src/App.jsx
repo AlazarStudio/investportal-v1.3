@@ -57,7 +57,7 @@ function App() {
           <Route path="municipalnye_obrazovaniya/karachaevskij_rajon" element={<Pricubanskij_rajon_page />} />
           <Route path="documents" element={<Documents_Page />} />
           <Route path="documents_msp" element={<Documents_msp />} />
-          <Route path="documents_export" element={<Documents_export />} />
+          {/* <Route path="documents_export" element={<Documents_export />} /> */}
           <Route path="*" element={<Non_Found_Page />} />
         </Route>
       </Routes>

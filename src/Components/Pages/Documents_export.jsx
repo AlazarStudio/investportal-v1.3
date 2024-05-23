@@ -6,7 +6,7 @@ function Documents_Page({ children, ...props }) {
     return (
         <>
             <Header/>
-            <Documents_page_block/>
+            
         </>
     );
 }
