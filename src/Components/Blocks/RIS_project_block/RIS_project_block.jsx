@@ -20,49 +20,41 @@ function RIS_project_block({ children, ...props }) {
     const getContent = (tabId) => {
         const content = {
             declaration: {
-                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+                description: "",
                 files: [
-                    { name: "Документ 1", path: "doc" },
-                    { name: "Презентация", path: "pdf" },
-
+                    { title: 'Указ Главы КЧР 236 Об инвестиционной декларации КЧР', name: "Ukaz Glavy KCHR 236 Ob investicionnoj deklaracii KCHR", path: "pdf" },
+                    { title: 'РГ-1-р Об ОИВ уполномоченном на проведение мониторинга внедрения регстандарта', name: "RG-1-r Ob OIV upolnomochennom na provedenie monitoringa vnedreniya regstandarta", path: "pdf" },
                 ],
             },
             development: {
-                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                description: "",
                 files: [
-                    { name: "Документ 1", path: "doc" },
-                    { name: "Презентация", path: "pdf" },
-                    { name: "Документ 1", path: "doc" },
-                    { name: "Презентация", path: "pdf" },
+                    { title: 'Устав КР', name: "Ustav KR (v agenstvo razvitiya)", path: "pdf" },
+                    { title: 'Устав КР КЧР от 01 11 2022', name: "Ustav KR KCHR ot 01 11 2022", path: "pdf" },
                 ],
             },
             committee: {
-                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                description: "",
                 files: [
-                    { name: "Документ 1", path: "doc" },
-                    { name: "Презентация", path: "pdf" },
-                    { name: "Документ 1", path: "doc" },
-                    { name: "Презентация", path: "pdf" },
-                    { name: "Документ 1", path: "doc" },
-                    { name: "Презентация", path: "pdf" },
-
+                    { title: 'Об Инвестиционном совете КЧР', name: "Ob Investicionnom sovete KCHR", path: "docx" },
+                    { title: 'Агенство инсвест. комитет', name: "Agenstvo insvest komitet", path: "docx" },
                 ],
             },
             map: {
-                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                description: "",
                 files: [
-                    { name: "Документ 1", path: "doc" },
-                    { name: "Презентация", path: "pdf" },
-                    { name: "Документ 1", path: "doc" },
-                    { name: "Презентация", path: "pdf" },
-
+                    { title: 'Об утверждении Регламента ведения инвесткарты', name: "Ob utverzhdenii Reglamenta vedeniya investkarty", path: "pdf" },
                 ],
             },
             rules: {
-                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                description: "",
                 files: [
-                    { name: "Документ 1", path: "doc" },
-                    { name: "Презентация", path: "pdf" },
+                    { title: 'РГ 337-р О внедрении свода инвестиционных правил', name: "RG 337-r O vnedrenii svoda investicionnyh pravil", path: "pdf" },
+                    { title: 'Алгоритм (получение участка)', name: "Algoritm (poluchenie uchastka)", path: "pdf" },
+                    { title: 'Алгоритм (теплоснабжение, водоснабжение, водоотведение, дорожная инфраструктура, получение разрешений, оформление прав собственности)', name: "Algoritm (teplosnabzhenie, vodosnabzhenie, vodootvedenie, dorozhnaya infrastruktura, poluchenie razreshenij, oformlenie prav sobstvennosti)", path: "pdf" },
+                    { title: 'Алгоритм (электроснабжение, газоснабжение)', name: "Algoritm (elektrosnabzhenie, gazosnabzhenie)", path: "pdf" },
+                    { title: 'План-график (получение земельного участка)', name: "Plan-grafik (poluchenie zemel'nogo uchastka)", path: "pdf" },
+                    { title: 'План-график (электроснабжение, газоснабжение)', name: "Plan-grafik (elektrosnabzhenie, gazosnabzhenie)", path: "pdf" },
                 ],
             },
         };

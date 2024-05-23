@@ -12,10 +12,10 @@ function Export_page_block({ children, ...props }) {
         const content = {
             data: {
                 files: [
-                    { name: "Centr podderzhki eksporta", path: "docx" },
-                    { name: "Rasporyazhenie 347r Ob utverzhdenii sostava upravlencheskoj komandy po razvitiyu eksporta v KCHR", path: "pdf" },
-                    { name: "Regionalnaya programma razvitiya eksportnoj deyatelnochti v KCHR", path: "pdf" },
-                    { name: "Strategiya socialno-ekonomicheskogo razvitiya KCHR do 2035 g", path: "pdf" },
+                    { title: 'Центр поддержки экспорта', name: "Centr podderzhki eksporta", path: "docx" },
+                    { title: 'Распоряжение 347р Об утверждении состава управленческой команды по развитию экспорта в КЧР', name: "Rasporyazhenie 347r Ob utverzhdenii sostava upravlencheskoj komandy po razvitiyu eksporta v KCHR", path: "pdf" },
+                    { title: 'Региональная программа развития экспортной деятельности в КЧР', name: "Regionalnaya programma razvitiya eksportnoj deyatelnochti v KCHR", path: "pdf" },
+                    { title: 'Стратегия социально-экономического развития КЧР до 2035 г', name: "Strategiya socialno-ekonomicheskogo razvitiya KCHR do 2035 g", path: "pdf" },
                 ],
             },
         };

@@ -10,7 +10,7 @@ function DocsBlock({ children, ...props }) {
                         <div className={classes.tabContentInfoElement}>
                             <img src={`/${file.path}.svg`} alt="document icon" />
                             <div className={classes.tabContentInfoElementLine}></div>
-                            {file.name}
+                            {file.title}
                         </div>
                         <a href={`/${file.name}.${file.path}`} target="_blank">Скачать</a>
                     </div>
