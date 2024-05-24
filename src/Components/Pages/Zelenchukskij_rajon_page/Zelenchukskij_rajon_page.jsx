@@ -20,7 +20,7 @@ function Zelenchukskij_rajon_page({ children, ...props }) {
             </H2>
 
             <div className={classes.rajon_img}>
-                <img src="/rajon_img_prikubanckiy.png" alt="" />
+                <img src="/Z-R.webp" alt="" />
             </div>
 
             <ColumnBlock gap="80px">

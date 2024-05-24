@@ -55,9 +55,9 @@ function App() {
           <Route path="projects/:title" element={<Projects_One_Page />} />
 
           <Route path="municipalnye_obrazovaniya" element={<Municipalnye_obrazovaniya_Page />} />
-          <Route path="municipalnye_obrazovaniya/prikubanskij_rajon" element={<Pricubanskij_rajon_page />} />
           <Route path="municipalnye_obrazovaniya/abazinskij_rajon" element={<Abazinskij_rajon_page />} />
-          
+
+          <Route path="municipalnye_obrazovaniya/prikubanskij_rajon" element={<Pricubanskij_rajon_page />} />
           <Route path="municipalnye_obrazovaniya/adygehablskij_rajon" element={<Adygehablskij_rajon_page />} />
           <Route path="municipalnye_obrazovaniya/cherkessk" element={<Cherkessk_page />} />
           <Route path="municipalnye_obrazovaniya/karachaevsk" element={<Karachaevsk_page />} />
