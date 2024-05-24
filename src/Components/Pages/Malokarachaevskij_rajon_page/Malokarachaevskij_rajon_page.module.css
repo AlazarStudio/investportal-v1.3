@@ -1,0 +1,131 @@
+.rajon_subtitle {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 40px;
+    text-transform: initial;
+}
+
+.rajon_img {
+    width: 100%;
+    height: 550px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.rajon_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rajon_info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.rajon_info__item {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rajon_info__item___title {
+    font-size: 29.75px;
+    font-weight: 700;
+    line-height: 37.44px;
+    color: var(--blue_color);
+    text-align: center;
+}
+
+.rajon_info__item___line {
+    border: 1px solid #292E90;
+}
+
+.rajon_info__item___desc {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27.9px;
+    text-align: center;
+}
+
+.rajon_konkurent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.rajon_konkurent__item {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rajon_konkurent__item___top {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.rajon_konkurent__item___top____title {
+    font-size: 15.75px;
+    font-weight: 600;
+    line-height: 24.3px;
+    color: var(--blue_color);
+    text-transform: uppercase;
+}
+
+.rajon_konkurent__item___bottom {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24.8px;
+}
+
+
+.rajon_table__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21.7px;
+    text-align: left;
+    padding: 20px;
+    border-bottom: 2px solid var(--blue_color);
+    gap: 20px;
+}
+
+.topRow {
+    background-color: var(--blue_color);
+    color: #fff;
+    border-bottom: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.widthBlock1 {
+    width: 20%;
+}
+
+.widthBlock2 {
+    width: 15%;
+}
+
+.widthBlock3 {
+    width: 15%;
+}
+
+.widthBlock4 {
+    width: 40%;
+}
+
+.widthBlock5 {
+    width: 10%;
+}

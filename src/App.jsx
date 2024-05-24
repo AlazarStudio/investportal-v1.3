@@ -11,7 +11,6 @@ import Municipalnye_obrazovaniya_Page from "./Components/Pages/Municipalnye_obra
 import Documents_Page from "./Components/Pages/Documents_Page";
 import Documents_msp from "./Components/Pages/Documents_msp";
 import Documents_export from "./Components/Pages/Documents_export";
-import Pricubanskij_rajon_page from "./Components/Pages/Pricubanskij_rajon_page/Pricubanskij_rajon_page";
 import MSP_Page from "./Components/Pages/MSP_Page";
 import Export_Page from "./Components/Pages/Export_Page";
 import Regionalniy_exportniy_standart_Page from "./Components/Pages/Regionalniy_exportniy_standart_Page/Regionalniy_exportniy_standart_Page";
@@ -22,6 +21,19 @@ import MP_Region_Page from "./Components/Pages/MP_Region_Page/MP_Region_Page";
 
 import Projects_All_Page from "./Components/Pages/Projects_All_Page";
 import Projects_One_Page from "./Components/Pages/Projects_One_Page";
+
+import Pricubanskij_rajon_page from "./Components/Pages/Pricubanskij_rajon_page/Pricubanskij_rajon_page";
+import Adygehablskij_rajon_page from "./Components/Pages/Adygehablskij_rajon_page/Adygehablskij_rajon_page";
+import Abazinskij_rajon_page from "./Components/Pages/Abazinskij_rajon_page/Abazinskij_rajon_page";
+import Cherkessk_page from "./Components/Pages/Cherkessk_page/Cherkessk_page";
+import Karachaevsk_page from "./Components/Pages/Karachaevsk_page/Karachaevsk_page";
+import Nogajskij_rajon_page from "./Components/Pages/Nogajskij_rajon_page/Nogajskij_rajon_page";
+import Habezskij_rajon_page from "./Components/Pages/Habezskij_rajon_page/Habezskij_rajon_page";
+import Ustdzhegutinskij_rajon_page from "./Components/Pages/Ustdzhegutinskij_rajon_page/Ustdzhegutinskij_rajon_page";
+import Malokarachaevskij_rajon_page from "./Components/Pages/Malokarachaevskij_rajon_page/Malokarachaevskij_rajon_page";
+import Urupskij_rajon_page from "./Components/Pages/Urupskij_rajon_page/Urupskij_rajon_page";
+import Zelenchukskij_rajon_page from "./Components/Pages/Zelenchukskij_rajon_page/Zelenchukskij_rajon_page";
+import Karachaevskij_rajon_page from "./Components/Pages/Karachaevskij_rajon_page/Karachaevskij_rajon_page";
 function App() {
   return (
     <>
@@ -44,17 +56,19 @@ function App() {
 
           <Route path="municipalnye_obrazovaniya" element={<Municipalnye_obrazovaniya_Page />} />
           <Route path="municipalnye_obrazovaniya/prikubanskij_rajon" element={<Pricubanskij_rajon_page />} />
-          <Route path="municipalnye_obrazovaniya/adygehablskij_rajon" element={<Pricubanskij_rajon_page />} />
-          <Route path="municipalnye_obrazovaniya/abazinskij_rajon" element={<Pricubanskij_rajon_page />} />
-          <Route path="municipalnye_obrazovaniya/cherkessk" element={<Pricubanskij_rajon_page />} />
-          <Route path="municipalnye_obrazovaniya/karachaevsk" element={<Pricubanskij_rajon_page />} />
-          <Route path="municipalnye_obrazovaniya/nogajskij_rajon" element={<Pricubanskij_rajon_page />} />
-          <Route path="municipalnye_obrazovaniya/habezskij_rajon" element={<Pricubanskij_rajon_page />} />
-          <Route path="municipalnye_obrazovaniya/ustdzhegutinskij_rajon" element={<Pricubanskij_rajon_page />} />
-          <Route path="municipalnye_obrazovaniya/malokarachaevskij_rajon" element={<Pricubanskij_rajon_page />} />
-          <Route path="municipalnye_obrazovaniya/urupskij_rajon" element={<Pricubanskij_rajon_page />} />
-          <Route path="municipalnye_obrazovaniya/zelenchukskij_rajon" element={<Pricubanskij_rajon_page />} />
-          <Route path="municipalnye_obrazovaniya/karachaevskij_rajon" element={<Pricubanskij_rajon_page />} />
+          <Route path="municipalnye_obrazovaniya/abazinskij_rajon" element={<Abazinskij_rajon_page />} />
+          
+          <Route path="municipalnye_obrazovaniya/adygehablskij_rajon" element={<Adygehablskij_rajon_page />} />
+          <Route path="municipalnye_obrazovaniya/cherkessk" element={<Cherkessk_page />} />
+          <Route path="municipalnye_obrazovaniya/karachaevsk" element={<Karachaevsk_page />} />
+          <Route path="municipalnye_obrazovaniya/nogajskij_rajon" element={<Nogajskij_rajon_page />} />
+          <Route path="municipalnye_obrazovaniya/habezskij_rajon" element={<Habezskij_rajon_page />} />
+          <Route path="municipalnye_obrazovaniya/ustdzhegutinskij_rajon" element={<Ustdzhegutinskij_rajon_page />} />
+          <Route path="municipalnye_obrazovaniya/malokarachaevskij_rajon" element={<Malokarachaevskij_rajon_page />} />
+          <Route path="municipalnye_obrazovaniya/urupskij_rajon" element={<Urupskij_rajon_page />} />
+          <Route path="municipalnye_obrazovaniya/zelenchukskij_rajon" element={<Zelenchukskij_rajon_page />} />
+          <Route path="municipalnye_obrazovaniya/karachaevskij_rajon" element={<Karachaevskij_rajon_page />} />
+          
           <Route path="documents" element={<Documents_Page />} />
           <Route path="documents_msp" element={<Documents_msp />} />
           {/* <Route path="documents_export" element={<Documents_export />} /> */}
