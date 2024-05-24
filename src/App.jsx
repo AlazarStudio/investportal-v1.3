@@ -34,6 +34,8 @@ import Malokarachaevskij_rajon_page from "./Components/Pages/Malokarachaevskij_r
 import Urupskij_rajon_page from "./Components/Pages/Urupskij_rajon_page/Urupskij_rajon_page";
 import Zelenchukskij_rajon_page from "./Components/Pages/Zelenchukskij_rajon_page/Zelenchukskij_rajon_page";
 import Karachaevskij_rajon_page from "./Components/Pages/Karachaevskij_rajon_page/Karachaevskij_rajon_page";
+
+import MP_Open_Page from "./Components/Pages/MP_Open_Page/MP_Open_Page";
 function App() {
   return (
     <>
@@ -44,8 +46,14 @@ function App() {
           <Route path="investor" element={<Investor_Page />} />
           <Route path="investor/:id" element={<Investor_Info_Page />} />
           <Route path="msp" element={<MSP_Page />} />
+
           <Route path="federalniye_mery_podderjki" element={<MP_Federal_Page />} />
           <Route path="regionalniye_mery_podderjki" element={<MP_Region_Page />} />
+
+          <Route path="federalniye_mery_podderjki/:id" element={<MP_Open_Page />} />
+          <Route path="regionalniye_mery_podderjki/:id" element={<MP_Open_Page />} />
+
+
           <Route path="export" element={<Export_Page />} />
           <Route path="regionalniy_exportniy_standart" element={<Regionalniy_exportniy_standart_Page />} />
           <Route path="news" element={<News_Page />} />
