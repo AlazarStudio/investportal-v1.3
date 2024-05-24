@@ -94,7 +94,7 @@ function MSP_page_block({ children, ...props }) {
                             </div>
                         </div>
 
-                        <CenterBlock><Button link={'https://'} target={'_blank'} width={'350px'}>Перейти на сайт</Button></CenterBlock>
+                        <CenterBlock><Button link={'https://xn--90aifddrld7a.xn--p1ai/project'} target={'_blank'} width={'350px'}>Перейти на сайт</Button></CenterBlock>
 
 
                     </WidthBlock>
