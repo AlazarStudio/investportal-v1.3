@@ -2,7 +2,7 @@ export const newsArray = [
     {
         date: "17.05.2024",
         title: "На выставке Kazan Halal Market обсудили перспективы дальнейшего сотрудничества бизнеса КЧР с другими регионами ",
-        link: "Na vystavke Kazan Halal Market obsudili perspektivy dal'nejshego sotrudnichestva biznesa KCHR s drugimi regionami",
+        link: "Na_vystavke_Kazan_Halal_Market_obsudili_perspektivy-dalnejshego_sotrudnichestva_biznesa_KCHR_s_drugimi_regionami",
         image: [
             "photo_1_2024-05-25_13-50-04_1_11zon.webp",
             "photo_2_2024-05-25_13-50-04_2_11zon.webp",
@@ -12,6 +12,7 @@ export const newsArray = [
         ],
         text: `
         В рамках форума заместитель Председателя Правительства КЧР Евгений Поляков и Министр экономического развития КЧР Артур Езаов провели переговоры и встречи с представителями организаций:<br />
+        <br />
         ✔️АЛРИ,<br />
         ✔️РосКачество,<br />
         ✔️АО "РариТЭК Холдинг",<br />
