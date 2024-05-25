@@ -33,7 +33,7 @@ function Header({ children, ...props }) {
         export: "Экспорт",
         // documents: "Все документы",
         municipalnye_obrazovaniya: "Муниципальные образования",
-        feedback: "Обратная связь"
+        // feedback: "Обратная связь"
     };
 
     return (
