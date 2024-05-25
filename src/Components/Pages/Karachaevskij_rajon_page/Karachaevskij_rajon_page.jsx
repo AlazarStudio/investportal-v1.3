@@ -15,7 +15,7 @@ function Karachaevskij_rajon_page({ children, ...props }) {
                 Карачаевский район
 
                 <div className={classes.rajon_subtitle}>
-                    Районный центр п. Кавказский
+                    Районный центр г. Карачаевск
                 </div>
             </H2>
 

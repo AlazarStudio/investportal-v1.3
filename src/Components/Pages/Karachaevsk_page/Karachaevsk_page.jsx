@@ -13,10 +13,6 @@ function Karachaevsk_page({ children, ...props }) {
 
             <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">
                 г. Карачаевск
-
-                <div className={classes.rajon_subtitle}>
-                    Районный центр п. Кавказский
-                </div>
             </H2>
 
             <div className={classes.rajon_img}>

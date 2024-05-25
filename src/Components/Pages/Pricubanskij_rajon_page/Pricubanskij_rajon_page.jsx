@@ -30,47 +30,52 @@ function Pricubanskij_rajon_page({ children, ...props }) {
 
                         <div className={classes.rajon_info}>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>144 км.</div>
+                                <div className={classes.rajon_info__item___title}>16 км.</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>расстояние до г. Черкесска</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>1,1 тыс. чел.</div>
+                                <div className={classes.rajon_info__item___title}>29,2 тыс. чел.</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>население</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>541,7 тыс. га</div>
+                                <div className={classes.rajon_info__item___title}>960 тыс. га</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>площадь территории</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>213,4 тыс. га</div>
-                                <div className={classes.rajon_info__item___line}></div>
-                                <div className={classes.rajon_info__item___desc}>земли лесного фонда</div>
-                            </div>
-                            <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>1,4 тыс. га</div>
+                                <div className={classes.rajon_info__item___title}>768,9 тыс. га</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>сельскохозяйственные угодья</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>0,2 тыс. га</div>
+                                <div className={classes.rajon_info__item___title}>473,13 тыс. га</div>
                                 <div className={classes.rajon_info__item___line}></div>
-                                <div className={classes.rajon_info__item___desc}>промышленные земли</div>
+                                <div className={classes.rajon_info__item___desc}>Пашни</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>2</div>
+                                <div className={classes.rajon_info__item___title}>63,91  тыс. га</div>
+                                <div className={classes.rajon_info__item___line}></div>
+                                <div className={classes.rajon_info__item___desc}>Сенокосы</div>
+                            </div>
+                            <div className={classes.rajon_info__item}>
+                                <div className={classes.rajon_info__item___title}>205,85  тыс. га</div>
+                                <div className={classes.rajon_info__item___line}></div>
+                                <div className={classes.rajon_info__item___desc}>Пастбища</div>
+                            </div>
+                            <div className={classes.rajon_info__item}>
+                                <div className={classes.rajon_info__item___title}>21,77 тыс. га</div>
+                                <div className={classes.rajon_info__item___line}></div>
+                                <div className={classes.rajon_info__item___desc}>Залежи</div>
+                            </div>
+                            <div className={classes.rajon_info__item}>
+                                <div className={classes.rajon_info__item___title}>23</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>населенных пунктов</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>0</div>
-                                <div className={classes.rajon_info__item___line}></div>
-                                <div className={classes.rajon_info__item___desc}>сельских поселений</div>
-                            </div>
-                            <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>30</div>
+                                <div className={classes.rajon_info__item___title}>2602</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>субъектов малого и среднего предпринимательства</div>
                             </div>
@@ -87,9 +92,7 @@ function Pricubanskij_rajon_page({ children, ...props }) {
                                     <div className={classes.rajon_konkurent__item___top____title}>ВНЕШНИЕ СВЯЗИ</div>
                                 </div>
                                 <div className={classes.rajon_konkurent__item___bottom}>
-                                    Межмуниципальные, межрегиональные и межстрановые связи.
-                                    Вовлечение в экономический оборот ископаемых и возобновляемых
-                                    природных ресурсов на принципах устойчивого развития.
+                                    Прикубанский район обладает выгодным географическим положением, что способствует развитию внешних связей. Район находится в непосредственной близости к крупным транспортным узлам и городам, таким как Черкесск, Ставрополь и Краснодар, что облегчает логистику и транспортировку товаров
                                 </div>
                             </div>
                             <div className={classes.rajon_konkurent__item}>
@@ -100,11 +103,7 @@ function Pricubanskij_rajon_page({ children, ...props }) {
                                     <div className={classes.rajon_konkurent__item___top____title}>ПРИРОДНЫЕ РЕСУРСЫ И ЭКОЛОГИЯ</div>
                                 </div>
                                 <div className={classes.rajon_konkurent__item___bottom}>
-                                    Экологически чистая природа. <br />
-                                    Развитая гидрологическая сеть. <br />
-                                    Множественность и многофункциональность минеральных целебных
-                                    источников. <br />
-                                    Минерально-сырьевая база.
+                                    Район обладает значительными природными ресурсами, включая плодородные земли, водные ресурсы и благоприятный климат. Большое Ставропольское водохранилище и река Кубань обеспечивают достаточное количество воды для сельского хозяйства и других нужд. Климатические условия способствуют выращиванию разнообразных сельскохозяйственных культур​​.
                                 </div>
                             </div>
                             <div className={classes.rajon_konkurent__item}>
@@ -115,8 +114,7 @@ function Pricubanskij_rajon_page({ children, ...props }) {
                                     <div className={classes.rajon_konkurent__item___top____title}>ИНФРАСТРУКТУРА</div>
                                 </div>
                                 <div className={classes.rajon_konkurent__item___bottom}>
-                                    Развитие транспортной, энергетической и информационно-
-                                    коммуникационной инфраструктуры
+                                    Прикубанский район активно развивает свою инфраструктуру. Строительство и модернизация коммунальных систем, улучшение транспортных связей и создание благоприятных условий для бизнеса играют ключевую роль в повышении инвестиционной привлекательности района. Создание Многофункционального центра предоставления государственных и муниципальных услуг значительно улучшает доступность услуг для предпринимателей и населения​​.
                                 </div>
                             </div>
                             <div className={classes.rajon_konkurent__item}>
@@ -127,9 +125,7 @@ function Pricubanskij_rajon_page({ children, ...props }) {
                                     <div className={classes.rajon_konkurent__item___top____title}>ИНДУСТРИЯ ГОСТЕПРИИМСТВА И ТУРИЗМ</div>
                                 </div>
                                 <div className={classes.rajon_konkurent__item___bottom}>
-                                    Развитие индустрии гостеприимства и туризма. <br />
-                                    Развитие этнографического, экологического, лечебно-оздоровительного,
-                                    гастрономического и других видов туризма.
+                                    Район обладает большим туристическим потенциалом благодаря своим природным и культурным ресурсам. Планируется развитие туристической инфраструктуры, включая строительство набережной вдоль реки Кубань, создание парка и развитие маршрутов для туристов. Это поможет привлечь больше туристов и создать новые рабочие места в секторе услуг​​.
                                 </div>
                             </div>
                             <div className={classes.rajon_konkurent__item}>
@@ -140,8 +136,7 @@ function Pricubanskij_rajon_page({ children, ...props }) {
                                     <div className={classes.rajon_konkurent__item___top____title}>ЭТНОЭКОНОМИКА</div>
                                 </div>
                                 <div className={classes.rajon_konkurent__item___bottom}>
-                                    Восстановление и развитие этноэкономики, включая яководство и
-                                    оленеводство.
+                                    Прикубанский район богат культурными и этническими традициями, что способствует развитию этнотуризма и сельского туризма. Местные ремесла, традиции и культура могут привлекать туристов и инвесторов, способствуя экономическому развитию района. Район поддерживает инициативы, направленные на сохранение и популяризацию этнокультурного наследия​​.
                                 </div>
                             </div>
                         </div>
@@ -164,52 +159,14 @@ function Pricubanskij_rajon_page({ children, ...props }) {
                             </div>
                             <div className={classes.rajon_table__row}>
                                 <div className={`${classes.rajon_table__row___item} ${classes.widthBlock1} `}>
-                                    1. Строительство
-                                    завода по добычи и
-                                    производству
-                                    технического кремния,
-                                    ООО “Байкальская
-                                    Финансово-
-                                    Промышленная
-                                    компания”
+                                    1. Площадка откорма овец / ООО Ставропольский фермер
                                 </div>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock2} `}>382 млн. руб.</div>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock3} `}>2018-2028 гг.</div>
+                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock2} `}>779,580 млн. руб.</div>
+                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock3} `}>2023 г.</div>
                                 <div className={`${classes.rajon_table__row___item} ${classes.widthBlock4} `}>
-                                    Инвестором проведены поиски и оценка
-                                    кварцевого сырья, составляется отчет с подсчетом
-                                    запасов для постановки запасов на баланс. <br />
-                                    Этапность работ: 1) Разведка месторождения 2)
-                                    Проектирование и строительство ЛЭП 110 кВ 3)
-                                    Проектирование предприятия
+                                    Проект по созданию площадки откорма овец на 50 000 скотомест в п. Ударный. Реализация проекта направлена на развитие овцеводства и обеспечение продовольственной безопасности региона. Текущее состояние: на стадии реализации
                                 </div>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock5} `}>2500 чел.</div>
-                            </div>
-                            <div className={classes.rajon_table__row}>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock1} `}>
-                                    2. Разработка и
-                                    добыча руды с целью
-                                    отработки запасов
-                                    Зун-Холбинского
-                                    золоторудного
-                                    месторождения с
-                                    переработкой руды на
-                                    золотоизвлекательной
-                                    фабрике, с
-                                    получением золота в
-                                    сплаве Доре, ООО
-                                    “Зун-Холба”
-                                </div>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock2} `}>1129 млн. руб.</div>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock3} `}>2023-2028 гг.</div>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock4} `}>
-                                    План развития рудника «Холбинский» предполагает
-                                    модернизацию подземного горно-добывающего
-                                    комплекса, расширение парка самоходного
-                                    горного оборудования, применение нескольких
-                                    эффективных систем разработки.
-                                </div>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock5} `}>810 чел.</div>
+                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock5} `}>40 чел.</div>
                             </div>
                         </div>
                     </WidthBlock>

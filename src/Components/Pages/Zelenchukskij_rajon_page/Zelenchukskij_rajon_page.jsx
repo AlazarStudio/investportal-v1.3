@@ -15,7 +15,7 @@ function Zelenchukskij_rajon_page({ children, ...props }) {
                 Зеленчукский район
 
                 <div className={classes.rajon_subtitle}>
-                    Районный центр п. Кавказский
+                    Районный центр станица Зеленчукская
                 </div>
             </H2>
 

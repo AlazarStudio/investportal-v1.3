@@ -15,7 +15,7 @@ function Nogajskij_rajon_page({ children, ...props }) {
                 Ногайский район
 
                 <div className={classes.rajon_subtitle}>
-                    Районный центр п. Кавказский
+                    Районный центр п. Эркен-Шахар
                 </div>
             </H2>
 
@@ -30,47 +30,57 @@ function Nogajskij_rajon_page({ children, ...props }) {
 
                         <div className={classes.rajon_info}>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>144 км.</div>
+                                <div className={classes.rajon_info__item___title}>26 км.</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>расстояние до г. Черкесска</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>1,1 тыс. чел.</div>
+                                <div className={classes.rajon_info__item___title}>15,4 тыс. чел.</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>население</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>541,7 тыс. га</div>
+                                <div className={classes.rajon_info__item___title}>210,8 тыс. га</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>площадь территории</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>213,4 тыс. га</div>
-                                <div className={classes.rajon_info__item___line}></div>
-                                <div className={classes.rajon_info__item___desc}>земли лесного фонда</div>
-                            </div>
-                            <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>1,4 тыс. га</div>
+                                <div className={classes.rajon_info__item___title}>15,7 тыс. га</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>сельскохозяйственные угодья</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>0,2 тыс. га</div>
+                                <div className={classes.rajon_info__item___title}>11,4 тыс. га</div>
                                 <div className={classes.rajon_info__item___line}></div>
-                                <div className={classes.rajon_info__item___desc}>промышленные земли</div>
+                                <div className={classes.rajon_info__item___desc}>Пашни</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>2</div>
+                                <div className={classes.rajon_info__item___title}>0,7 тыс. га</div>
+                                <div className={classes.rajon_info__item___line}></div>
+                                <div className={classes.rajon_info__item___desc}>Сенокосы</div>
+                            </div>
+                            <div className={classes.rajon_info__item}>
+                                <div className={classes.rajon_info__item___title}>2,6 тыс. га</div>
+                                <div className={classes.rajon_info__item___line}></div>
+                                <div className={classes.rajon_info__item___desc}>Пастбища</div>
+                            </div>
+                            <div className={classes.rajon_info__item}>
+                                <div className={classes.rajon_info__item___title}>0,5 тыс. га</div>
+                                <div className={classes.rajon_info__item___line}></div>
+                                <div className={classes.rajon_info__item___desc}>Залежи</div>
+                            </div>
+                            <div className={classes.rajon_info__item}>
+                                <div className={classes.rajon_info__item___title}>5</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>населенных пунктов</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>0</div>
+                                <div className={classes.rajon_info__item___title}>5</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>сельских поселений</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>30</div>
+                                <div className={classes.rajon_info__item___title}>86</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>субъектов малого и среднего предпринимательства</div>
                             </div>
@@ -87,9 +97,11 @@ function Nogajskij_rajon_page({ children, ...props }) {
                                     <div className={classes.rajon_konkurent__item___top____title}>ВНЕШНИЕ СВЯЗИ</div>
                                 </div>
                                 <div className={classes.rajon_konkurent__item___bottom}>
-                                    Межмуниципальные, межрегиональные и межстрановые связи.
-                                    Вовлечение в экономический оборот ископаемых и возобновляемых
-                                    природных ресурсов на принципах устойчивого развития.
+                                    Ногайский район активно работает над улучшением инвестиционного климата и привлечением инвесторов. Основные меры включают:<br /><br />
+                                    Предоставление земельных участков на основе долгосрочных договоров аренды.<br />
+                                    Обеспечение прямой связи с руководством муниципального района для решения сложных вопросов.<br />
+                                    Гарантии сохранности инвестиций и создание комфортных условий для инвесторов.<br />
+                                    Функционирование «Многофункционального центра предоставления государственных и муниципальных услуг».
                                 </div>
                             </div>
                             <div className={classes.rajon_konkurent__item}>
@@ -100,11 +112,11 @@ function Nogajskij_rajon_page({ children, ...props }) {
                                     <div className={classes.rajon_konkurent__item___top____title}>ПРИРОДНЫЕ РЕСУРСЫ И ЭКОЛОГИЯ</div>
                                 </div>
                                 <div className={classes.rajon_konkurent__item___bottom}>
-                                    Экологически чистая природа. <br />
-                                    Развитая гидрологическая сеть. <br />
-                                    Множественность и многофункциональность минеральных целебных
-                                    источников. <br />
-                                    Минерально-сырьевая база.
+                                    Ногайский район обладает значительными природными ресурсами:<br />
+                                    <br />
+                                    Черноземные почвы, подходящие для сельского хозяйства.<br />
+                                    Природные условия способствуют развитию сельского хозяйства, включая животноводство, птицеводство и растениеводство.<br />
+                                    Добыча песчано-гравийной смеси, садоводство и разведение мальков также являются значимыми ресурсами района .
                                 </div>
                             </div>
                             <div className={classes.rajon_konkurent__item}>
@@ -115,8 +127,11 @@ function Nogajskij_rajon_page({ children, ...props }) {
                                     <div className={classes.rajon_konkurent__item___top____title}>ИНФРАСТРУКТУРА</div>
                                 </div>
                                 <div className={classes.rajon_konkurent__item___bottom}>
-                                    Развитие транспортной, энергетической и информационно-
-                                    коммуникационной инфраструктуры
+                                    Инфраструктура района включает:<br />
+                                    <br />
+                                    Развитую сеть транспортных путей, включая железнодорожные станции и автодороги.<br />
+                                    Доступность крупных городов и экономических центров (Черкесск, Ставрополь, Краснодар) .<br />
+                                    Обеспеченность коммунальными услугами, такими как водоснабжение и газификация .
                                 </div>
                             </div>
                             <div className={classes.rajon_konkurent__item}>
@@ -127,9 +142,7 @@ function Nogajskij_rajon_page({ children, ...props }) {
                                     <div className={classes.rajon_konkurent__item___top____title}>ИНДУСТРИЯ ГОСТЕПРИИМСТВА И ТУРИЗМ</div>
                                 </div>
                                 <div className={classes.rajon_konkurent__item___bottom}>
-                                    Развитие индустрии гостеприимства и туризма. <br />
-                                    Развитие этнографического, экологического, лечебно-оздоровительного,
-                                    гастрономического и других видов туризма.
+                                    Информация о развитии индустрии гостеприимства и туризма в документе отсутствует. Однако, район имеет потенциал для развития туристической инфраструктуры благодаря природным и культурным ресурсам.
                                 </div>
                             </div>
                             <div className={classes.rajon_konkurent__item}>
@@ -140,76 +153,11 @@ function Nogajskij_rajon_page({ children, ...props }) {
                                     <div className={classes.rajon_konkurent__item___top____title}>ЭТНОЭКОНОМИКА</div>
                                 </div>
                                 <div className={classes.rajon_konkurent__item___bottom}>
-                                    Восстановление и развитие этноэкономики, включая яководство и
-                                    оленеводство.
+                                    Район богат историческими и культурными ресурсами, что создает возможности для развития этноэкономики:<br />
+                                    <br />
+                                    В Ногайском районе проживают трудолюбивые и талантливые люди, что способствует развитию местного бизнеса и сохранению культурного наследия.<br />
+                                    Развитие сельского хозяйства и производство местной продукции также являются важными аспектами этноэкономики .
                                 </div>
-                            </div>
-                        </div>
-
-                        <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">
-                            ключевые инвестиционные проекты
-
-                            <div className={classes.rajon_subtitle}>
-                                реализуемые инвестиционные проекты реализуемых на территории МО
-                            </div>
-                        </H2>
-
-                        <div className={classes.rajon_table}>
-                            <div className={`${classes.rajon_table__row} ${classes.topRow}`}>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock1} `}>Наименование проекта/инициатор</div>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock2} `}>Объем инвестиций</div>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock3} `}>Срок реализации</div>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock4} `}>Описание проекта текущее состояние</div>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock5} `}>Рабочие места</div>
-                            </div>
-                            <div className={classes.rajon_table__row}>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock1} `}>
-                                    1. Строительство
-                                    завода по добычи и
-                                    производству
-                                    технического кремния,
-                                    ООО “Байкальская
-                                    Финансово-
-                                    Промышленная
-                                    компания”
-                                </div>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock2} `}>382 млн. руб.</div>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock3} `}>2018-2028 гг.</div>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock4} `}>
-                                    Инвестором проведены поиски и оценка
-                                    кварцевого сырья, составляется отчет с подсчетом
-                                    запасов для постановки запасов на баланс. <br />
-                                    Этапность работ: 1) Разведка месторождения 2)
-                                    Проектирование и строительство ЛЭП 110 кВ 3)
-                                    Проектирование предприятия
-                                </div>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock5} `}>2500 чел.</div>
-                            </div>
-                            <div className={classes.rajon_table__row}>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock1} `}>
-                                    2. Разработка и
-                                    добыча руды с целью
-                                    отработки запасов
-                                    Зун-Холбинского
-                                    золоторудного
-                                    месторождения с
-                                    переработкой руды на
-                                    золотоизвлекательной
-                                    фабрике, с
-                                    получением золота в
-                                    сплаве Доре, ООО
-                                    “Зун-Холба”
-                                </div>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock2} `}>1129 млн. руб.</div>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock3} `}>2023-2028 гг.</div>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock4} `}>
-                                    План развития рудника «Холбинский» предполагает
-                                    модернизацию подземного горно-добывающего
-                                    комплекса, расширение парка самоходного
-                                    горного оборудования, применение нескольких
-                                    эффективных систем разработки.
-                                </div>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock5} `}>810 чел.</div>
                             </div>
                         </div>
                     </WidthBlock>

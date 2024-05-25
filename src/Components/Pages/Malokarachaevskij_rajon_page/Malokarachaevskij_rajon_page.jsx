@@ -15,7 +15,7 @@ function Malokarachaevskij_rajon_page({ children, ...props }) {
                 Малокарачаевский район
 
                 <div className={classes.rajon_subtitle}>
-                    Районный центр п. Кавказский
+                    Районный центр село Учкекен
                 </div>
             </H2>
 
@@ -30,47 +30,32 @@ function Malokarachaevskij_rajon_page({ children, ...props }) {
 
                         <div className={classes.rajon_info}>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>144 км.</div>
+                                <div className={classes.rajon_info__item___title}>76 км.</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>расстояние до г. Черкесска</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>1,1 тыс. чел.</div>
+                                <div className={classes.rajon_info__item___title}>43,1 тыс. чел.</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>население</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>541,7 тыс. га</div>
+                                <div className={classes.rajon_info__item___title}>136,5 тыс. га</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>площадь территории</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>213,4 тыс. га</div>
-                                <div className={classes.rajon_info__item___line}></div>
-                                <div className={classes.rajon_info__item___desc}>земли лесного фонда</div>
-                            </div>
-                            <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>1,4 тыс. га</div>
-                                <div className={classes.rajon_info__item___line}></div>
-                                <div className={classes.rajon_info__item___desc}>сельскохозяйственные угодья</div>
-                            </div>
-                            <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>0,2 тыс. га</div>
-                                <div className={classes.rajon_info__item___line}></div>
-                                <div className={classes.rajon_info__item___desc}>промышленные земли</div>
-                            </div>
-                            <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>2</div>
+                                <div className={classes.rajon_info__item___title}>10</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>населенных пунктов</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>0</div>
+                                <div className={classes.rajon_info__item___title}>10</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>сельских поселений</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>30</div>
+                                <div className={classes.rajon_info__item___title}>1355</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>субъектов малого и среднего предпринимательства</div>
                             </div>
@@ -87,9 +72,7 @@ function Malokarachaevskij_rajon_page({ children, ...props }) {
                                     <div className={classes.rajon_konkurent__item___top____title}>ВНЕШНИЕ СВЯЗИ</div>
                                 </div>
                                 <div className={classes.rajon_konkurent__item___bottom}>
-                                    Межмуниципальные, межрегиональные и межстрановые связи.
-                                    Вовлечение в экономический оборот ископаемых и возобновляемых
-                                    природных ресурсов на принципах устойчивого развития.
+                                Малокарачаевский район имеет развитую систему внешних связей. Он граничит с Кабардино-Балкарской Республикой и Ставропольским краем, а также с Карачаевским и Усть-Джегутинским районами КЧР. От Учкекена до Черкесска 76 км, до Кисловодска 23 км, до Ставрополя 131 км, до Минеральных Вод 70 км, до Пятигорска 58 км​​. Это обеспечивает легкий доступ к крупным транспортным узлам и экономическим центрам, что способствует развитию торговли и обмену ресурсами.
                                 </div>
                             </div>
                             <div className={classes.rajon_konkurent__item}>
@@ -100,11 +83,7 @@ function Malokarachaevskij_rajon_page({ children, ...props }) {
                                     <div className={classes.rajon_konkurent__item___top____title}>ПРИРОДНЫЕ РЕСУРСЫ И ЭКОЛОГИЯ</div>
                                 </div>
                                 <div className={classes.rajon_konkurent__item___bottom}>
-                                    Экологически чистая природа. <br />
-                                    Развитая гидрологическая сеть. <br />
-                                    Множественность и многофункциональность минеральных целебных
-                                    источников. <br />
-                                    Минерально-сырьевая база.
+                                Малокарачаевский район обладает значительными природными ресурсами. Среди них андеозитовые порфириты, месторождения меди, доломитизированный известняк и другие полезные ископаемые​​. Район также является частью особо охраняемого эколого-курортного региона Кавказских Минеральных Вод, что обеспечивает высокий уровень экологической безопасности и привлекательности для туристов​​.
                                 </div>
                             </div>
                             <div className={classes.rajon_konkurent__item}>
@@ -115,8 +94,7 @@ function Malokarachaevskij_rajon_page({ children, ...props }) {
                                     <div className={classes.rajon_konkurent__item___top____title}>ИНФРАСТРУКТУРА</div>
                                 </div>
                                 <div className={classes.rajon_konkurent__item___bottom}>
-                                    Развитие транспортной, энергетической и информационно-
-                                    коммуникационной инфраструктуры
+                                Район активно развивается в сфере инфраструктуры. В 2022 году был проведен ремонт дорог, водопроводных сетей и других коммунальных объектов​​. Также реализуются проекты по модернизации образовательных учреждений и медицинских услуг​​. Важными предприятиями являются швейная фабрика «Красный Восток», Эшкаконский гидроузел и ресторанные комплексы​​.
                                 </div>
                             </div>
                             <div className={classes.rajon_konkurent__item}>
@@ -127,9 +105,7 @@ function Malokarachaevskij_rajon_page({ children, ...props }) {
                                     <div className={classes.rajon_konkurent__item___top____title}>ИНДУСТРИЯ ГОСТЕПРИИМСТВА И ТУРИЗМ</div>
                                 </div>
                                 <div className={classes.rajon_konkurent__item___bottom}>
-                                    Развитие индустрии гостеприимства и туризма. <br />
-                                    Развитие этнографического, экологического, лечебно-оздоровительного,
-                                    гастрономического и других видов туризма.
+                                В Малокарачаевском районе активно развивается туризм. Известные туристические объекты включают всесезонный туристический комплекс «Медовые Водопады», этнографический комплекс «Дом Эмегена», Плато Бермамыт и другие природные достопримечательности​​. Эти места привлекают туристов со всей страны благодаря своей уникальной красоте и богатому культурному наследию.
                                 </div>
                             </div>
                             <div className={classes.rajon_konkurent__item}>
@@ -140,8 +116,7 @@ function Malokarachaevskij_rajon_page({ children, ...props }) {
                                     <div className={classes.rajon_konkurent__item___top____title}>ЭТНОЭКОНОМИКА</div>
                                 </div>
                                 <div className={classes.rajon_konkurent__item___bottom}>
-                                    Восстановление и развитие этноэкономики, включая яководство и
-                                    оленеводство.
+                                Район славится своим этнографическим и культурным наследием. На территории расположены этнографические музеи и комплексы, такие как «Алан-шахар» на территории комплекса «Медовые Водопады», которые способствуют сохранению и популяризации карачаевской культуры​​. Также развита индустрия производства изделий из шерсти и других традиционных материалов​​.
                                 </div>
                             </div>
                         </div>
@@ -164,52 +139,36 @@ function Malokarachaevskij_rajon_page({ children, ...props }) {
                             </div>
                             <div className={classes.rajon_table__row}>
                                 <div className={`${classes.rajon_table__row___item} ${classes.widthBlock1} `}>
-                                    1. Строительство
-                                    завода по добычи и
-                                    производству
-                                    технического кремния,
-                                    ООО “Байкальская
-                                    Финансово-
-                                    Промышленная
-                                    компания”
+                                    1. Глава КФХ Байчора Мурат - Реконструкция Парка культуры и отдыха в с. Учкекен
                                 </div>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock2} `}>382 млн. руб.</div>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock3} `}>2018-2028 гг.</div>
+                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock2} `}>25 млн. руб.</div>
+                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock3} `}>2023 год</div>
                                 <div className={`${classes.rajon_table__row___item} ${classes.widthBlock4} `}>
-                                    Инвестором проведены поиски и оценка
-                                    кварцевого сырья, составляется отчет с подсчетом
-                                    запасов для постановки запасов на баланс. <br />
-                                    Этапность работ: 1) Разведка месторождения 2)
-                                    Проектирование и строительство ЛЭП 110 кВ 3)
-                                    Проектирование предприятия
+                                Проект направлен на благоустройство и обновление Парка культуры и отдыха в селе Учкекен. Планируется улучшение инфраструктуры парка, установка новых аттракционов и создание зон для отдыха и развлечений. Это повысит привлекательность района для жителей и туристов.
                                 </div>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock5} `}>2500 чел.</div>
+                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock5} `}>30 чел.</div>
                             </div>
                             <div className={classes.rajon_table__row}>
                                 <div className={`${classes.rajon_table__row___item} ${classes.widthBlock1} `}>
-                                    2. Разработка и
-                                    добыча руды с целью
-                                    отработки запасов
-                                    Зун-Холбинского
-                                    золоторудного
-                                    месторождения с
-                                    переработкой руды на
-                                    золотоизвлекательной
-                                    фабрике, с
-                                    получением золота в
-                                    сплаве Доре, ООО
-                                    “Зун-Холба”
+                                    2. ООО «ВоенТекстильПром» - Швейная фабрика в с. Красный Восток
                                 </div>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock2} `}>1129 млн. руб.</div>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock3} `}>2023-2028 гг.</div>
+                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock2} `}>400 млн. руб.</div>
+                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock3} `}>2023 гг.</div>
                                 <div className={`${classes.rajon_table__row___item} ${classes.widthBlock4} `}>
-                                    План развития рудника «Холбинский» предполагает
-                                    модернизацию подземного горно-добывающего
-                                    комплекса, расширение парка самоходного
-                                    горного оборудования, применение нескольких
-                                    эффективных систем разработки.
+                                Создание швейной фабрики для производства одежды и текстильных изделий, включая форму для военнослужащих. Проект предусматривает установку современного оборудования и обучение персонала. Фабрика будет выпускать продукцию высокого качества и обеспечит стабильные рабочие места для местных жителей.
                                 </div>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock5} `}>810 чел.</div>
+                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock5} `}>200 чел.</div>
+                            </div>
+                            <div className={classes.rajon_table__row}>
+                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock1} `}>
+                                    3. ООО «Эльбрус Агро-Инвест» - Создание племенного хозяйства по сохранению овец карачаевской породы
+                                </div>
+                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock2} `}>100 млн. руб.</div>
+                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock3} `}>2023-2024 годы</div>
+                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock4} `}>
+                                Проект направлен на разведение и сохранение карачаевской породы овец. В рамках проекта будет построена ферма, оснащенная современными технологиями для эффективного управления хозяйством. Племенное хозяйство обеспечит высококачественную продукцию и сохранит генетический фонд породы.
+                                </div>
+                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock5} `}>60 чел.</div>
                             </div>
                         </div>
                     </WidthBlock>
