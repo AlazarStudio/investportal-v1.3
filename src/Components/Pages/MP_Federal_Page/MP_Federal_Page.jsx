@@ -8,26 +8,7 @@ import Header from "../../Blocks/Header/Header";
 import Button from "../../Standart/Button/Button";
 import { Link } from "react-router-dom";
 
-const items = [
-    {
-        imgSrc: "/mp_1.png",
-        title: "Поддержка малого и среднего бизнеса от Минэкономразвития и Яндекс Бизнеса",
-        desc: "Малый и средний бизнес сможет удвоить бюджет на продвижение на платформе VK Реклама. Пилотный проект уже успешно завершился в нескольких регионах.",
-        link: 'podderzhka malogo i srednego biznesa ot minekonomrazvitiya i yandeks biznesa'
-    },
-    {
-        imgSrc: "/mp_2.png",
-        title: "Программы льготного кредитования малого и среднего бизнеса",
-        desc: "Нужна помощь в поиске людей на свой проект? Воспользуйтесь услугой бесплатного поиска сотрудников на hh.ru с помощью новой меры поддержки.",
-        link: 'Programmy lgotnogo kreditovaniya malogo i srednego biznesa'
-    },
-    {
-        imgSrc: "/mp_3.png",
-        title: "Цифровой профиль предпринимателя",
-        desc: "Это упрощенный доступ к мерам государственной поддержки и проактивный подбор региональных и федеральных программ и услуг.",
-        link: 'Cifrovoj profil predprinimatelya'
-    }
-];
+import { items_federal } from '../../../mp_data'; 
 
 function MP_Federal_Page({ children, ...props }) {
     const [searchTerm, setSearchTerm] = useState("");
@@ -36,7 +17,7 @@ function MP_Federal_Page({ children, ...props }) {
         setSearchTerm(e.target.value);
     };
 
-    const filteredItems = items.filter(item =>
+    const filteredItems = items_federal.filter(item =>
         item.title.toLowerCase().includes(searchTerm.toLowerCase())
     );
 
