@@ -70,10 +70,10 @@ function App() {
           <Route path="municipalnye_obrazovaniya/habezskij_rajon" element={<Habezskij_rajon_page />} />
           <Route path="municipalnye_obrazovaniya/cherkessk" element={<Cherkessk_page />} />
           <Route path="municipalnye_obrazovaniya/karachaevsk" element={<Karachaevsk_page />} />
-
-
           <Route path="municipalnye_obrazovaniya/karachaevskij_rajon" element={<Karachaevskij_rajon_page />} />
+
           <Route path="municipalnye_obrazovaniya/malokarachaevskij_rajon" element={<Malokarachaevskij_rajon_page />} />
+
           <Route path="municipalnye_obrazovaniya/nogajskij_rajon" element={<Nogajskij_rajon_page />} />
           <Route path="municipalnye_obrazovaniya/prikubanskij_rajon" element={<Pricubanskij_rajon_page />} />
           <Route path="municipalnye_obrazovaniya/urupskij_rajon" element={<Urupskij_rajon_page />} />
