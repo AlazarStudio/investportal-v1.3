@@ -144,7 +144,7 @@ function Abazinskij_rajon_page({ children, ...props }) {
                                     <div className={classes.rajon_konkurent__item___top____img}>
                                         <img src="/kp4.png" alt="" />
                                     </div>
-                                    <div className={classes.rajon_konkurent__item___top____title}>ИНДЕСТРИЯ ГОСТЕПРИИМСТВА И ТУРИЗМ</div>
+                                    <div className={classes.rajon_konkurent__item___top____title}>ИНДУСТРИЯ ГОСТЕПРИИМСТВА И ТУРИЗМ</div>
                                 </div>
                                 <div className={classes.rajon_konkurent__item___bottom}>
                                     Развитие индустрии гостеприимства и туризма. <br />
@@ -160,8 +160,7 @@ function Abazinskij_rajon_page({ children, ...props }) {
                                     <div className={classes.rajon_konkurent__item___top____title}>ЭТНОЭКОНОМИКА</div>
                                 </div>
                                 <div className={classes.rajon_konkurent__item___bottom}>
-                                    Восстановление и развитие этноэкономики, включая яководство и
-                                    оленеводство.
+                                    Восстановление и развитие этноэкономики, включая овцеводство, коневодство, пчеловодство.
                                 </div>
                             </div>
                         </div>

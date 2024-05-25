@@ -63,19 +63,21 @@ function App() {
           <Route path="projects/:title" element={<Projects_One_Page />} />
 
           <Route path="municipalnye_obrazovaniya" element={<Municipalnye_obrazovaniya_Page />} />
-          <Route path="municipalnye_obrazovaniya/abazinskij_rajon" element={<Abazinskij_rajon_page />} />
 
-          <Route path="municipalnye_obrazovaniya/prikubanskij_rajon" element={<Pricubanskij_rajon_page />} />
+          <Route path="municipalnye_obrazovaniya/abazinskij_rajon" element={<Abazinskij_rajon_page />} />
           <Route path="municipalnye_obrazovaniya/adygehablskij_rajon" element={<Adygehablskij_rajon_page />} />
+          <Route path="municipalnye_obrazovaniya/zelenchukskij_rajon" element={<Zelenchukskij_rajon_page />} />
+          <Route path="municipalnye_obrazovaniya/habezskij_rajon" element={<Habezskij_rajon_page />} />
           <Route path="municipalnye_obrazovaniya/cherkessk" element={<Cherkessk_page />} />
           <Route path="municipalnye_obrazovaniya/karachaevsk" element={<Karachaevsk_page />} />
-          <Route path="municipalnye_obrazovaniya/nogajskij_rajon" element={<Nogajskij_rajon_page />} />
-          <Route path="municipalnye_obrazovaniya/habezskij_rajon" element={<Habezskij_rajon_page />} />
-          <Route path="municipalnye_obrazovaniya/ustdzhegutinskij_rajon" element={<Ustdzhegutinskij_rajon_page />} />
-          <Route path="municipalnye_obrazovaniya/malokarachaevskij_rajon" element={<Malokarachaevskij_rajon_page />} />
-          <Route path="municipalnye_obrazovaniya/urupskij_rajon" element={<Urupskij_rajon_page />} />
-          <Route path="municipalnye_obrazovaniya/zelenchukskij_rajon" element={<Zelenchukskij_rajon_page />} />
+
+
           <Route path="municipalnye_obrazovaniya/karachaevskij_rajon" element={<Karachaevskij_rajon_page />} />
+          <Route path="municipalnye_obrazovaniya/malokarachaevskij_rajon" element={<Malokarachaevskij_rajon_page />} />
+          <Route path="municipalnye_obrazovaniya/nogajskij_rajon" element={<Nogajskij_rajon_page />} />
+          <Route path="municipalnye_obrazovaniya/prikubanskij_rajon" element={<Pricubanskij_rajon_page />} />
+          <Route path="municipalnye_obrazovaniya/urupskij_rajon" element={<Urupskij_rajon_page />} />
+          <Route path="municipalnye_obrazovaniya/ustdzhegutinskij_rajon" element={<Ustdzhegutinskij_rajon_page />} />
           
           <Route path="documents" element={<Documents_Page />} />
           <Route path="documents_msp" element={<Documents_msp />} />

@@ -32,7 +32,7 @@ function Pricubanskij_rajon_page({ children, ...props }) {
                             <div className={classes.rajon_info__item}>
                                 <div className={classes.rajon_info__item___title}>144 км.</div>
                                 <div className={classes.rajon_info__item___line}></div>
-                                <div className={classes.rajon_info__item___desc}>расстояние до г. Улан-Удэ</div>
+                                <div className={classes.rajon_info__item___desc}>расстояние до г. Черкесска</div>
                             </div>
                             <div className={classes.rajon_info__item}>
                                 <div className={classes.rajon_info__item___title}>1,1 тыс. чел.</div>
@@ -124,7 +124,7 @@ function Pricubanskij_rajon_page({ children, ...props }) {
                                     <div className={classes.rajon_konkurent__item___top____img}>
                                         <img src="/kp4.png" alt="" />
                                     </div>
-                                    <div className={classes.rajon_konkurent__item___top____title}>ИНДЕСТРИЯ ГОСТЕПРИИМСТВА И ТУРИЗМ</div>
+                                    <div className={classes.rajon_konkurent__item___top____title}>ИНДУСТРИЯ ГОСТЕПРИИМСТВА И ТУРИЗМ</div>
                                 </div>
                                 <div className={classes.rajon_konkurent__item___bottom}>
                                     Развитие индустрии гостеприимства и туризма. <br />

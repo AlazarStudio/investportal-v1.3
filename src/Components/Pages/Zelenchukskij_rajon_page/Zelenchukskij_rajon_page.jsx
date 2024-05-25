@@ -30,17 +30,17 @@ function Zelenchukskij_rajon_page({ children, ...props }) {
 
                         <div className={classes.rajon_info}>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>144 км.</div>
+                                <div className={classes.rajon_info__item___title}>75 км.</div>
                                 <div className={classes.rajon_info__item___line}></div>
-                                <div className={classes.rajon_info__item___desc}>расстояние до г. Улан-Удэ</div>
+                                <div className={classes.rajon_info__item___desc}>расстояние до г. Черкесска</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>1,1 тыс. чел.</div>
+                                <div className={classes.rajon_info__item___title}>48,2 тыс. чел.</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>население</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>541,7 тыс. га</div>
+                                <div className={classes.rajon_info__item___title}>293,1 тыс. га</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>площадь территории</div>
                             </div>
@@ -50,27 +50,22 @@ function Zelenchukskij_rajon_page({ children, ...props }) {
                                 <div className={classes.rajon_info__item___desc}>земли лесного фонда</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>1,4 тыс. га</div>
+                                <div className={classes.rajon_info__item___title}>22,2 тыс. га</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>сельскохозяйственные угодья</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>0,2 тыс. га</div>
-                                <div className={classes.rajon_info__item___line}></div>
-                                <div className={classes.rajon_info__item___desc}>промышленные земли</div>
-                            </div>
-                            <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>2</div>
+                                <div className={classes.rajon_info__item___title}>17</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>населенных пунктов</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>0</div>
+                                <div className={classes.rajon_info__item___title}>9</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>сельских поселений</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>30</div>
+                                <div className={classes.rajon_info__item___title}>339</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>субъектов малого и среднего предпринимательства</div>
                             </div>
@@ -124,7 +119,7 @@ function Zelenchukskij_rajon_page({ children, ...props }) {
                                     <div className={classes.rajon_konkurent__item___top____img}>
                                         <img src="/kp4.png" alt="" />
                                     </div>
-                                    <div className={classes.rajon_konkurent__item___top____title}>ИНДЕСТРИЯ ГОСТЕПРИИМСТВА И ТУРИЗМ</div>
+                                    <div className={classes.rajon_konkurent__item___top____title}>ИНДУСТРИЯ ГОСТЕПРИИМСТВА И ТУРИЗМ</div>
                                 </div>
                                 <div className={classes.rajon_konkurent__item___bottom}>
                                     Развитие индустрии гостеприимства и туризма. <br />
@@ -140,8 +135,7 @@ function Zelenchukskij_rajon_page({ children, ...props }) {
                                     <div className={classes.rajon_konkurent__item___top____title}>ЭТНОЭКОНОМИКА</div>
                                 </div>
                                 <div className={classes.rajon_konkurent__item___bottom}>
-                                    Восстановление и развитие этноэкономики, включая яководство и
-                                    оленеводство.
+                                Восстановление и развитие этноэкономики, включая овцеводство, коневодство, пчеловодство.
                                 </div>
                             </div>
                         </div>
@@ -164,52 +158,14 @@ function Zelenchukskij_rajon_page({ children, ...props }) {
                             </div>
                             <div className={classes.rajon_table__row}>
                                 <div className={`${classes.rajon_table__row___item} ${classes.widthBlock1} `}>
-                                    1. Строительство
-                                    завода по добычи и
-                                    производству
-                                    технического кремния,
-                                    ООО “Байкальская
-                                    Финансово-
-                                    Промышленная
-                                    компания”
+                                    1. Всесезонный туристско-рекреационный комплекс "Архыз"
                                 </div>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock2} `}>382 млн. руб.</div>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock3} `}>2018-2028 гг.</div>
+                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock2} `}>1,8 млрд. руб.</div>
+                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock3} `}>2012-2025 гг.</div>
                                 <div className={`${classes.rajon_table__row___item} ${classes.widthBlock4} `}>
-                                    Инвестором проведены поиски и оценка
-                                    кварцевого сырья, составляется отчет с подсчетом
-                                    запасов для постановки запасов на баланс. <br />
-                                    Этапность работ: 1) Разведка месторождения 2)
-                                    Проектирование и строительство ЛЭП 110 кВ 3)
-                                    Проектирование предприятия
+                                Первые объекты введены в 2012 году. Включает канатные дороги, горнолыжные трассы, внутрипоселковые коммуникации и прочее.
                                 </div>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock5} `}>2500 чел.</div>
-                            </div>
-                            <div className={classes.rajon_table__row}>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock1} `}>
-                                    2. Разработка и
-                                    добыча руды с целью
-                                    отработки запасов
-                                    Зун-Холбинского
-                                    золоторудного
-                                    месторождения с
-                                    переработкой руды на
-                                    золотоизвлекательной
-                                    фабрике, с
-                                    получением золота в
-                                    сплаве Доре, ООО
-                                    “Зун-Холба”
-                                </div>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock2} `}>1129 млн. руб.</div>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock3} `}>2023-2028 гг.</div>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock4} `}>
-                                    План развития рудника «Холбинский» предполагает
-                                    модернизацию подземного горно-добывающего
-                                    комплекса, расширение парка самоходного
-                                    горного оборудования, применение нескольких
-                                    эффективных систем разработки.
-                                </div>
-                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock5} `}>810 чел.</div>
+                                <div className={`${classes.rajon_table__row___item} ${classes.widthBlock5} `}>1016 чел.</div>
                             </div>
                         </div>
                     </WidthBlock>
