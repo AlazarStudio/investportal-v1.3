@@ -16,7 +16,9 @@ import H2 from '../../Standart/H2/H2'
 import Button from '../../Standart/Button/Button'
 import { Link } from "react-router-dom";
 
-import { getProjects } from "../../GetData/GetData"
+import { getProjects } from "../../GetData/GetData";
+
+import { newsArray } from '../../../news_data'
 
 function Main_page_block({ children, ...props }) {
     let projects = getProjects();
@@ -208,105 +210,21 @@ function Main_page_block({ children, ...props }) {
                         </CenterBlock>
 
                         <div className={classes.news}>
-                            <Link to={'/news/new1'} className={classes.news_item}>
-                                <div className={classes.news_item__img}>
-                                    <img src="/new1.jpg" alt="" />
-                                </div>
-                                <div className={classes.news_item__desc}>
-                                    <div className={classes.news_item__desc___separate}>
-                                        <div className={classes.news_item__desc___date}>08.02.2022</div>
-                                        <div className={classes.news_item__desc___title}>
-                                            ПОДПИСАНИЕ ДОРОЖНОЙ КАРТЫ ПО РАЗВИТИЮ СОТРУДНИЧЕСТВА МЕЖДУ КАРАЧАЕВО-ЧЕРКЕССКОЙ
-                                            РЕСПУБЛИКОЙ И РЕСПУБ...
-                                        </div>
-                                        <div className={classes.news_item__desc___hash}>#Кредит #фот 3.0</div>
+                            {newsArray.map((newsItem, index) => (
+                                <Link to={`/news/${newsItem.link}`} className={classes.news_item} key={index}>
+                                    <div className={classes.news_item__img}>
+                                        <img src={`/${newsItem.image[0]}`} alt="" />
                                     </div>
-                                </div>
-                            </Link>
-
-                            <Link to={'/news/new1'} className={classes.news_item}>
-                                <div className={classes.news_item__img}>
-                                    <img src="/new2.png" alt="" />
-                                </div>
-                                <div className={classes.news_item__desc}>
-                                    <div className={classes.news_item__desc___separate}>
-                                        <div className={classes.news_item__desc___date}>08.02.2022</div>
-                                        <div className={classes.news_item__desc___title}>
-                                            ЛЬГОТНЫЕ КРЕДИТЫ ПО ПРОГРАММЕ
-                                            ФОТ 3.0 ПОДДЕРЖАЛИ БОЛЕЕ 26 ТЫС.
-                                            КОМПАНИЙ И ПОМОГЛИ СОХРАНИТЬ
-                                            ОКОЛО 6...
+                                    <div className={classes.news_item__desc}>
+                                        <div className={classes.news_item__desc___separate}>
+                                            <div className={classes.news_item__desc___date}>{newsItem.date}</div>
+                                            <div className={classes.news_item__desc___title}>
+                                            {newsItem.title}
+                                            </div>
                                         </div>
                                     </div>
-                                    <div className={classes.news_item__desc___hash}>#Кредит #фот 3.0</div>
-                                </div>
-                            </Link>
-
-                            <Link to={'/news/new1'} className={classes.news_item}>
-                                <div className={classes.news_item__img}>
-                                    <img src="/new3.jpg" alt="" />
-                                </div>
-                                <div className={classes.news_item__desc}>
-                                    <div className={classes.news_item__desc___separate}>
-                                        <div className={classes.news_item__desc___date}>08.02.2022</div>
-                                        <div className={classes.news_item__desc___title}>
-                                            ЗАСЕДАНИЕ СОВЕТА ПО ПРОЕКТНОИ
-                                            ДЕЯТЕЛЬНОСТИ КЧР...
-                                        </div>
-                                    </div>
-                                    <div className={classes.news_item__desc___hash}>#Кредит #фот 3.0</div>
-                                </div>
-                            </Link>
-
-                            <Link to={'/news/new1'} className={classes.news_item}>
-                                <div className={classes.news_item__img}>
-                                    <img src="/new1.jpg" alt="" />
-                                </div>
-                                <div className={classes.news_item__desc}>
-                                    <div className={classes.news_item__desc___separate}>
-                                        <div className={classes.news_item__desc___date}>08.02.2022</div>
-                                        <div className={classes.news_item__desc___title}>
-                                            ПОДПИСАНИЕ ДОРОЖНОЙ КАРТЫ ПО РАЗВИТИЮ СОТРУДНИЧЕСТВА МЕЖДУ КАРАЧАЕВО-ЧЕРКЕССКОЙ
-                                            РЕСПУБЛИКОЙ И РЕСПУБ...
-                                        </div>
-                                        <div className={classes.news_item__desc___hash}>#Кредит #фот 3.0</div>
-                                    </div>
-                                </div>
-                            </Link>
-
-                            <Link to={'/news/new1'} className={classes.news_item}>
-                                <div className={classes.news_item__img}>
-                                    <img src="/new2.png" alt="" />
-                                </div>
-                                <div className={classes.news_item__desc}>
-                                    <div className={classes.news_item__desc___separate}>
-                                        <div className={classes.news_item__desc___date}>08.02.2022</div>
-                                        <div className={classes.news_item__desc___title}>
-                                            ЛЬГОТНЫЕ КРЕДИТЫ ПО ПРОГРАММЕ
-                                            ФОТ 3.0 ПОДДЕРЖАЛИ БОЛЕЕ 26 ТЫС.
-                                            КОМПАНИЙ И ПОМОГЛИ СОХРАНИТЬ
-                                            ОКОЛО 6...
-                                        </div>
-                                    </div>
-                                    <div className={classes.news_item__desc___hash}>#Кредит #фот 3.0</div>
-                                </div>
-                            </Link>
-
-                            <Link to={'/news/new1'} className={classes.news_item}>
-                                <div className={classes.news_item__img}>
-                                    <img src="/new3.jpg" alt="" />
-                                </div>
-                                <div className={classes.news_item__desc}>
-                                    <div className={classes.news_item__desc___separate}>
-                                        <div className={classes.news_item__desc___date}>08.02.2022</div>
-                                        <div className={classes.news_item__desc___title}>
-                                            ЗАСЕДАНИЕ СОВЕТА ПО ПРОЕКТНОИ
-                                            ДЕЯТЕЛЬНОСТИ КЧР...
-                                        </div>
-                                    </div>
-                                    <div className={classes.news_item__desc___hash}>#Кредит #фот 3.0</div>
-                                </div>
-                            </Link>
+                                </Link>
+                            ))}
                         </div>
                     </WidthBlock>
                 </CenterBlock>
