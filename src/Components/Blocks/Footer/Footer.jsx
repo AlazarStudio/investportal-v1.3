@@ -54,7 +54,12 @@ function Footer({ children, ...props }) {
                                 </div>
                                 <div className={classes.footer_infoLine__item___info}>
                                     <div className={classes.footer_infoLine__item___info____title}>Наш адрес</div>
-                                    <a href="https://yandex.ru/maps/1104/cherkessk/?ll=42.047539%2C44.228726&mode=routes&rtext=~44.228819%2C42.048339&rtt=taxi&ruri=~ymapsbm1%3A%2F%2Forg%3Foid%3D221767251638&z=17.11" target="_blank" className={classes.footer_infoLine__item___info____desc}>Черкесск, Комсомольская улица, 23</a>
+                                    <a
+                                        href="https://yandex.ru/maps/1104/cherkessk/?ll=42.047539%2C44.228726&mode=routes&rtext=~44.228819%2C42.048339&rtt=taxi&ruri=~ymapsbm1%3A%2F%2Forg%3Foid%3D221767251638&z=17.11"
+                                        target="_blank"
+                                        className={classes.footer_infoLine__item___info____desc}>
+                                        Черкесск, Комсомольская улица, 23
+                                    </a>
                                 </div>
                             </div>
                         </div>
