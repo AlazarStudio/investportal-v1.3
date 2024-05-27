@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import classes from './Abazinskij_rajon_page.module.css';
 import WidthBlock from "../../Standart/WidthBlock/WidthBlock";
 import CenterBlock from "../../Standart/CenterBlock/CenterBlock";
@@ -6,7 +6,21 @@ import ColumnBlock from "../../Standart/ColumnBlock/ColumnBlock";
 import H2 from "../../Standart/H2/H2";
 import Header from "../../Blocks/Header/Header";
 
+import useCountUp from '../../../useCountUp';
+
 function Abazinskij_rajon_page({ children, ...props }) {
+    const [num1, ref1] = useCountUp(44, 1000);
+    const [num2, ref2] = useCountUp(17.8, 1000);
+    const [num3, ref3] = useCountUp(30.1, 1000);
+    const [num4, ref4] = useCountUp(213.4, 1000);
+    const [num5, ref5] = useCountUp(22.2, 1000);
+    const [num6, ref6] = useCountUp(7, 1000);
+    const [num7, ref7] = useCountUp(5.1, 1000);
+    const [num8, ref8] = useCountUp(7.7, 1000);
+    const [num9, ref9] = useCountUp(450, 1000);
+    const [num10, ref10] = useCountUp(1.8, 1000);
+    const [num11, ref11] = useCountUp(5, 1000);
+    const [num12, ref12] = useCountUp(339, 1000);
     return (
         <>
             <Header />
@@ -30,62 +44,62 @@ function Abazinskij_rajon_page({ children, ...props }) {
 
                         <div className={classes.rajon_info}>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>44 км.</div>
+                                <div className={classes.rajon_info__item___title} ref={ref1}>{num1} км</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>расстояние до г.Черкесска</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>17,8 тыс. чел.</div>
+                                <div className={classes.rajon_info__item___title} ref={ref2}>{num2} тыс. чел</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>население</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>30019 га</div>
+                                <div className={classes.rajon_info__item___title} ref={ref3}>{num3} тыс. га</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>площадь территории</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>213,4 тыс. га</div>
+                                <div className={classes.rajon_info__item___title} ref={ref4}>{num4} тыс. га</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>земли лесного фонда</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>22,2 тыс. га</div>
+                                <div className={classes.rajon_info__item___title} ref={ref5}>{num5} тыс. га</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>сельскохозяйственные угодья</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>7 тыс. га</div>
+                                <div className={classes.rajon_info__item___title} ref={ref6}>{num6} тыс. га</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>пашни</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>5,1 тыс. га</div>
+                                <div className={classes.rajon_info__item___title} ref={ref7}>{num7} тыс. га</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>сенокосы</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>7,7 тыс. га</div>
+                                <div className={classes.rajon_info__item___title} ref={ref8}>{num8} тыс. га</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>пастбища</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>450 га</div>
+                                <div className={classes.rajon_info__item___title} ref={ref9}>{num9} га</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>залежи</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>1,8 тыс. га</div>
+                                <div className={classes.rajon_info__item___title} ref={ref10}>{num10} тыс. га</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>прочие земли </div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>5</div>
+                                <div className={classes.rajon_info__item___title} ref={ref11}>{num11}</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>населенных пунктов</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>339</div>
+                                <div className={classes.rajon_info__item___title} ref={ref12}>{num12}</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>субъектов малого и среднего предпринимательства</div>
                             </div>

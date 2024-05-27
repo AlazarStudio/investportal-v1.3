@@ -36,7 +36,7 @@ function Footer({ children, ...props }) {
                                 </div>
                                 <div className={classes.footer_infoLine__item___info}>
                                     <div className={classes.footer_infoLine__item___info____title}>Телефон</div>
-                                    <div className={classes.footer_infoLine__item___info____desc}>8 (8782) 25-02-27</div>
+                                    <a href="tel:+78782250227" className={classes.footer_infoLine__item___info____desc}>8 (8782) 25-02-27</a>
                                 </div>
                             </div>
                             <div className={classes.footer_infoLine__item}>
@@ -45,7 +45,7 @@ function Footer({ children, ...props }) {
                                 </div>
                                 <div className={classes.footer_infoLine__item___info}>
                                     <div className={classes.footer_infoLine__item___info____title}>Электронная почта</div>
-                                    <div className={classes.footer_infoLine__item___info____desc}>reception@investportal.ru</div>
+                                    <a href="mailto:reception@investkchr.ru" className={classes.footer_infoLine__item___info____desc}>reception@investkchr.ru</a>
                                 </div>
                             </div>
                             <div className={classes.footer_infoLine__item}>
@@ -54,7 +54,7 @@ function Footer({ children, ...props }) {
                                 </div>
                                 <div className={classes.footer_infoLine__item___info}>
                                     <div className={classes.footer_infoLine__item___info____title}>Наш адрес</div>
-                                    <div className={classes.footer_infoLine__item___info____desc}>Черкесск, проспект Ленина, 53</div>
+                                    <a href="https://yandex.ru/maps/1104/cherkessk/?ll=42.047539%2C44.228726&mode=routes&rtext=~44.228819%2C42.048339&rtt=taxi&ruri=~ymapsbm1%3A%2F%2Forg%3Foid%3D221767251638&z=17.11" target="_blank" className={classes.footer_infoLine__item___info____desc}>Черкесск, Комсомольская улица, 23</a>
                                 </div>
                             </div>
                         </div>

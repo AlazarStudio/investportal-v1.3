@@ -102,3 +102,7 @@
 .footer_makeLine__left span{
     border-bottom: 1px solid var(--blue_color);
 }
+
+.footer_infoLine__item___info____desc{
+    color: var(--blue_color);
+}
