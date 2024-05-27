@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import classes from './Header.module.css';
 import { Link } from "react-router-dom";
 
@@ -35,6 +35,10 @@ function Header({ children, ...props }) {
         municipalnye_obrazovaniya: "Муниципальные образования",
         // feedback: "Обратная связь"
     };
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <>
