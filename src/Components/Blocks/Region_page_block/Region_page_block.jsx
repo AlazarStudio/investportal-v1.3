@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import classes from './Region_page_block.module.css';
 import ColumnBlock from "../../Standart/ColumnBlock/ColumnBlock";
 import WidthBlock from "../../Standart/WidthBlock/WidthBlock";
@@ -23,12 +23,40 @@ function Region_page_block({ children, ...props }) {
         setModalOpen(true);
     };
 
-    // Функция для закрытия модального окна
     const handleCloseModal = () => {
         document.body.classList.remove('no-scroll');
         setModalOpen(false);
         setModalContent('');
     };
+
+    function useCountUp(endValue, duration) {
+        const [value, setValue] = useState(0);
+    
+        useEffect(() => {
+            let start = 0;
+            const end = endValue;
+            const incrementTime = duration / end;
+    
+            const timer = setInterval(() => {
+                start += 1;
+                setValue(start);
+                if (start === end) {
+                    clearInterval(timer);
+                }
+            }, incrementTime);
+    
+            return () => clearInterval(timer);
+        }, [endValue, duration]);
+    
+        return value;
+    }
+
+    // Using the custom hook for each number
+    const num1 = useCountUp(2, 500);
+    const num2 = useCountUp(10, 1200);
+    const num3 = useCountUp(5, 800);
+    const num4 = useCountUp(83, 2000);
+    const num5 = useCountUp(4, 600);
     return (
         <>
             <ColumnBlock gap="80px" overflow={'hidden'}>
@@ -48,27 +76,27 @@ function Region_page_block({ children, ...props }) {
 
                         <div className={classes.region_nums}>
                             <div className={classes.region_nums__item}>
-                                <div className={classes.region_nums__item___num}>2</div>
+                                <div className={classes.region_nums__item___num}>{num1}</div>
                                 <div className={classes.region_nums__item___desc}>городских округа</div>
                             </div>
 
                             <div className={classes.region_nums__item}>
-                                <div className={classes.region_nums__item___num}>10</div>
+                                <div className={classes.region_nums__item___num}>{num2}</div>
                                 <div className={classes.region_nums__item___desc}>муниципальных районов</div>
                             </div>
 
                             <div className={classes.region_nums__item}>
-                                <div className={classes.region_nums__item___num}>5</div>
+                                <div className={classes.region_nums__item___num}>{num3}</div>
                                 <div className={classes.region_nums__item___desc}>городских поселений</div>
                             </div>
 
                             <div className={classes.region_nums__item}>
-                                <div className={classes.region_nums__item___num}>83</div>
+                                <div className={classes.region_nums__item___num}>{num4}</div>
                                 <div className={classes.region_nums__item___desc}>сельских поселений</div>
                             </div>
 
                             <div className={classes.region_nums__item}>
-                                <div className={classes.region_nums__item___num}>4</div>
+                                <div className={classes.region_nums__item___num}>{num5}</div>
                                 <div className={classes.region_nums__item___desc}>города</div>
                             </div>
                         </div>
