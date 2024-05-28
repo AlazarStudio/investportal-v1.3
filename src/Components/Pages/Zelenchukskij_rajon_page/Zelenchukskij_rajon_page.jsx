@@ -140,7 +140,7 @@ function Zelenchukskij_rajon_page({ children, ...props }) {
                             </div>
                         </div>
 
-                        <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">
+                        {/* <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">
                             ключевые инвестиционные проекты
 
                             <div className={classes.rajon_subtitle}>
@@ -167,7 +167,7 @@ function Zelenchukskij_rajon_page({ children, ...props }) {
                                 </div>
                                 <div className={`${classes.rajon_table__row___item} ${classes.widthBlock5} `}>1016 чел.</div>
                             </div>
-                        </div>
+                        </div> */}
                     </WidthBlock>
                 </CenterBlock>
             </ColumnBlock>

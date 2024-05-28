@@ -97,7 +97,7 @@ function Cherkessk_page({ children, ...props }) {
                             </div>
                         </div>
 
-                        <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">
+                        {/* <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">
                             ключевые инвестиционные проекты
 
                             <div className={classes.rajon_subtitle}>
@@ -157,7 +157,71 @@ function Cherkessk_page({ children, ...props }) {
                                 </div>
                                 <div className={`${classes.rajon_table__row___item} ${classes.widthBlock5} `}>550 чел.</div>
                             </div>
-                        </div>
+                        </div> */}
+
+                        {/* <div className={classes.districtBlock}>
+                            <div className={classes.districtTitle}>
+                                INVEST
+                            </div>
+                            <div className={classes.districtContent}>
+                                <div className={classes.districtImg}>
+                                    <img src="/cherkessk.webp" alt="" />
+                                </div>
+                                <div className={classes.districtContentTextBlock}>
+
+                                    <div className={classes.districtContentTextNameLast}>
+                                        LastName
+                                    </div>
+
+                                    <div className={classes.districtContentTextNameFirst}>
+                                        First Name
+                                    </div>
+
+                                    <div className={classes.districtContentTextPosition}>
+                                        Position
+                                    </div>
+
+                                    <div className={classes.districtContentTextNumber}>
+                                        <span style={{ fontWeight: '600' }}>
+                                            Number:
+                                        </span>
+                                        <span style={{ fontWeight: '500' }}>
+                                            +71032498
+                                        </span>
+
+                                    </div>
+
+                                    <div className={classes.districtContentTextEmail}>
+                                        <span style={{ fontWeight: '600' }}>
+                                            Email:
+                                        </span>
+                                        <span style={{ fontWeight: '500' }}>
+                                            example@example.com
+                                        </span>
+                                    </div>
+
+                                    <div className={classes.districtContentTextNumber}>
+                                        <span style={{ fontWeight: '600' }}>
+                                            Number:
+                                        </span>
+                                        <span style={{ fontWeight: '500' }}>
+                                            +71032498
+                                        </span>
+                                    </div>
+
+                                    <div className={classes.districtContentTextSite}>
+                                        <span style={{ fontWeight: '600' }}>
+                                            Site:
+                                        </span>
+                                        <span style={{ fontWeight: '500' }}>
+                                            example.com
+                                        </span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div> */}
+
                     </WidthBlock>
                 </CenterBlock>
             </ColumnBlock>

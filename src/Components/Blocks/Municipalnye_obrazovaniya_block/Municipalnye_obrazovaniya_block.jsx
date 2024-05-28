@@ -182,9 +182,9 @@ function Municipalnye_obrazovaniya_block({ children, ...props }) {
                         </div>
                         <div className={classes.municipBlocks_item}>
                             <div className={classes.municipBlocks_item__img}><img src="/mo9.png" alt="" /></div>
-                            <div className={classes.municipBlocks_item__place}>Хабеский район</div>
+                            <div className={classes.municipBlocks_item__place}>Хабезский район</div>
                             <Link to={'https://xabez.ru'} target="_blank" className={classes.municipBlocks_item__site}>Сайт</Link>
-                            <Link to={`/municipalnye_obrazovaniya/${names['Хабеский район']}`} className={classes.municipBlocks_item__more}>Подробнее</Link>
+                            <Link to={`/municipalnye_obrazovaniya/${names['Хабезский район']}`} className={classes.municipBlocks_item__more}>Подробнее</Link>
                         </div>
                         <div className={classes.municipBlocks_item}>
                             <div className={classes.municipBlocks_item__img}><img src="/moNone.png" alt="" /></div>

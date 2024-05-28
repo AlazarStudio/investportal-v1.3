@@ -5,6 +5,7 @@ import CenterBlock from "../../Standart/CenterBlock/CenterBlock";
 import ColumnBlock from "../../Standart/ColumnBlock/ColumnBlock";
 import H2 from "../../Standart/H2/H2";
 import DocsBlock from "../DocsBlock/DocsBlock";
+import { Link } from "react-router-dom";
 
 function GCHP_block({ children, ...props }) {
     const [activeTab, setActiveTab] = useState('gchp');
@@ -19,7 +20,7 @@ function GCHP_block({ children, ...props }) {
         { id: 'oivkchr', title: 'Органы исполнительной власти КЧР' },
         { id: 'ps', title: 'Полезные ссылки' },
         { id: 'pgchpks', title: 'ПРОЕКТЫ ГЧП, КС' },
-        { id: 'snsmkchr', title: 'Cсылка на сайт Минэк КЧР' },
+        { id: 'snsmkchr', title: 'Cсылка на сайт Минэк КЧР', ref: "https://economykchr.ru/investitsii/321-otsenka-effektivnosti-proektov-gchp" },
     ];
 
     const getContent = (tabId) => {
@@ -100,14 +101,16 @@ function GCHP_block({ children, ...props }) {
                 files: [
                     { title: 'Об утверждении перечня объектов, которые могут быть переданы в концессию, ГЧП', name: "Ob utverzhdenii perechnya obektov, kotorye mogut byt peredany v koncessiyu, GCHP", path: "pdf" },
                     { title: 'РЕЕСТР ИНИЦИАТИВ ГЧП', name: "REESTR INICIATIV GCHP", path: "pdf" },
+                    { title: 'Реестр заключенных соглашений ГЧП', name: "REESTR ZAKLUCHEN GCHP", path: "pdf" },
+
                 ],
             },
-            snsmkchr: {
-                description: "",
-                files: [
-                    { title: 'Ссылка на сайт Минэк КЧР', name: "Ssylka na sajt Minek KCHR", path: "docx" },
-                ],
-            },
+            // snsmkchr: {
+            //     description: "",
+            //     files: [
+            //         { title: 'Ссылка на сайт Минэк КЧР', name: "Ssylka na sajt Minek KCHR", path: "docx" },
+            //     ],
+            // },
         };
 
         if (!content[tabId]) return <div>Выберите вкладку</div>;
@@ -123,6 +126,7 @@ function GCHP_block({ children, ...props }) {
         );
     };
 
+
     return (
         <>
             <ColumnBlock gap="80px">
@@ -132,13 +136,23 @@ function GCHP_block({ children, ...props }) {
 
                         <div className={classes.docsTab}>
                             {tabs.map(tab => (
-                                <div key={tab.id}
-                                    className={`${classes.docsTab_item} ${activeTab === tab.id ? classes.activeTab_item : ''}`}
-                                    onClick={() => setActiveTab(tab.id)}>
-                                    <div className={classes.docsTab_item__title}>
-                                        {tab.title}
+                                tab.ref ? (
+                                    <Link target="_blank" to={tab.ref} key={tab.id}
+                                        className={`${classes.docsTab_item} ${activeTab === tab.id ? classes.activeTab_item : ''}`}
+                                        onClick={() => setActiveTab(tab.id)}>
+                                        <div className={classes.docsTab_item__title}>
+                                            {tab.title}
+                                        </div>
+                                    </Link>
+                                ) : (
+                                    <div key={tab.id}
+                                        className={`${classes.docsTab_item} ${activeTab === tab.id ? classes.activeTab_item : ''}`}
+                                        onClick={() => setActiveTab(tab.id)}>
+                                        <div className={classes.docsTab_item__title}>
+                                            {tab.title}
+                                        </div>
                                     </div>
-                                </div>
+                                )
                             ))}
                         </div>
 
@@ -147,7 +161,7 @@ function GCHP_block({ children, ...props }) {
                         </div>
                     </WidthBlock>
                 </CenterBlock>
-            </ColumnBlock>
+            </ColumnBlock >
         </>
     );
 }

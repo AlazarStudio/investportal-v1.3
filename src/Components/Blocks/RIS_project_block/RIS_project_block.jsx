@@ -22,8 +22,9 @@ function RIS_project_block({ children, ...props }) {
             declaration: {
                 description: "",
                 files: [
-                    { title: 'Указ Главы КЧР 236 Об инвестиционной декларации КЧР', name: "Ukaz Glavy KCHR 236 Ob investicionnoj deklaracii KCHR", path: "pdf" },
-                    { title: 'РГ-1-р Об ОИВ уполномоченном на проведение мониторинга внедрения регстандарта', name: "RG-1-r Ob OIV upolnomochennom na provedenie monitoringa vnedreniya regstandarta", path: "pdf" },
+                    { title: 'Инвестиционная декларация', name: "invest deklaratsia", path: "pdf" },
+                    // { title: 'Указ Главы КЧР 236 Об инвестиционной декларации КЧР', name: "Ukaz Glavy KCHR 236 Ob investicionnoj deklaracii KCHR", path: "pdf" },
+                    // { title: 'РГ-1-р Об ОИВ уполномоченном на проведение мониторинга внедрения регстандарта', name: "RG-1-r Ob OIV upolnomochennom na provedenie monitoringa vnedreniya regstandarta", path: "pdf" },
                 ],
             },
             development: {
