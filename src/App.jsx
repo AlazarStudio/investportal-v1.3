@@ -19,6 +19,7 @@ import One_New_Page from "./Components/Pages/One_New_Page";
 import MP_Federal_Page from "./Components/Pages/MP_Federal_Page/MP_Federal_Page";
 import MP_Region_Page from "./Components/Pages/MP_Region_Page/MP_Region_Page";
 import MP_Organizations_Page from "./Components/Pages/MP_Organizations_Page/MP_Organizations_Page";
+import Feedback_Page from "./Components/Pages/Feedback_Page/Feedback_Page";
 
 import Projects_All_Page from "./Components/Pages/Projects_All_Page";
 import Projects_One_Page from "./Components/Pages/Projects_One_Page";
@@ -80,6 +81,8 @@ function App() {
                     
           <Route path="documents" element={<Documents_Page />} />
           <Route path="documents_msp" element={<Documents_msp />} />
+
+          <Route path="feedback" element={<Feedback_Page />} />
           {/* <Route path="documents_export" element={<Documents_export />} /> */}
           <Route path="*" element={<Non_Found_Page />} />
         </Route>
