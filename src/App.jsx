@@ -18,6 +18,7 @@ import News_Page from "./Components/Pages/News_Page";
 import One_New_Page from "./Components/Pages/One_New_Page";
 import MP_Federal_Page from "./Components/Pages/MP_Federal_Page/MP_Federal_Page";
 import MP_Region_Page from "./Components/Pages/MP_Region_Page/MP_Region_Page";
+import MP_Organizations_Page from "./Components/Pages/MP_Organizations_Page/MP_Organizations_Page";
 
 import Projects_All_Page from "./Components/Pages/Projects_All_Page";
 import Projects_One_Page from "./Components/Pages/Projects_One_Page";
@@ -49,10 +50,11 @@ function App() {
 
           <Route path="federalniye_mery_podderjki" element={<MP_Federal_Page />} />
           <Route path="regionalniye_mery_podderjki" element={<MP_Region_Page />} />
+          <Route path="organizations" element={<MP_Organizations_Page />} />
 
           <Route path="federalniye_mery_podderjki/:id" element={<MP_Open_Page />} />
           <Route path="regionalniye_mery_podderjki/:id" element={<MP_Open_Page />} />
-
+          <Route path="organizations/:id" element={<MP_Open_Page />} />
 
           <Route path="export" element={<Export_Page />} />
           <Route path="regionalniy_exportniy_standart" element={<Regionalniy_exportniy_standart_Page />} />

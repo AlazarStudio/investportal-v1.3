@@ -8,7 +8,7 @@ import Header from "../../Blocks/Header/Header";
 import Button from "../../Standart/Button/Button";
 import { Link } from "react-router-dom";
 
-import { items_federal } from '../../../mp_data'; 
+import { items_federal } from '../../../mp_data';
 
 function MP_Federal_Page({ children, ...props }) {
     const [searchTerm, setSearchTerm] = useState("");
@@ -44,13 +44,19 @@ function MP_Federal_Page({ children, ...props }) {
                                     <div className={`${classes.mp_tumbler_item___img____el}`}>
                                         <img src="/MP_region_logo.png" alt="" />
                                     </div>
+                                    <div className={`${classes.mp_tumbler_item___img____el}`}>
+                                        <img src="/mp_organizations_logo.png" alt="" />
+                                    </div>
                                 </div>
                                 <div className={classes.mp_tumbler_item___title}>
                                     <Link to={'/federalniye_mery_podderjki'} className={`${classes.mp_tumbler_item___title____el} ${classes.mp_tumbler_item___title____active}`}>
                                         Федеральные
                                     </Link>
-                                    <Link to={'/regionalniye_mery_podderjki'}  className={`${classes.mp_tumbler_item___title____el}`}>
+                                    <Link to={'/regionalniye_mery_podderjki'} className={`${classes.mp_tumbler_item___title____el}`}>
                                         Региональные
+                                    </Link>
+                                    <Link to={'/organizations'} className={`${classes.mp_tumbler_item___title____el}`}>
+                                        Организации
                                     </Link>
                                 </div>
                             </div>

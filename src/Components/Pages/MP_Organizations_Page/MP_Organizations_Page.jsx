@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import classes from './MP_Region_Page.module.css';
+import classes from './MP_Organizations_Page.module.css';
 import H2 from "../../Standart/H2/H2";
 import WidthBlock from "../../Standart/WidthBlock/WidthBlock";
 import CenterBlock from "../../Standart/CenterBlock/CenterBlock";
@@ -8,16 +8,16 @@ import Header from "../../Blocks/Header/Header";
 import Button from "../../Standart/Button/Button";
 import { Link } from "react-router-dom";
 
-import { items_region } from '../../../mp_data'; 
+import { items_organizations } from '../../../mp_data';
 
-function MP_Region_Page({ children, ...props }) {
+function MP_Organizations_Page({ children, ...props }) {
     const [searchTerm, setSearchTerm] = useState("");
 
     const handleSearch = (e) => {
         setSearchTerm(e.target.value);
     };
 
-    const filteredItems = items_region.filter(item =>
+    const filteredItems = items_organizations.filter(item =>
         item.title.toLowerCase().includes(searchTerm.toLowerCase())
     );
 
@@ -41,10 +41,10 @@ function MP_Region_Page({ children, ...props }) {
                                     <div className={`${classes.mp_tumbler_item___img____el}`}>
                                         <img src="/mp_federal_logo.png" alt="" />
                                     </div>
-                                    <div className={`${classes.mp_tumbler_item___img____el} ${classes.mp_tumbler_item___img____active}`}>
+                                    <div className={`${classes.mp_tumbler_item___img____el}`}>
                                         <img src="/MP_region_logo.png" alt="" />
                                     </div>
-                                    <div className={`${classes.mp_tumbler_item___img____el}`}>
+                                    <div className={`${classes.mp_tumbler_item___img____el} ${classes.mp_tumbler_item___img____active}`}>
                                         <img src="/mp_organizations_logo.png" alt="" />
                                     </div>
                                 </div>
@@ -52,10 +52,10 @@ function MP_Region_Page({ children, ...props }) {
                                     <Link to={'/federalniye_mery_podderjki'} className={`${classes.mp_tumbler_item___title____el}`}>
                                         Федеральные
                                     </Link>
-                                    <Link to={'/regionalniye_mery_podderjki'} className={`${classes.mp_tumbler_item___title____el} ${classes.mp_tumbler_item___title____active}`}>
+                                    <Link to={'/regionalniye_mery_podderjki'} className={`${classes.mp_tumbler_item___title____el}`}>
                                         Региональные
                                     </Link>
-                                    <Link to={'/organizations'} className={`${classes.mp_tumbler_item___title____el}`}>
+                                    <Link to={'/organizations'} className={`${classes.mp_tumbler_item___title____el} ${classes.mp_tumbler_item___title____active}`}>
                                         Организации
                                     </Link>
                                 </div>
@@ -83,7 +83,7 @@ function MP_Region_Page({ children, ...props }) {
                                             <div className={classes.mp_data__items___el____bottom______desc}>
                                                 {item.desc}
                                             </div>
-                                            <Button link={`/regionalniye_mery_podderjki/${item.link}`} width={'310px'}>
+                                            <Button link={`/organizations/${item.link}`} width={'310px'}>
                                                 Узнать больше
                                             </Button>
                                         </div>
@@ -98,4 +98,4 @@ function MP_Region_Page({ children, ...props }) {
     );
 }
 
-export default MP_Region_Page;
+export default MP_Organizations_Page;

@@ -8,14 +8,18 @@ import ColumnBlock from "../../Standart/ColumnBlock/ColumnBlock";
 import Header from "../../Blocks/Header/Header";
 import Button from "../../Standart/Button/Button";
 import { Link } from "react-router-dom";
-import { items_region } from '../../../mp_data'; // импорт данных из items.js
-import { items_federal } from '../../../mp_data'; // импорт данных из items.js
+import { items_region } from '../../../mp_data';
+import { items_federal } from '../../../mp_data';
+import { items_organizations } from '../../../mp_data';
 
 
 function MP_Open_Page({ children, ...props }) {
+    console.log(items_organizations);
     let { id } = useParams();
     const item_federal = items_federal.find(item => item.link === id);
     const item_region = items_region.find(item => item.link === id);
+    const items_organization = items_organizations.find(item => item.link === id);
+
     let item;
 
     if (item_region != undefined) {
@@ -24,6 +28,10 @@ function MP_Open_Page({ children, ...props }) {
 
     if (item_federal != undefined) {
         item = item_federal
+    }
+
+    if (items_organization != undefined) {
+        item = items_organization
     }
 
     if (!item) {

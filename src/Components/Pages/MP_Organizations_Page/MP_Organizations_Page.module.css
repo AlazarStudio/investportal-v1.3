@@ -1,0 +1,133 @@
+.mp_tumbler {
+    width: 100%;
+    height: 420px;
+    background-image: url('/MP_federal.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+}
+
+.mp_tumbler__item {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.mp_tumbler_item___img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mp_tumbler_item___title {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.mp_tumbler_item___img____el {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    opacity: 0.3;
+}
+
+.mp_tumbler_item___img____active {
+    opacity: 1;
+}
+
+.mp_tumbler_item___title____el {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 22px 40px;
+    color: #262A5A;
+}
+
+.mp_tumbler_item___title____active {
+    background-color: var(--blue_color);
+    border-radius: 20px;
+    color: #fff;
+}
+
+/* ----------------------------------- */
+
+.mp_data {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 80px;
+}
+
+.mp_data_search {
+    width: 100%;
+}
+
+.mp_data_search input {
+    width: 100%;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24.38px;
+    padding: 20px 30px;
+    border-radius: 30px;
+    border: 1px solid #8B8DA4;
+    outline: none;
+    background-color: #eef0f4;
+}
+
+.mp_data__items {
+    display: flex;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.mp_data__items___el {
+    width: 48%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.mp_data__items___el____img {
+    width: 100%;
+    height: 300px;
+}
+
+.mp_data__items___el____img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mp_data__items___el____bottom {
+    border: 1px solid #262A5A;
+    border-top: none;
+    border-radius: 0 0 20px 20px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 280px;
+}
+
+.mp_data__items___el____bottom______title {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    text-align: center;
+}
+
+.mp_data__items___el____bottom______desc {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: center;
+}
