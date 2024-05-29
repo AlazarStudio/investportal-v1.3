@@ -140,7 +140,7 @@ function Adygehablskij_rajon_page({ children, ...props }) {
                                     <div className={classes.rajon_konkurent__item___top____title}>ЭТНОЭКОНОМИКА</div>
                                 </div>
                                 <div className={classes.rajon_konkurent__item___bottom}>
-                                Восстановление и развитие этноэкономики, включая овцеводство, коневодство, пчеловодство.
+                                    Восстановление и развитие этноэкономики, включая овцеводство, коневодство, пчеловодство.
                                 </div>
                             </div>
                         </div>
@@ -184,7 +184,37 @@ function Adygehablskij_rajon_page({ children, ...props }) {
                                 <div className={`${classes.rajon_table__row___item} ${classes.widthBlock5} `}>65 чел.</div>
                             </div>
                         </div> */}
-                        
+
+
+                        <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">ИНВЕСТИЦИОННЫЙ УПОЛНОМОЧЕННЫЙ</H2>
+
+                        <div className={classes.container}>
+                            <div className={classes.profile}>
+                                <div className={classes.profile_img}>
+                                    <img src="/MO_upl_adige.jpg" alt="Profile Image" />
+                                </div>
+                                <div className={classes.info}>
+                                    <h2>Шакова Лира Аслановна</h2>
+
+                                    <p><b>Дата рождения:</b> 06.05.1986 </p>
+
+                                    <p><b>Полное наименование должности:</b></p>
+                                    <p>Начальник отдела экономического развития и имущественных отношений администрации Адыге-Хабльского муниципального района</p>
+
+                                    <p><b>Нормативный акт, содержащий сведения об утверждении в качестве инвестиционного уполномоченного:</b></p>
+                                    <p>Распоряжение администрации Хабезского муниципального района от 9.02.2024 № 10 «Об определении структурного подразделения, ответственного за реализацию полномочий по привлечению инвестиций и работе с инвесторами	в	Адыге-Хабльском муниципальном районе»</p>
+
+                                    <p><b>Образование:</b> Высшее</p>
+                                    <p><b>Работа в прошлом:</b> 04.05.2010-17.11.2016года – специалистом в отделе экономического развития и имущественных отношений администрации Адыге-Хабльского муниципального района.
+                                        17.11.2016 по настоящее время - начальник отдела экономического развития и имущественных отношений администрации Адыге-Хабльского муниципального района.
+                                    </p>
+                                    <p><b>Государственные награды:</b> Почетная грамота Правительства КЧР, 2022г.</p>
+                                    <p><b>Телефон:</b> 8 988 916 34 88</p>
+                                    <p><b>Эл. почта:</b> <a href="mailto:otdelekonomiki@mail.ru">otdelekonomiki@mail.ru</a></p>
+                                    <p><b>Официальный сайт МО:</b> <a href="https://adigehablskimr.gosuslugi.ru/" target="_blank">https://adigehablskimr.gosuslugi.ru//</a></p>
+                                </div>
+                            </div>
+                        </div>
                     </WidthBlock>
                 </CenterBlock>
             </ColumnBlock>

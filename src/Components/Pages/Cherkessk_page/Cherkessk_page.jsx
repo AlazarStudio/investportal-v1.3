@@ -159,68 +159,33 @@ function Cherkessk_page({ children, ...props }) {
                             </div>
                         </div> */}
 
-                        {/* <div className={classes.districtBlock}>
-                            <div className={classes.districtTitle}>
-                                INVEST
-                            </div>
-                            <div className={classes.districtContent}>
-                                <div className={classes.districtImg}>
-                                    <img src="/cherkessk.webp" alt="" />
+                        <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">ИНВЕСТИЦИОННЫЙ УПОЛНОМОЧЕННЫЙ</H2>
+
+                        <div className={classes.container}>
+                            <div className={classes.profile}>
+                                <div className={classes.profile_img}>
+                                    <img src="/MO_upl_cherkessk.jpg" alt="Profile Image" />
                                 </div>
-                                <div className={classes.districtContentTextBlock}>
+                                <div className={classes.info}>
+                                    <h2>Охтова Асият Мухтаровна</h2>
 
-                                    <div className={classes.districtContentTextNameLast}>
-                                        LastName
-                                    </div>
+                                    <p><b>Дата рождения:</b> 07.07.1983</p>
 
-                                    <div className={classes.districtContentTextNameFirst}>
-                                        First Name
-                                    </div>
-
-                                    <div className={classes.districtContentTextPosition}>
-                                        Position
-                                    </div>
-
-                                    <div className={classes.districtContentTextNumber}>
-                                        <span style={{ fontWeight: '600' }}>
-                                            Number:
-                                        </span>
-                                        <span style={{ fontWeight: '500' }}>
-                                            +71032498
-                                        </span>
-
-                                    </div>
-
-                                    <div className={classes.districtContentTextEmail}>
-                                        <span style={{ fontWeight: '600' }}>
-                                            Email:
-                                        </span>
-                                        <span style={{ fontWeight: '500' }}>
-                                            example@example.com
-                                        </span>
-                                    </div>
-
-                                    <div className={classes.districtContentTextNumber}>
-                                        <span style={{ fontWeight: '600' }}>
-                                            Number:
-                                        </span>
-                                        <span style={{ fontWeight: '500' }}>
-                                            +71032498
-                                        </span>
-                                    </div>
-
-                                    <div className={classes.districtContentTextSite}>
-                                        <span style={{ fontWeight: '600' }}>
-                                            Site:
-                                        </span>
-                                        <span style={{ fontWeight: '500' }}>
-                                            example.com
-                                        </span>
-                                    </div>
-
+                                    <p><b>Полное наименование должности:</b></p>
+                                    <p>Начальник отдела экономического развития города и методического обеспечения предоставления государственных и муниципальных услуг мэрии муниципального образования города Черкесска</p>
+                                                                        
+                                    <p><b>Нормативный акт, содержащий сведения об утверждении в качестве инвестиционного уполномоченного:</b></p>
+                                    <p>Распоряжение мэрии муниципального образования города Черкесска от 19.01.2024 № 7-р «О назначении инвестиционного уполномоченного муниципального образования города Черкесска»</p>
+                                    
+                                    <p><b>Образование:</b> Высшее</p>
+                                    <p><b>Работа в прошлом:</b> Информационный центр МВД по Карачаево-Черкесской Республике</p>
+                                    <p><b>Государственные награды:</b> Медаль «За отличие в службе» - 2 (2014 год) и 3 степени (2020 год), НЗ «За верность долгу» (2011 год), НЗ «за отличную службу в МВД 1 степени» (2017 год).</p>
+                                    <p><b>Телефон:</b> 8 928 386 07 01</p>
+                                    <p><b>Эл. почта:</b> <a href="mailto:asiyat.oxtova@mail.ru">asiyat.oxtova@mail.ru</a></p>
+                                    <p><b>Официальный сайт МО:</b> <a href="https://cherkessk09.ru/" target="_blank">https://cherkessk09.ru</a></p>
                                 </div>
                             </div>
-                        </div> */}
+                        </div>
 
                     </WidthBlock>
                 </CenterBlock>

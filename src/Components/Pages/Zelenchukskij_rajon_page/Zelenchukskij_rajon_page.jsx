@@ -168,6 +168,35 @@ function Zelenchukskij_rajon_page({ children, ...props }) {
                                 <div className={`${classes.rajon_table__row___item} ${classes.widthBlock5} `}>1016 чел.</div>
                             </div>
                         </div> */}
+                        
+
+                        <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">ИНВЕСТИЦИОННЫЙ УПОЛНОМОЧЕННЫЙ</H2>
+
+                        <div className={classes.container}>
+                            <div className={classes.profile}>
+                                <div className={classes.profile_img}>
+                                    <img src="/MO_upl_abaza.jpg" alt="Profile Image" />
+                                </div>
+                                <div className={classes.info}>
+                                    <h2>Кишмахова Ирма Рамазановна</h2>
+
+                                    <p><b>Дата рождения:</b> 12.04.1989</p>
+
+                                    <p><b>Полное наименование должности:</b></p>
+                                    <p>Исполняющий обязанности начальника отдела экономического развития и муниципального имущества администрации Абазинского муниципального района</p>
+
+                                    <p><b>Нормативный акт, содержащий сведения об утверждении в качестве инвестиционного уполномоченного:</b></p>
+                                    <p>Распоряжение администрации Абазинского муниципального района № 02-р от 15.01.2024 «О назначении инвестиционного уполномоченного»</p>
+
+                                    <p><b>Образование:</b> Высшее, Московский Открытый Социальный Университет</p>
+                                    <p><b>Работа в прошлом:</b> И.о. начальника отдела экономического развития и муниципального имущества администрации Абазинского муниципального района </p>
+                                    <p><b>Государственные награды:</b> Почетные грамоты: Министерства экономического развития Карачаево-Черкесской Республики.</p>
+                                    <p><b>Телефон:</b> 8 (87873) 34120</p>
+                                    <p><b>Эл. почта:</b> <a href="mailto:abazekonom@mail.ru">abazekonom@mail.ru</a></p>
+                                    <p><b>Официальный сайт МО:</b> <a href="https://abaz-raion.ru/" target="_blank">https://abaz-raion.ru/</a></p>
+                                </div>
+                            </div>
+                        </div>
                     </WidthBlock>
                 </CenterBlock>
             </ColumnBlock>
