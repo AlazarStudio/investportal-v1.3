@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import classes from './Municipalnye_obrazovaniya_block.module.css';
 import WidthBlock from "../../Standart/WidthBlock/WidthBlock";
 import CenterBlock from "../../Standart/CenterBlock/CenterBlock";
@@ -48,6 +48,36 @@ function Municipalnye_obrazovaniya_block({ children, ...props }) {
         'Карачаевский район': 'karachaevskij_rajon',
     }
 
+
+    function useCountUp(endValue, duration) {
+        const [value, setValue] = useState(0);
+
+        useEffect(() => {
+            let start = 0;
+            const end = endValue;
+            const incrementTime = duration / end;
+
+            const timer = setInterval(() => {
+                start += 1;
+                setValue(start);
+                if (start === end) {
+                    clearInterval(timer);
+                }
+            }, incrementTime);
+
+            return () => clearInterval(timer);
+        }, [endValue, duration]);
+
+        return value;
+    }
+
+    // Using the custom hook for each number
+    const num1 = useCountUp(2, 500);
+    const num2 = useCountUp(10, 1200);
+    const num3 = useCountUp(4, 600);
+    const num4 = useCountUp(5, 800);
+    const num5 = useCountUp(83, 2000);
+
     return (
         <>
             <ColumnBlock gap="80px">
@@ -61,19 +91,19 @@ function Municipalnye_obrazovaniya_block({ children, ...props }) {
                             <div className={classes.municMap_info}>
                                 <div className={classes.municMap_data}>
                                     <div className={classes.municMap_info__item}>
-                                        <p>2</p> <span>городских округа</span>
+                                        <p>{num1}</p> <span>городских округа</span>
                                     </div>
                                     <div className={classes.municMap_info__item}>
-                                        <p>10</p> <span>муниципальных районов</span>
+                                        <p>{num2}</p> <span>муниципальных районов</span>
                                     </div>
                                     <div className={classes.municMap_info__item}>
-                                        <p>4</p> <span>города</span>
+                                        <p>{num3}</p> <span>города</span>
                                     </div>
                                     <div className={classes.municMap_info__item}>
-                                        <p>5</p> <span>городских поселений</span>
+                                        <p>{num4}</p> <span>городских поселений</span>
                                     </div>
                                     <div className={classes.municMap_info__item}>
-                                        <p>84</p> <span>сельских поселений</span>
+                                        <p>{num5}</p> <span>сельских поселений</span>
                                     </div>
                                 </div>
 

@@ -5,8 +5,19 @@ import CenterBlock from "../../Standart/CenterBlock/CenterBlock";
 import ColumnBlock from "../../Standart/ColumnBlock/ColumnBlock";
 import H2 from "../../Standart/H2/H2";
 import Header from "../../Blocks/Header/Header";
+import useCountUp from '../../../useCountUp';
 
 function Ustdzhegutinskij_rajon_page({ children, ...props }) {
+    const [num1, ref1] = useCountUp(19, 1000);
+    const [num2, ref2] = useCountUp(50.8, 1000);
+    const [num3, ref3] = useCountUp(99.2, 1000);
+    const [num4, ref4] = useCountUp(67.5, 1000);
+    const [num5, ref5] = useCountUp(9.6, 1000);
+    const [num6, ref6] = useCountUp(2.7, 1000);
+    const [num7, ref7] = useCountUp(37.1, 1000);
+    const [num8, ref8] = useCountUp(21.5, 1000);
+    const [num9, ref9] = useCountUp(11, 1000);
+    const [num10, ref10] = useCountUp(2855, 1000);
     return (
         <>
             <Header />
@@ -30,54 +41,54 @@ function Ustdzhegutinskij_rajon_page({ children, ...props }) {
 
                         <div className={classes.rajon_info}>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>19 км.</div>
+                                <div className={classes.rajon_info__item___title} ref={ref1}>{num1} км.</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>расстояние до г. Черкесска</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>50,8 тыс. чел.</div>
+                                <div className={classes.rajon_info__item___title} ref={ref2}>{num2} тыс. чел.</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>население</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>99,2 тыс. га</div>
+                                <div className={classes.rajon_info__item___title} ref={ref3}>{num3} тыс. га</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>площадь территории</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>67,5 тыс. га</div>
+                                <div className={classes.rajon_info__item___title} ref={ref4}>{num4} тыс. га</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>сельскохозяйственные угодья</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>9,611 тыс. га</div>
+                                <div className={classes.rajon_info__item___title} ref={ref5}>{num5} тыс. га</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>Пашни</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>2,733 тыс. га</div>
+                                <div className={classes.rajon_info__item___title} ref={ref6}>{num6} тыс. га</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>Сенокосы</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>37,012 тыс. га</div>
+                                <div className={classes.rajon_info__item___title} ref={ref7}>{num7} тыс. га</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>Пастбища</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>21,515 тыс. га</div>
+                                <div className={classes.rajon_info__item___title} ref={ref8}>{num8} тыс. га</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>Прочие земли</div>
                             </div>
 
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>11</div>
+                                <div className={classes.rajon_info__item___title} ref={ref9}>{num9}</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>населенных пунктов</div>
                             </div>
 
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>2855</div>
+                                <div className={classes.rajon_info__item___title} ref={ref10}>{num10}</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>субъектов малого и среднего предпринимательства</div>
                             </div>

@@ -6,7 +6,7 @@ import ColumnBlock from "../../Standart/ColumnBlock/ColumnBlock";
 import H2 from "../../Standart/H2/H2";
 import Header from "../../Blocks/Header/Header";
 
-import useCountUp from '../../../useCountUp';
+import useCountUp from '../../../useCountUp'; 
 
 function Abazinskij_rajon_page({ children, ...props }) {
     const [num1, ref1] = useCountUp(44, 1000);

@@ -28,6 +28,13 @@ function Feedback_Page({ children, ...props }) {
         try {
             const response = await axios.post('/php/send_mail.php', new URLSearchParams(form));
             alert(response.data);
+            setForm({
+                fio: '',
+                phone: '',
+                email: '',
+                subject: '',
+                comment: ''
+              });
         } catch (error) {
             console.error('Ошибка при отправке сообщения:', error);
             alert('Произошла ошибка при отправке сообщения.');

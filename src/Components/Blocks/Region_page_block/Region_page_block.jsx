@@ -11,7 +11,7 @@ import { Navigation, Pagination } from 'swiper/modules';
 
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css';
+import 'swiper/css'; 
 
 function Region_page_block({ children, ...props }) {
     const [modalOpen, setModalOpen] = useState(false);

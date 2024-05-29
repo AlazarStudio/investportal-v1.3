@@ -6,7 +6,12 @@ import ColumnBlock from "../../Standart/ColumnBlock/ColumnBlock";
 import H2 from "../../Standart/H2/H2";
 import Header from "../../Blocks/Header/Header";
 
+import useCountUp from '../../../useCountUp';
+
 function Cherkessk_page({ children, ...props }) {
+    const [num1, ref1] = useCountUp(112.8, 1000);
+    const [num2, ref2] = useCountUp(711.6, 1000);
+    const [num3, ref3] = useCountUp(3450, 1000);
     return (
         <>
             <Header />
@@ -26,17 +31,17 @@ function Cherkessk_page({ children, ...props }) {
 
                         <div className={classes.rajon_info}>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>112,8 тыс. чел.</div>
+                                <div className={classes.rajon_info__item___title} ref={ref1}>{num1} тыс. чел.</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>население</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>711,6 тыс. га</div>
+                                <div className={classes.rajon_info__item___title} ref={ref2}>{num2} тыс. га</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>площадь территории</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title}>3 450</div>
+                                <div className={classes.rajon_info__item___title} ref={ref3}>{num3}</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>субъектов малого и среднего предпринимательства</div>
                             </div>
