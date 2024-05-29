@@ -54,7 +54,6 @@ function App() {
 
           <Route path="federalniye_mery_podderjki/:id" element={<MP_Open_Page />} />
           <Route path="regionalniye_mery_podderjki/:id" element={<MP_Open_Page />} />
-          <Route path="organizations/:id" element={<MP_Open_Page />} />
 
           <Route path="export" element={<Export_Page />} />
           <Route path="regionalniy_exportniy_standart" element={<Regionalniy_exportniy_standart_Page />} />

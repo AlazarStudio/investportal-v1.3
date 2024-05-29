@@ -774,182 +774,27 @@ font-family:&quot;Times New Roman&quot;,serif">Направления грант
 
 export const items_organizations = [
     {
-        imgSrc: "/mp_1.png",
-        title: "Поддержка малого и среднего бизнеса от Минэкономразвития и Яндекс Бизнеса",
-        desc: "Малый и средний бизнес сможет удвоить бюджет на продвижение на платформе VK Реклама. Пилотный проект уже успешно завершился в нескольких регионах.",
-        link: 'podderzhka malogo i srednego biznesa ot minekonomrazvitiya i yandeks biznesa111',
-        text: `
-        <p>
-        Предприниматели получат 7 000₽ на запуск первой рекламы своих услуг в Яндекс Бизнесе — сервисе для предпринимателей, который поможет запустить рекламу в интернете без сложных настроек, чтобы предложения компании появились в Яндекс Картах, Поиске и на сайтах партнёров Рекламной сети. Промокод на 7 000₽ действует для новых клиентов Яндекс Бизнеса при минимальном бюджете рекламной кампании от 20 000₽ и сроке размещения от 90 дней.
-        </p><p>
-        Яндекс Бизнес автоматически запустит рекламу на нескольких площадках в интернете — нужно только рассказать о бизнесе, загрузить фотографии и товары или добавить ссылку на сайт. Объявления появятся там, где есть потенциальные клиенты предпринимателя.
-        </p><p>
-        Сервис определит, где выгоднее закупать рекламу прямо сейчас, и будет использовать только те объявления и площадки, которые приводят больше всего клиентов.
-        </p>`
+        imgSrc: "/mp_org_1.jpg",
+        title: "Мой бизнес",
+        desc: "Центром «Мой бизнес» Карачаево-Черкесской Республики оказываются информационно-консультационные услуги и услуги нефинансового характера (форумы, семинары, образовательные курсы и т.д.) субъектам МСП. Кроме того, субъектам МСП республики оказывается поддержка по их выходу на внешние рынки на безвозмездной основе.",
+        link: "https://moibiz09.ru"
     },
     {
-        imgSrc: "/mp_2.png",
-        title: "Программы льготного кредитования малого и среднего бизнеса",
-        desc: "Нужна помощь в поиске людей на свой проект? Воспользуйтесь услугой бесплатного поиска сотрудников на hh.ru с помощью новой меры поддержки.",
-        link: 'Programmy lgotnogo kreditovaniya malogo i srednego biznesa1111',
-        text: `
-        <div class="new_block__textDesc"><p>Одной из важнейших задач Корпорации МСП является обеспечение субъектов малого и среднего предпринимательства (МСП) доступными кредитными ресурсами.</p><p><br></p><p>Для решения этой задачи совместно с Банком России Корпорация реализует Программу стимулирования кредитования субъектов МСП (ПСК). В рамках этой программы можно получить деньги на оборотные или инвестцели, а также рефинансирование ранее взятых займов. Кредиты по льготным ставкам (от 16 %) доступны на срок до трех лет предпринимателям из любых отраслей.</p><p><br></p><table class="table table-bordered"><tbody><tr><td><b>Ставка</b></td><td><b>Сумма</b></td><td><b>Срок</b></td></tr><tr><td>17,5% - для микробизнеса<br></td><td>до 2 млрд руб<br></td><td>до 3-х лет<br></td></tr><tr><td>17% - для малого<br></td><td>до 2 млрд руб<br></td><td>до 3-х лет<br></td></tr><tr><td>16 % для среднего бизнеса<br></td><td>до 2 млрд руб<br></td><td>до 3-х лет</td></tr></tbody></table><p><b><br></b></p><p><b>На какие цели можно получить?</b></p><p><b><br></b></p><p>1. на инвестиционные</p><p>2. развитие предпринимательской деятельности</p><p>3. пополнение оборотных средств</p><p>4. рефинансирование ранее полученных кредитов</p><p><b><br></b></p><p><b>Кто может получить?</b></p><p><b><br></b></p><p>1. Включен в единый реестр субъектов малого и среднего предпринимательства</p><p>2. Не осуществляет подакцизную деятельность (есть исключения)</p><p>3. Не входит в группу с компаниями крупного бизнеса</p><p>4. Не применяются процедуры несостоятельности (банкротства)</p><p><b><br></b></p><p><b>Как получить?</b></p><p><br></p><p>Необходимо обратиться в один из банков-партнеров.</p><div><br></div></div>
-        `
+        imgSrc: "/mp_org_2.png",
+        title: "Гарантийный фонд поддержки предпринимательства Кчр",
+        desc: "Предоставление прочих финансовых услуг, кроме услуг по страхованию и пенсионному обеспечению, предоставление поручительств по обязательствам, Проведение отбора банков — партнёров для участия в программе предоставления поручительств Предприятием",
+        link: "https://economykchr.ru/protivodejstvie-korruptsii/910"
     },
     {
-        imgSrc: "/mp_3.png",
-        title: "Цифровой профиль предпринимателя",
-        desc: "Это упрощенный доступ к мерам государственной поддержки и проактивный подбор региональных и федеральных программ и услуг.",
-        link: 'Cifrovoj profil predprinimatelya111',
-        text: `
-        <div class="new_block__textDesc"><p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt;
-line-height:107%;font-family:&quot;Times New Roman&quot;,serif"><b>Что такое цифровой
-профиль предпринимателя?</b><o:p></o:p></span></p><p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt;
-line-height:107%;font-family:&quot;Times New Roman&quot;,serif">Это упрощенный доступ к
-мерам государственной поддержки и проактивный подбор региональных и федеральных
-программ и услуг. <o:p></o:p></span></p><p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt;
-line-height:107%;font-family:&quot;Times New Roman&quot;,serif">Цифровой профиль
-формируется автоматически на основе 18 видов сведений, которые включают в себя
-более чем 800 различных параметров бизнеса.<o:p></o:p></span></p><p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt;
-line-height:107%;font-family:&quot;Times New Roman&quot;,serif">Механизм формирования
-цифрового профиля создан Корпорацией МСП, Минцифры России, Министерством
-экономического развития, Федеральной налоговой службой и Банком России.<o:p></o:p></span></p><p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt;
-line-height:107%;font-family:&quot;Times New Roman&quot;,serif"><br></span></p><p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt;
-line-height:107%;font-family:&quot;Times New Roman&quot;,serif"><b>Какие данные включает в
-себя цифровой профиль?</b><o:p></o:p></span></p><p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt;
-line-height:107%;font-family:&quot;Times New Roman&quot;,serif">В цифровом профиле
-отражается информация из реестров ИП, юридических лиц, субъектов МСП, а также
-данные о наличии счетов, задолженности перед государством, налоговые
-декларации, бухгалтерская отчетность и информация из «Госуслуг».<o:p></o:p></span></p><p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt;
-line-height:107%;font-family:&quot;Times New Roman&quot;,serif"><br></span></p><p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt;
-line-height:107%;font-family:&quot;Times New Roman&quot;,serif"><b>Виды сведений:</b><o:p></o:p></span></p><p class="MsoListParagraphCxSpFirst" style="text-align:justify;text-indent:-18.0pt;
-mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style="font-size:14.0pt;
-line-height:107%;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol">-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp;</span></span><span style="font-size:14.0pt;line-height:107%;
-font-family:&quot;Times New Roman&quot;,serif">имеющиеся в ЕСИА о юридическом лице,
-физическом лице, данные о постановке на учет (снятии с учета) в качестве
-налогоплательщика налога на профессиональный доход;<o:p></o:p></span></p><p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
-mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style="font-size:14.0pt;
-line-height:107%;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol">-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp;</span></span><span style="font-size:14.0pt;line-height:107%;
-font-family:&quot;Times New Roman&quot;,serif">о наличии счетов организаций
-(индивидуальных предпринимателей) в банках;<o:p></o:p></span></p><p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
-mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style="font-size:14.0pt;
-line-height:107%;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol">-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp;</span></span><span style="font-size:14.0pt;line-height:107%;
-font-family:&quot;Times New Roman&quot;,serif">из налоговой декларации по налогу,
-уплачиваемому в связи с применением упрощенной системы налогообложения;<o:p></o:p></span></p><p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
-mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style="font-size:14.0pt;
-line-height:107%;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol">-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp;</span></span><span style="font-size:14.0pt;line-height:107%;
-font-family:&quot;Times New Roman&quot;,serif">из налоговой декларации по налогу на
-добавленную стоимость;<o:p></o:p></span></p><p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
-mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style="font-size:14.0pt;
-line-height:107%;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol">-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp;</span></span><span style="font-size:14.0pt;line-height:107%;
-font-family:&quot;Times New Roman&quot;,serif">из налоговой декларации по налогу на
-прибыль организаций;<o:p></o:p></span></p><p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
-mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style="font-size:14.0pt;
-line-height:107%;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol">-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp;</span></span><span style="font-size:14.0pt;line-height:107%;
-font-family:&quot;Times New Roman&quot;,serif">из налоговых деклараций, представленных
-индивидуальными предпринимателями, применяющими специальные налоговые режимы
-(при наличии технической возможности);<o:p></o:p></span></p><p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
-mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style="font-size:14.0pt;
-line-height:107%;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol">-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp;</span></span><span style="font-size:14.0pt;line-height:107%;
-font-family:&quot;Times New Roman&quot;,serif">из Единого государственного реестра
-юридических лиц;<o:p></o:p></span></p><p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
-mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style="font-size:14.0pt;
-line-height:107%;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol">-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp;</span></span><span style="font-size:14.0pt;line-height:107%;
-font-family:&quot;Times New Roman&quot;,serif">из Единого государственного реестра
-индивидуальных предпринимателей;<o:p></o:p></span></p><p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
-mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style="font-size:14.0pt;
-line-height:107%;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol">-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp;</span></span><span style="font-size:14.0pt;line-height:107%;
-font-family:&quot;Times New Roman&quot;,serif">содержащиеся в едином реестре субъектов
-малого и среднего предпринимательства;<o:p></o:p></span></p><p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
-mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style="font-size:14.0pt;
-line-height:107%;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol">-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp;</span></span><span style="font-size:14.0pt;line-height:107%;
-font-family:&quot;Times New Roman&quot;,serif">о среднесписочной численности работников
-организаций за предшествующий календарный год;<o:p></o:p></span></p><p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
-mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style="font-size:14.0pt;
-line-height:107%;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol">-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp;</span></span><span style="font-size:14.0pt;line-height:107%;
-font-family:&quot;Times New Roman&quot;,serif">о доходах физического лица и о выплатах
-страховых взносов, произведенных в пользу физического лица;<o:p></o:p></span></p><p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
-mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style="font-size:14.0pt;
-line-height:107%;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol">-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp;</span></span><span style="font-size:14.0pt;line-height:107%;
-font-family:&quot;Times New Roman&quot;,serif">из Единого реестра субъектов малого и
-среднего предпринимательства - получателей поддержки;<o:p></o:p></span></p><p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
-mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style="font-size:14.0pt;
-line-height:107%;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol">-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp;</span></span><span style="font-size:14.0pt;line-height:107%;
-font-family:&quot;Times New Roman&quot;,serif">об участии физического лица в юридических
-лицах в качестве руководителя, учредителя (участника);<o:p></o:p></span></p><p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
-mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style="font-size:14.0pt;
-line-height:107%;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol">-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp;</span></span><span style="font-size:14.0pt;line-height:107%;
-font-family:&quot;Times New Roman&quot;,serif">о наличии (отсутствии) задолженности по
-уплате налогов, сборов, страховых взносов, пеней, штрафов и процентов;<o:p></o:p></span></p><p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
-mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style="font-size:14.0pt;
-line-height:107%;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol">-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><!--[endif]--><span style="font-size:14.0pt;line-height:107%;
-font-family:&quot;Times New Roman&quot;,serif">из реестра дисквалифицированных лиц;<o:p></o:p></span></p><p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
-mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style="font-size:14.0pt;
-line-height:107%;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol">-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp;</span></span><span style="font-size:14.0pt;line-height:107%;
-font-family:&quot;Times New Roman&quot;,serif">о наличии действующих решений о
-приостановлении операций по счетам налогоплательщика;<o:p></o:p></span></p><p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-18.0pt;
-mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style="font-size:14.0pt;
-line-height:107%;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol">-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp;</span></span><span style="font-size:14.0pt;line-height:107%;
-font-family:&quot;Times New Roman&quot;,serif">о сумме фактически уплаченных юридическим
-лицом налогов;<o:p></o:p></span></p><p class="MsoListParagraphCxSpLast" style="text-align:justify;text-indent:-18.0pt;
-mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span style="font-size:14.0pt;
-line-height:107%;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol">-<span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &quot;Times New Roman&quot;;">&nbsp; &nbsp; &nbsp; &nbsp;</span></span><span style="font-size:14.0pt;line-height:107%;
-font-family:&quot;Times New Roman&quot;,serif">о бухгалтерской отчетности из
-государственного информационного ресурса бухгалтерской (финансовой) отчетности.<o:p></o:p></span></p><p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt;
-line-height:107%;font-family:&quot;Times New Roman&quot;,serif"><br></span></p><p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt;
-line-height:107%;font-family:&quot;Times New Roman&quot;,serif">Данные из цифрового
-профиля будут автоматически вноситься в заявления на получение мер поддержки, а
-также использоваться при предложении пользователям наиболее подходящих
-продуктов.<o:p></o:p></span></p><p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt;
-line-height:107%;font-family:&quot;Times New Roman&quot;,serif"><b><br></b></span></p><p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt;
-line-height:107%;font-family:&quot;Times New Roman&quot;,serif"><b>Зачем предпринимателю
-формировать цифровой профиль?</b><o:p></o:p></span></p><p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt;
-line-height:107%;font-family:&quot;Times New Roman&quot;,serif">1. Формирование и
-наполнение цифрового профиля значительно упростит предпринимателю процесс
-получения доступных на Цифровой платформе МСП.РФ мер поддержки.<o:p></o:p></span></p><p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt;
-line-height:107%;font-family:&quot;Times New Roman&quot;,serif">В первую очередь, речь
-идет о финансовых мерах поддержки. К примеру, это позволит из анкеты на
-получение кредита исключить более 50 полей для заполнения. Бизнесу также не
-придется прикреплять порядка 10 документов, а время создания заявки сократится
-с одного дня до 15 минут. Упростится и проверка заявки со стороны банка, так
-как данные будут получены из достоверных государственных источников.<o:p></o:p></span></p><p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt;
-line-height:107%;font-family:&quot;Times New Roman&quot;,serif">Проще станет обращаться и
-за иными финансовыми мерами поддержки, где требуется большой объем сведений, в
-частности, государственными микрозаймами, грантами и региональными субсидиями.<o:p></o:p></span></p><p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt;
-line-height:107%;font-family:&quot;Times New Roman&quot;,serif">2. Проактивный адресный
-подбор мер поддержки и сервисов.<o:p></o:p></span></p><p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt;
-line-height:107%;font-family:&quot;Times New Roman&quot;,serif">На основе данных
-цифрового профиля платформа самостоятельно проактивно подберет и предложит
-предпринимателю подходящие именно его бизнесу меры поддержки.<o:p></o:p></span></p><p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt;
-line-height:107%;font-family:&quot;Times New Roman&quot;,serif"><br></span></p><p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt;
-line-height:107%;font-family:&quot;Times New Roman&quot;,serif"><b>Как сформировать цифровой
-профиль?</b><o:p></o:p></span></p><p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt;
-line-height:107%;font-family:&quot;Times New Roman&quot;,serif">Шаг 1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; В личном кабинете на Цифровой платформе
-МСП.РФ необходимо дать свое согласие на автоматическое получение платформой
-данных о вас<o:p></o:p></span></p><p>
-</p><p class="MsoNormal" style="text-align:justify"><span style="font-size:14.0pt;
-line-height:107%;font-family:&quot;Times New Roman&quot;,serif">Шаг 2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; В личном кабинете на портале «Госуслуг»
-в разделе «Профиль организации» перейдите в «Согласия» и подтвердите передачу
-данных Цифровой платформе МСП.РФ&nbsp; &nbsp;<o:p></o:p></span></p></div>
-        `
+        imgSrc: "/mp_org_3.png",
+        title: "Микрокредитная компания поддержки субъектов малого и среднего предпринимательства КЧР",
+        desc: "Оказывает поддержку субъектам малого и среднего предпринимательства, зарегистрированным на территории Карачаево-Черкесской Республики в виде выдачи краткосрочных микрозаймов на срок до 36 месяцев в размере от 50 000 до 5 000 000 рублей. Процентная ставка равна ключевой ставке ЦБРФ.",
+        link: "https://mckchr.ru/"
+    },
+    {
+        imgSrc: "/mp_org_4.png",
+        title: "Малое и среднее предпринимательство и поддержка индивидуальной предпринимательской инициативы",
+        desc: "В рамках реализации национального проекта «Малое и среднее предпринимательство и поддержка индивидуальной предпринимательской инициативы» на территории Карачаево-Черкесской Республики реализуется 3 региональных проекта.",
+        link: "https://xn--90aifddrld7a.xn--p1ai/project"
     },
 ];

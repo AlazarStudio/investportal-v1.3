@@ -76,15 +76,15 @@ function MP_Organizations_Page({ children, ...props }) {
                                             <img src={item.imgSrc} alt="" />
                                         </div>
 
-                                        <div className={classes.mp_data__items___el____bottom}>
+                                        <div className={classes.mp_data__items___el____bottom} style={{height: '380px'}}>
                                             <div className={classes.mp_data__items___el____bottom______title}>
                                                 {item.title}
                                             </div>
                                             <div className={classes.mp_data__items___el____bottom______desc}>
                                                 {item.desc}
                                             </div>
-                                            <Button link={`/organizations/${item.link}`} width={'310px'}>
-                                                Узнать больше
+                                            <Button link={item.link} target="_blank" width={'330px'}>
+                                                Перейти на сайт
                                             </Button>
                                         </div>
                                     </div>
