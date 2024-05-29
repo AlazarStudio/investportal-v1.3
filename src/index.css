@@ -157,3 +157,43 @@ main {
 .newSlider .swiper-button-next {
     color: #fff;
 }
+
+
+
+
+.container_gchp {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.container_gchp .header,
+.container_gchp .row {
+    display: flex;
+    border: 1px solid #000;
+    margin-top: -1px;
+}
+.container_gchp .row_center {
+    width: 50%;
+}
+
+.container_gchp .header div,
+.container_gchp .row div {
+    flex: 1;
+    padding: 8px;
+    border-right: 1px solid #000;
+    text-indent: 0;
+    font-size: 16px;
+    line-height: normal;
+    text-align: left;
+}
+
+.container_gchp .header div:last-child,
+.container_gchp .row div:last-child {
+    border-right: none;
+}
+
+.container_gchp .header {
+    font-weight: bold;
+}

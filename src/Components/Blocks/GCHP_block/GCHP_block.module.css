@@ -15,7 +15,7 @@
     position: relative;
 }
 
-.mech::before{
+.mech::before {
     content: '';
     position: absolute;
     top: 0;
@@ -65,6 +65,7 @@
     transition: all 0.3s ease-in-out;
     cursor: pointer;
     padding: 20px;
+    color: var(--blue_color);
 }
 
 .docsTab_item:hover,
@@ -82,8 +83,28 @@
     text-transform: uppercase;
 }
 
+
 .tabContent {
     display: flex;
     flex-direction: column;
     gap: 40px;
+}
+
+.tabContent>p {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: justify;
+    /* text-indent: 40px; */
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.tabContent a{
+    color: var(--blue_color);
+}
+.tabContent a:hover{
+    color: blue;
 }
