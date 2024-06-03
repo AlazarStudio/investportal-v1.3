@@ -347,12 +347,20 @@
   }
 
   .mainslider_slide__item___text {
-    font-size: 22px;
-    line-height: 42px;
+    font-size: 16px;
+    line-height: 26px;
   }
 
   .mainslider_slide__item___large {
     font-size: 40px;
+    line-height: 40px;
+  }
+
+  .mainslider_slide__item___button {
+    width: 160px;
+    height: 40px;
+    margin-top: 80px;
+    font-size: 12px;
   }
 
   .projects_slide {
@@ -372,38 +380,57 @@
   }
 
   .projects_slide__right___title {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .projects_slide__right___desc {
     line-height: normal;
     text-align: justify;
+    font-size: 12px;
+    text-indent: 20px;
   }
 
   .map {
+    position: relative;
     flex-direction: column;
     height: auto;
     padding: 20px;
   }
 
+  .map::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000080;
+    z-index: 0;
+    border-radius: 20px;
+  }
+
   .map_left {
     width: 100%;
+    gap: 20px;
+    z-index: 1;
   }
 
   .map_left__title {
-    font-size: 22px;
+    font-size: 16px;
   }
 
   .map_left__colorBlock {
-    width: 100%;
+    /* width: 100%; */
+    display: none;
   }
 
   .map_left__desc {
     width: 100%;
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .map_right {
+    z-index: 1;
   }
 
   .map_right img {
@@ -419,17 +446,45 @@
 
   .resourses_item {
     width: 100%;
-    height: 250px;
-    padding: 10px;
+    height: 160px;
+    padding: 20px;
+    gap: 0;
+    background-size: contain;
+    justify-content: space-between;
   }
 
   .resourses_item__title {
-    font-size: 26px;
+    font-size: 16px;
     /* line-height: normal; */
     width: 100%;
   }
 
+  .resourses_item__linkName {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
   .news_item {
     width: 100%;
+  }
+
+  .news_item__desc___date {
+    font-size: 14px;
+  }
+
+  .news_item__desc___title {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: justify;
+    text-indent: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1300px) {
+  .resourses {
+    flex-direction: row;
+  }
+  .resourses_item {
+    width: 46%;
   }
 }

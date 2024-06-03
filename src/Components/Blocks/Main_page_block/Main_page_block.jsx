@@ -26,7 +26,9 @@ function Main_page_block({ children, ...props }) {
         <>
             <ColumnBlock gap="80px">
                 <div className={classes.mainslider}>
-                    <Swiper navigation={true} modules={[Navigation]} loop={true} className="mySwiper">
+                    <Swiper
+                        navigation={true}
+                        modules={[Navigation]} loop={true} className="mySwiper">
                         <SwiperSlide>
                             <div className={classes.mainslider_slide} style={{ backgroundImage: `url('/main_slide3.png')` }} >
                                 <WidthBlock>
@@ -219,7 +221,7 @@ function Main_page_block({ children, ...props }) {
                                         <div className={classes.news_item__desc___separate}>
                                             <div className={classes.news_item__desc___date}>{newsItem.date}</div>
                                             <div className={classes.news_item__desc___title}>
-                                            {newsItem.title}
+                                                {newsItem.title}
                                             </div>
                                         </div>
                                     </div>

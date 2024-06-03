@@ -113,7 +113,7 @@
   }
 
   .msp_bussiness__block {
-    padding: 0 20px;
+    padding: 20px;
     width: 100%;
     font-size: 16px;
     line-height: 26px;
@@ -122,11 +122,27 @@
 
   .msp_infoblock {
     padding: 10px;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 14px;
+    line-height: 20px;
+    flex-direction: column;
+    text-align: justify;
+    text-indent: 20px;
+  }
+
+  .msp_infoblock__num {
+    font-size: 48px;
+    line-height: normal;
   }
 
   .msp_infoblockBG {
-    padding: 0;
+    padding: 20px;
+  }
+
+  .msp_infoblockBG__title {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+    text-indent: 20px;
+    padding: 10px;
   }
 }

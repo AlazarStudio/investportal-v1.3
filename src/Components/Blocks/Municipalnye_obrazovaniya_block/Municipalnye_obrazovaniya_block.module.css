@@ -172,8 +172,12 @@
     height: auto;
     padding: 20px;
    }
+   .municip {
+    padding: 40px 0;
+    gap: 40px;
+   }
    .municMap_data {
-    gap: 20px;
+    gap: 10px;
    }
    .municMap_info {
     width: 100%;
@@ -181,7 +185,12 @@
    }
    .municMap_info__item {
     width: 42%;
-    font-size: 16px;
+    font-size: 14px;
+    line-height: normal;
+   }
+   .municMap_info__item p {
+    font-size: 26px;
+    line-height: normal;
    }
    .municMap_right {
     width: 100%;
@@ -189,10 +198,25 @@
    }
 
    .municipBlocks {
-    gap: 40px;
-    padding: 20px;
+    gap: 20px;
+    padding: 0 20px;
    }
    .municipBlocks_item {
     width: 42%;
+    justify-content: space-between;
+   }
+   .municipBlocks_item__img {
+    /* height: 200px; */
+   }
+   .municipBlocks_item__place {
+    font-size: 14px;
+    line-height: 24px;
+    /* height: auto; */
+   }
+   .municipBlocks_item__site {
+    font-size: 14px;
+   }
+   .municipBlocks_item__more {
+    font-size: 14px;
    }
 }

@@ -110,7 +110,8 @@
 @media (max-width: 768px) {
   .footer {
     gap: 40px;
-    padding-top: 40px;
+    padding-top: 20px;
+    margin-top: 40px;
   }
 
   .footer_logoLine {
@@ -122,6 +123,11 @@
     width: 100%;
   }
 
+  .footer_logoLine__left___title {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
   .footer_logoLine__right {
     width: 100%;
     justify-content: center;
@@ -129,6 +135,10 @@
 
   .footer_logoLine__right___text {
     width: 100%;
+    font-size: 14px;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 22px;
   }
 
   .footer_bottom {
@@ -143,11 +153,24 @@
   .footer_infoLine__item {
     width: 100%;
     justify-content: flex-start;
-    padding: 20px;
+    padding: 10px;
+  }
+
+  .footer_infoLine__item___info____title {
+    font-size: 14px;
+  }
+
+  .footer_infoLine__item___info____desc {
+    font-size: 12px;
   }
 
   .footer_makeLine {
     flex-direction: column;
     gap: 20px;
+  }
+
+  .footer_makeLine__left {
+    font-size: 14px;
+    text-align: justify;
   }
 }

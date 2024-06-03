@@ -140,14 +140,17 @@
 
   .burgerMenu {
     display: flex;
+    position: fixed;
+    top: 20px;
+    right: 20px;
   }
 
   .mobileMenu {
     display: none;
-    position: absolute;
+    position: fixed;
     top: 80px;
     left: 10px;
-    width: 90%;
+    width: calc(100% - 20px);
     background-color: #058bbe;
     border-top: 1px solid #ccc;
     z-index: 69000;

@@ -150,7 +150,8 @@
     line-height: 24px;
   }
   .mp_tumbler_item___title____el {
-    padding: 20px 10px;
+    padding: 15px 10px;
     width: 30%;
+    font-size: 10px;
   }
 }
