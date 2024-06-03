@@ -63,7 +63,7 @@ function MP_Organizations_Page({ children, ...props }) {
                         </CenterBlock>
                     </div>
 
-                    <WidthBlock>
+                    <WidthBlock className="MspWidthBlock">
                         <div className={classes.mp_data}>
                             <div className={classes.mp_data_search}>
                                 <input type="text" placeholder="Найти" value={searchTerm} onChange={handleSearch} />

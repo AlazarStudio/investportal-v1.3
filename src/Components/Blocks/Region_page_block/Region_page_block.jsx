@@ -59,7 +59,7 @@ function Region_page_block({ children, ...props }) {
     const num5 = useCountUp(4, 600);
     return (
         <>
-            <ColumnBlock gap="80px" overflow={'hidden'}>
+            <ColumnBlock className="RegionPageColumnBlock" gap="80px" overflow={'hidden'}>
                 <CenterBlock>
                     <WidthBlock>
                         <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">о регионе</H2>
@@ -138,7 +138,15 @@ function Region_page_block({ children, ...props }) {
 
                 <div className="region_slider">
                     <Swiper
-                        slidesPerView={5}
+                    breakpoints={{
+                        768: {
+                          slidesPerView: 3,
+                        },
+                        1300: {
+                            slidesPerView: 5,
+                        }
+                      }}
+                        slidesPerView={1}
                         spaceBetween={-50}
                         centeredSlides={true}
                         navigation={true}

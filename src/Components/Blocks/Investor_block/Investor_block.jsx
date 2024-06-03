@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 function Investor_block({ children, ...props }) {
     return (
         <>
-            <ColumnBlock gap="80px">
+            <ColumnBlock className="InvestorPageColumnBlock" gap="80px">
                 <CenterBlock>
                     <WidthBlock>
                         <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">Инвестору</H2>

@@ -37,7 +37,7 @@ function Nogajskij_rajon_page({ children, ...props }) {
 
             <ColumnBlock gap="80px">
                 <CenterBlock>
-                    <WidthBlock>
+                    <WidthBlock className="MspWidthBlock">
                         <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">В ЦИФРАХ</H2>
 
                         <div className={classes.rajon_info}>

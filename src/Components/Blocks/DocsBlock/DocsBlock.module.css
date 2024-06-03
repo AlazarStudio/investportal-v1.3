@@ -1,42 +1,49 @@
 .docBlock {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-top: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #000;
 }
-.docBlock:last-child{
-    border-bottom: 1px solid #000;
+.docBlock:last-child {
+  border-bottom: 1px solid #000;
 }
 
 .docBlock a {
-    padding: 15px 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 25px;
-    cursor: pointer;
-    border: none;
-    color: #fff;
-    border-radius: 4px;
-    background: linear-gradient(274.77deg, #058bbe, #046fcb);
+  padding: 15px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  background: linear-gradient(274.77deg, #058bbe, #046fcb);
 }
 
 .tabContentInfoElement {
-    width: 100%;
-    padding: 20px 0;
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
 }
 
 .tabContentInfoElement img {
-    height: 80px;
+  height: 80px;
 }
 
 .tabContentInfoElementLine {
-    width: 8px;
-    height: 80px;
-    background-color: #00B8FF;
+  width: 8px;
+  height: 80px;
+  background-color: #00b8ff;
+}
+
+@media (max-width: 768px) {
+  .docBlock {
+    flex-direction: column;
+    padding: 10px 0;
+  }
 }

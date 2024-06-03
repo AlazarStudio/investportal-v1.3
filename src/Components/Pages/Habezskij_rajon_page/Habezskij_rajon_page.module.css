@@ -189,3 +189,26 @@
     color: #2E3B91;
     text-decoration: none;
 }
+
+@media (max-width: 768px) {
+    .profile {
+      flex-direction: column;
+    }
+    .rajon_konkurent {
+      flex-direction: column;
+    }
+    .rajon_konkurent__item {
+      width: 100%;
+    }
+    .rajon_info {
+      flex-direction: column;
+    }
+    .rajon_info__item {
+      width: 100%;
+      gap: 5px;
+    }
+    .rajon_img {
+      height: auto;
+      margin: 40px 0;
+    }
+  }

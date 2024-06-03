@@ -170,3 +170,9 @@
     line-height: 30px;
     text-align: justify;
 }
+
+@media (max-width: 768px) {
+ .descriptionImg {
+    width: 100%;
+ }  
+}

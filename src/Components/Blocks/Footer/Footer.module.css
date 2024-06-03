@@ -1,108 +1,153 @@
 .footer {
-    background-color: #CDD2DD;
-    margin-top: 80px;
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
-    padding-top: 80px;
+  background-color: #cdd2dd;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding-top: 80px;
 }
 
-.footer_bottom{
-    background-color: var(--blue_color);
-    padding: 40px 0;
+.footer_bottom {
+  background-color: var(--blue_color);
+  padding: 40px 0;
 }
 
 .footer_logoLine {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .footer_logoLine__left {
-    display: flex;
-    align-items: center;
-    width: 50%;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  gap: 20px;
 }
 
 .footer_logoLine__left___title {
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 24.38px;
-    color: var(--blue_color);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.38px;
+  color: var(--blue_color);
 }
 
 .footer_logoLine__right {
-    width: 50%;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 27px;
-    color: var(--blue_color);
-    display: flex;
-    justify-content: flex-end;
+  width: 50%;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: var(--blue_color);
+  display: flex;
+  justify-content: flex-end;
 }
 
-.footer_logoLine__right___text{
-    width: 83%;
+.footer_logoLine__right___text {
+  width: 83%;
 }
 
 .footer_infoLine {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer_infoLine__item {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    border: 1px solid #0B0C6680;
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 0;
-    border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid #0b0c6680;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  border-radius: 10px;
 }
 
 .footer_infoLine__item___info {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .footer_infoLine__item___info____title {
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 19.5px;
-    color: var(--blue_color);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.5px;
+  color: var(--blue_color);
 }
 
 .footer_infoLine__item___icon {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .footer_makeLine {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer_makeLine__left {
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
 }
 
-.footer_makeLine__left span{
-    border-bottom: 1px solid var(--blue_color);
+.footer_makeLine__left span {
+  border-bottom: 1px solid var(--blue_color);
 }
 
-.footer_infoLine__item___info____desc{
-    color: var(--blue_color);
+.footer_infoLine__item___info____desc {
+  color: var(--blue_color);
+}
+
+@media (max-width: 768px) {
+  .footer {
+    gap: 40px;
+    padding-top: 40px;
+  }
+
+  .footer_logoLine {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer_logoLine__left {
+    width: 100%;
+  }
+
+  .footer_logoLine__right {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .footer_logoLine__right___text {
+    width: 100%;
+  }
+
+  .footer_bottom {
+    padding: 10px;
+  }
+
+  .footer_infoLine {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer_infoLine__item {
+    width: 100%;
+    justify-content: flex-start;
+    padding: 20px;
+  }
+
+  .footer_makeLine {
+    flex-direction: column;
+    gap: 20px;
+  }
 }

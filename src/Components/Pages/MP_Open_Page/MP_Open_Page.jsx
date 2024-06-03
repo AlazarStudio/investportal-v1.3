@@ -44,7 +44,7 @@ function MP_Open_Page({ children, ...props }) {
 
             <ColumnBlock gap="80px">
                 <CenterBlock>
-                    <WidthBlock>
+                    <WidthBlock className="MspWidthBlock">
                         <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">
                             {item.title}
                         </H2>

@@ -165,3 +165,34 @@
     z-index: 10;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+   .municMap {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+   }
+   .municMap_data {
+    gap: 20px;
+   }
+   .municMap_info {
+    width: 100%;
+    height: auto;
+   }
+   .municMap_info__item {
+    width: 42%;
+    font-size: 16px;
+   }
+   .municMap_right {
+    width: 100%;
+    position: unset;
+   }
+
+   .municipBlocks {
+    gap: 40px;
+    padding: 20px;
+   }
+   .municipBlocks_item {
+    width: 42%;
+   }
+}

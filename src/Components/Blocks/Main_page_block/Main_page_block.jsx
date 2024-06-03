@@ -100,7 +100,7 @@ function Main_page_block({ children, ...props }) {
                 </div>
 
                 <CenterBlock>
-                    <WidthBlock>
+                    <WidthBlock className="MainPageWidthBlock">
                         <a href="https://map.investkchr.ru" target="_blank" className={classes.map}>
                             <div className={classes.map_left}>
                                 <div className={classes.map_left__title}>ИНВЕСТИЦИОННАЯ КАРТА</div>

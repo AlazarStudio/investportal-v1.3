@@ -1,52 +1,65 @@
 .docsTab {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
 }
 
 .docsTab_item {
-    width: 20%;
-    height: 85px;
-    border: 1px solid var(--blue_color);
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
-    padding: 20px;
+  width: 20%;
+  height: 85px;
+  border: 1px solid var(--blue_color);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  padding: 20px;
 }
 
 .docsTab_item:hover,
 .activeTab_item {
-    background-color: var(--blue_color);
-    color: #fff;
+  background-color: var(--blue_color);
+  color: #fff;
 }
 
 .docsTab_item__title {
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20.8px;
-    text-align: center;
-    text-transform: uppercase;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.8px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .tabContent {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
-.tabContent>p {
-    display: flex;
+.tabContent > p {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: justify;
+  text-indent: 40px;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+@media (max-width: 768px) {
+  .docsTab {
     flex-direction: column;
-    gap: 20px;
-    text-align: justify;
-    text-indent: 40px;
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 30px;
+  }
+  .docsTab_item {
+    width: 100%;
+  }
+  .tabContent > p {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }

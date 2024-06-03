@@ -31,7 +31,15 @@ function One_new_show_block({ children, ...props }) {
 
                         <div className={classes.new_slider}>
                             <Swiper
-                                slidesPerView={3}
+                                breakpoints={{
+                                    768: {
+                                        slidesPerView: 3,
+                                    },
+                                    1300: {
+                                        slidesPerView: 3,
+                                    }
+                                }}
+                                slidesPerView={1}
                                 spaceBetween={15}
                                 navigation={true}
                                 loop={true}

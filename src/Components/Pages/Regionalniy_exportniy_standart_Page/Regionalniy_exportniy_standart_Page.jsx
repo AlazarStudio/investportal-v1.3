@@ -42,7 +42,7 @@ function Regionalniy_exportniy_standart_Page({ children, ...props }) {
 
             <ColumnBlock gap="80px">
                 <CenterBlock>
-                    <WidthBlock>
+                    <WidthBlock className="MspWidthBlock">
                         <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">
                             Региональный экспортный стандарт
                         </H2>

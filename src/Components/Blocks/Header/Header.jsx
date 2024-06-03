@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
-import classes from './Header.module.css';
 import { Link } from "react-router-dom";
+import classes from './Header.module.css';
 
 function Header({ children, ...props }) {
     const [dropdown, setDropdown] = useState(null);
+    const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     const handleMouseEnter = (menu) => {
         setDropdown(menu);
@@ -11,6 +12,10 @@ function Header({ children, ...props }) {
 
     const handleMouseLeave = () => {
         setDropdown(null);
+    };
+
+    const toggleMobileMenu = () => {
+        setMobileMenuOpen(!mobileMenuOpen);
     };
 
     const menuItems = {
@@ -83,7 +88,45 @@ function Header({ children, ...props }) {
                         ))}
                     </ul>
                 </div>
+                <div className={classes.burgerMenu} onClick={toggleMobileMenu}>
+                    <div style={{backgroundColor: props.color}}></div>
+                    <div style={{backgroundColor: props.color}}></div>
+                    <div style={{backgroundColor: props.color}}></div>
+                </div>
             </div>
+            {mobileMenuOpen && (
+                <>
+                    <div className={`${classes.overlay} ${mobileMenuOpen ? classes.show : ''}`} onClick={toggleMobileMenu}></div>
+                    <div className={`${classes.mobileMenu} ${mobileMenuOpen ? classes.show : ''}`}>
+                        <ul>
+                            {Object.keys(menuLabels).map((menu) => (
+                                <li key={menu}>
+                                    {menuItems[menu] ? (
+                                        <>
+                                            <span className={classes.menuTitle} style={{ color: props.color }}>
+                                                {menuLabels[menu]}
+                                            </span>
+                                            <ul>
+                                                {menuItems[menu].map((item) => (
+                                                    <li key={item.to}>
+                                                        <Link to={item.to} style={{ color: '#fff' }}>
+                                                            {item.text}
+                                                        </Link>
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                        </>
+                                    ) : (
+                                        <Link to={`/${menu}`} style={{ color: props.color }}>
+                                            {menuLabels[menu]}
+                                        </Link>
+                                    )}
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                </>
+            )}
         </>
     );
 }

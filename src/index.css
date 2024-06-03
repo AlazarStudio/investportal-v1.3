@@ -197,3 +197,40 @@ main {
 .container_gchp .header {
     font-weight: bold;
 }
+
+.RegionPageColumnBlock {
+    gap: 80px;
+}
+
+/*  */
+
+@media (max-width: 768px) {
+   
+}
+
+@media (max-width: 768px) {
+    * {
+        /* border: 1px solid red; */
+    }
+    :root {
+        --blockWidth: 100%;
+    }
+
+    .MspWidthBlock,
+    .MspColumnBlock,
+    .MspCenterBlock,
+    .InvestorColumnBlock,
+    .InvestorPageColumnBlock {
+        padding: 0 20px;
+    }
+    .RegionPageColumnBlock {
+        gap: 40px;
+        padding: 0 10px;
+    }
+    .FooterWidthBlock {
+        padding: 10px;
+    }
+    .MainPageWidthBlock {
+        padding: 0 10px;
+    }
+}

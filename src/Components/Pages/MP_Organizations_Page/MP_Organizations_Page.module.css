@@ -131,3 +131,26 @@
     line-height: 19.5px;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .mp_data__items {
+      flex-direction: column;
+      align-items: center;
+    }
+    .mp_data__items___el {
+      width: 100%;
+    }
+    .mp_data__items___el____bottom {
+      gap: 10px;
+      height: auto;
+      padding: 20px;
+    }
+    .mp_data__items___el____bottom______title {
+      font-size: 18px;
+      line-height: 24px;
+    }
+    .mp_tumbler_item___title____el {
+      padding: 20px 10px;
+      width: 30%;
+    }
+  }

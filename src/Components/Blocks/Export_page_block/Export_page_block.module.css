@@ -66,3 +66,18 @@
     line-height: 19.5px;
     color: var(--blue_color);
 }
+
+@media (max-width: 768px) {
+   .export_info {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   .export_info__left {
+    padding: 0 20px;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: justify;
+    text-indent: 20px;
+   }
+}

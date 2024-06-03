@@ -8,7 +8,7 @@ function Footer({ children, ...props }) {
         <>
             <div className={classes.footer}>
                 <CenterBlock>
-                    <WidthBlock>
+                    <WidthBlock className="FooterWidthBlock">
                         <div className={classes.footer_logoLine}>
                             <div className={classes.footer_logoLine__left}>
                                 <div className={classes.footer_logoLine__left___img}>
