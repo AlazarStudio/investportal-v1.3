@@ -97,12 +97,13 @@ function RIS_project_block({ children, ...props }) {
                     <img src="/invest-rules.jpg" alt="" />
                 `,
                 files: [
-                    // { title: 'РГ 337-р О внедрении свода инвестиционных правил', name: "RG 337-r O vnedrenii svoda investicionnyh pravil", path: "pdf" },
-                    // { title: 'Алгоритм (получение участка)', name: "Algoritm (poluchenie uchastka)", path: "pdf" },
-                    // { title: 'Алгоритм (теплоснабжение, водоснабжение, водоотведение, дорожная инфраструктура, получение разрешений, оформление прав собственности)', name: "Algoritm (teplosnabzhenie, vodosnabzhenie, vodootvedenie, dorozhnaya infrastruktura, poluchenie razreshenij, oformlenie prav sobstvennosti)", path: "pdf" },
-                    // { title: 'Алгоритм (электроснабжение, газоснабжение)', name: "Algoritm (elektrosnabzhenie, gazosnabzhenie)", path: "pdf" },
-                    // { title: 'План-график (получение земельного участка)', name: "Plan-grafik (poluchenie zemel'nogo uchastka)", path: "pdf" },
-                    // { title: 'План-график (электроснабжение, газоснабжение)', name: "Plan-grafik (elektrosnabzhenie, gazosnabzhenie)", path: "pdf" },
+
+                    { title: 'РГ 337-р О внедрении свода инвестиционных правил', name: "RG 337-r O vnedrenii svoda investicionnyh pravil", path: "pdf" },
+                    { title: 'Алгоритм (получение участка)', name: "Algoritm (poluchenie uchastka)", path: "pdf" },
+                    { title: 'Алгоритм (теплоснабжение, водоснабжение, водоотведение, дорожная инфраструктура, получение разрешений, оформление прав собственности)', name: "Algoritm (teplosnabzhenie, vodosnabzhenie, vodootvedenie, dorozhnaya infrastruktura, poluchenie razreshenij, oformlenie prav sobstvennosti)", path: "pdf" },
+                    { title: 'Алгоритм (электроснабжение, газоснабжение)', name: "Algoritm (elektrosnabzhenie, gazosnabzhenie)", path: "pdf" },
+                    { title: 'План-график (получение земельного участка)', name: "Plan-grafik (poluchenie zemel'nogo uchastka)", path: "pdf" },
+                    { title: 'План-график (электроснабжение, газоснабжение)', name: "Plan-grafik (elektrosnabzhenie, gazosnabzhenie)", path: "pdf" },
                 ],
             },
         };
