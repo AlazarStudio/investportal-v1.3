@@ -36,7 +36,7 @@ function Export_page_block({ children, ...props }) {
                         <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">Экспорт в кчр</H2>
 
                         <div className={classes.export_img}>
-                            <img src="/export_img.png" alt="" />
+                            <img src="/export.png" alt="" />
                         </div>
 
                         <div className={classes.export_info}>

@@ -12,7 +12,9 @@ import Documents_Page from "./Components/Pages/Documents_Page";
 import Documents_msp from "./Components/Pages/Documents_msp";
 import Documents_export from "./Components/Pages/Documents_export";
 import MSP_Page from "./Components/Pages/MSP_Page";
+import MSP_main_Page from "./Components/Pages/MSP_main_Page";
 import Export_Page from "./Components/Pages/Export_Page";
+import Export_main_Page from "./Components/Pages/Export_main_Page";
 import Regionalniy_exportniy_standart_Page from "./Components/Pages/Regionalniy_exportniy_standart_Page/Regionalniy_exportniy_standart_Page";
 import News_Page from "./Components/Pages/News_Page";
 import One_New_Page from "./Components/Pages/One_New_Page";
@@ -47,7 +49,8 @@ function App() {
           <Route path="region" element={<Region_Page />} />
           <Route path="investor" element={<Investor_Page />} />
           <Route path="investor/:id" element={<Investor_Info_Page />} />
-          <Route path="msp" element={<MSP_Page />} />
+          <Route path="ipb" element={<MSP_Page />} />
+          <Route path="msp" element={<MSP_main_Page />} />
 
           <Route path="federalniye_mery_podderjki" element={<MP_Federal_Page />} />
           <Route path="regionalniye_mery_podderjki" element={<MP_Region_Page />} />
@@ -56,7 +59,9 @@ function App() {
           <Route path="federalniye_mery_podderjki/:id" element={<MP_Open_Page />} />
           <Route path="regionalniye_mery_podderjki/:id" element={<MP_Open_Page />} />
 
-          <Route path="export" element={<Export_Page />} />
+          <Route path="export_kchr" element={<Export_Page />} />
+          <Route path="export" element={<Export_main_Page />} />
+
           <Route path="regionalniy_exportniy_standart" element={<Regionalniy_exportniy_standart_Page />} />
           <Route path="news" element={<News_Page />} />
           <Route path="news/:id" element={<One_New_Page />} />

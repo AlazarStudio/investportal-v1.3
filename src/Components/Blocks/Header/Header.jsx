@@ -18,18 +18,18 @@ function Header({ children, ...props }) {
         setMobileMenuOpen(!mobileMenuOpen);
     };
 
-    const menuItems = {
-        msp: [
-            { to: "/msp", text: "Инфраструктура поддержки бизнеса" },
-            { to: "/federalniye_mery_podderjki", text: "Меры поддержки" },
-            { to: "/documents_msp", text: "Документы" },
-        ],
-        export: [
-            { to: "/export", text: "Экспорт в КЧР" },
-            { to: "/regionalniy_exportniy_standart", text: "Региональный экспортный стандарт" },
-            // { to: "/documents_export", text: "Документы" },
-        ]
-    };
+    // const menuItems = {
+    //     msp: [
+    //         { to: "/msp", text: "Инфраструктура поддержки бизнеса" },
+    //         { to: "/federalniye_mery_podderjki", text: "Меры поддержки" },
+    //         { to: "/documents_msp", text: "Документы" },
+    //     ],
+    //     export: [
+    //         { to: "/export", text: "Экспорт в КЧР" },
+    //         { to: "/regionalniy_exportniy_standart", text: "Региональный экспортный стандарт" },
+    //         // { to: "/documents_export", text: "Документы" },
+    //     ]
+    // };
 
     const menuLabels = {
         region: "Регион",
@@ -64,16 +64,16 @@ function Header({ children, ...props }) {
                                 onMouseEnter={() => handleMouseEnter(menu)}
                                 onMouseLeave={handleMouseLeave}
                             >
-                                {menuItems[menu] ? (
+                                {/* {menuItems[menu] ? (
                                     <span className={classes.menuTitle} style={{ color: props.color }}>
                                         {menuLabels[menu]}
                                     </span>
-                                ) : (
+                                ) : ( */}
                                     <Link to={`/${menu}`} style={{ color: props.color }}>
                                         {menuLabels[menu]}
                                     </Link>
-                                )}
-                                {dropdown === menu && menuItems[menu] && (
+                                {/* )} */}
+                                {/* {dropdown === menu && menuItems[menu] && (
                                     <ul className={classes.dropdown}>
                                         {menuItems[menu].map((item) => (
                                             <li key={item.to}>
@@ -83,7 +83,7 @@ function Header({ children, ...props }) {
                                             </li>
                                         ))}
                                     </ul>
-                                )}
+                                )} */}
                             </li>
                         ))}
                     </ul>
@@ -101,7 +101,7 @@ function Header({ children, ...props }) {
                         <ul>
                             {Object.keys(menuLabels).map((menu) => (
                                 <li key={menu}>
-                                    {menuItems[menu] ? (
+                                    {/* {menuItems[menu] ? (
                                         <>
                                             <span className={classes.menuTitle} style={{ color: props.color }}>
                                                 {menuLabels[menu]}
@@ -116,11 +116,11 @@ function Header({ children, ...props }) {
                                                 ))}
                                             </ul>
                                         </>
-                                    ) : (
+                                    ) : ( */}
                                         <Link to={`/${menu}`} style={{ color: props.color }}>
                                             {menuLabels[menu]}
                                         </Link>
-                                    )}
+                                    {/* )} */}
                                 </li>
                             ))}
                         </ul>
