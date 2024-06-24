@@ -25,12 +25,14 @@ function Rinok_modal({ children, onClose, ...props }) {
                                 <img src="/rinok1.png" alt="" />
                             </div>
                         </SwiperSlide>
-                        <SwiperSlide>
+
+                        {/* <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
                                 <h3>Потребительский рынок</h3>
                                 <img src="/rinok_3.png" alt="" />
                             </div>
-                        </SwiperSlide>
+                        </SwiperSlide> */}
+                        
                     </Swiper>
                 </div>
 
