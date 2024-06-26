@@ -12,7 +12,7 @@ function Nogajskij_rajon_page({ children, ...props }) {
     const [num2, ref2] = useCountUp(15.4, 1000);
     const [num3, ref3] = useCountUp(210.8, 1000);
     const [num4, ref4] = useCountUp(15.7, 1000);
-    const [num5, ref5] = useCountUp(11,4, 1000);
+    const [num5, ref5] = useCountUp(11, 4, 1000);
     const [num6, ref6] = useCountUp(0.7, 1000);
     const [num7, ref7] = useCountUp(2.6, 1000);
     const [num8, ref8] = useCountUp(0.5, 1000);
@@ -172,14 +172,34 @@ function Nogajskij_rajon_page({ children, ...props }) {
                                 </div>
                             </div>
                         </div>
-                        
+
+                        <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">ГЛАВА МУНИЦИПАЛЬНОГО ОБРАЗОВАНИЯ </H2>
+
+                        <div className={classes.container}>
+                            <div className={classes.profile}>
+                                <div className={classes.profile_img}>
+                                    <img src="/no_photo.png" alt="Profile Image" />
+                                </div>
+                                <div className={classes.info}>
+                                    <h2> Хапиштов Мурат Азаматович </h2>
+
+                                    <p><b>Полное наименование должности:</b></p>
+                                    <p> Глава администрации </p>
+
+                                    <p><b>Телефон:</b> 8(87870)5-39-09 </p>
+                                    <p><b>Эл. почта:</b> noghayski_rayon@mail.ru </p>
+
+                                </div>
+                            </div>
+                        </div>
+
 
                         <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">ИНВЕСТИЦИОННЫЙ УПОЛНОМОЧЕННЫЙ</H2>
 
                         <div className={classes.container}>
                             <div className={classes.profile}>
                                 <div className={classes.profile_img}>
-                                    <img src="/MO_upl_nog.png" alt="Profile Image" />
+                                    <img src="/no_photo.png" alt="Profile Image" />
                                 </div>
                                 <div className={classes.info}>
                                     <h2>Огурлиева Лиана Мурадиновна</h2>

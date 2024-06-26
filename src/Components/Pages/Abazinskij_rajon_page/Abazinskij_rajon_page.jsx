@@ -6,7 +6,7 @@ import ColumnBlock from "../../Standart/ColumnBlock/ColumnBlock";
 import H2 from "../../Standart/H2/H2";
 import Header from "../../Blocks/Header/Header";
 
-import useCountUp from '../../../useCountUp'; 
+import useCountUp from '../../../useCountUp';
 
 function Abazinskij_rajon_page({ children, ...props }) {
     const [num1, ref1] = useCountUp(44, 1000);
@@ -207,6 +207,27 @@ function Abazinskij_rajon_page({ children, ...props }) {
                                 <div className={`${classes.rajon_table__row___item} ${classes.widthBlock5} `}>500 чел.</div>
                             </div>
                         </div> */}
+
+
+                        <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">ГЛАВА МУНИЦИПАЛЬНОГО ОБРАЗОВАНИЯ </H2>
+
+                        <div className={classes.container}>
+                            <div className={classes.profile}>
+                                <div className={classes.profile_img}>
+                                    <img src="/mer_abaz.jpg" alt="Profile Image" />
+                                </div>
+                                <div className={classes.info}>
+                                    <h2> Кужев Руслан Муратович </h2>
+
+                                    <p><b>Полное наименование должности:</b></p>
+                                    <p> Глава администрации </p>
+
+                                    <p><b>Телефон:</b> 8 (87873) 34155 </p>
+                                    <p><b>Эл. почта:</b> abaz-raion@mail.ru  </p>
+
+                                </div>
+                            </div>
+                        </div>
 
 
                         <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">ИНВЕСТИЦИОННЫЙ УПОЛНОМОЧЕННЫЙ</H2>

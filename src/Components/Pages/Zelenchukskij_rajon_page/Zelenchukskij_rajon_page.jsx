@@ -179,6 +179,27 @@ function Zelenchukskij_rajon_page({ children, ...props }) {
                         </div> */}
 
 
+                        <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">ГЛАВА МУНИЦИПАЛЬНОГО ОБРАЗОВАНИЯ </H2>
+
+                        <div className={classes.container}>
+                            <div className={classes.profile}>
+                                <div className={classes.profile_img}>
+                                    <img src="/no_photo.png" alt="Profile Image" />
+                                </div>
+                                <div className={classes.info}>
+                                    <h2> Шайдаров Александр Анатольевич </h2>
+
+                                    <p><b>Полное наименование должности:</b></p>
+                                    <p> Глава администрации </p>
+
+                                    <p><b>Телефон:</b> 8-878-78-5-12-45 </p>
+                                    {/* <p><b>Эл. почта:</b>  </p> */}
+
+                                </div>
+                            </div>
+                        </div>
+
+
                         <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">ИНВЕСТИЦИОННЫЙ УПОЛНОМОЧЕННЫЙ</H2>
 
                         <div className={classes.container}>

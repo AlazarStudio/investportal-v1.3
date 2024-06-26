@@ -181,6 +181,27 @@ function Pricubanskij_rajon_page({ children, ...props }) {
                             </div>
                         </div> */}
 
+                        <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">ГЛАВА МУНИЦИПАЛЬНОГО ОБРАЗОВАНИЯ </H2>
+
+                        <div className={classes.container}>
+                            <div className={classes.profile}>
+                                <div className={classes.profile_img}>
+                                    <img src="/mer_prikub.jpg" alt="Profile Image" />
+                                </div>
+                                <div className={classes.info}>
+                                    <h2> Чомаев Мухамат-Амин Ибрагимович </h2>
+
+                                    <p><b>Полное наименование должности:</b></p>
+                                    <p> Глава администрации </p>
+
+                                    <p><b>Телефон:</b> +7 (878 74) 4-11-37 </p>
+                                    <p><b>Эл. почта:</b> admprik@yandex.ru </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+
 
                         <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">ИНВЕСТИЦИОННЫЙ УПОЛНОМОЧЕННЫЙ</H2>
 

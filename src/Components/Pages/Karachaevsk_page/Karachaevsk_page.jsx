@@ -137,6 +137,26 @@ function Karachaevsk_page({ children, ...props }) {
                         </div>
 
 
+                        <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">ГЛАВА МУНИЦИПАЛЬНОГО ОБРАЗОВАНИЯ </H2>
+
+                        <div className={classes.container}>
+                            <div className={classes.profile}>
+                                <div className={classes.profile_img}>
+                                    <img src="/mer_karach.jpg" alt="Profile Image" />
+                                </div>
+                                <div className={classes.info}>
+                                    <h2> Урусов Марат Магомедович </h2>
+
+                                    <p><b>Полное наименование должности:</b></p>
+                                    <p> Мэр города Карачаевск </p>
+
+                                    <p><b>Телефон:</b> 8 (87879) 2-26-33 </p>
+                                    <p><b>Почта:</b> karachaevsk_1927@mail.ru </p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
 
                         <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">ИНВЕСТИЦИОННЫЙ УПОЛНОМОЧЕННЫЙ</H2>
 
