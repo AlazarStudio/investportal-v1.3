@@ -212,7 +212,7 @@ function Main_page_block({ children, ...props }) {
                         </CenterBlock>
 
                         <div className={classes.news}>
-                            {newsArray.map((newsItem, index) => (
+                            {newsArray.slice(0, 6).map((newsItem, index) => (
                                 <Link to={`/news/${newsItem.link}`} className={classes.news_item} key={index}>
                                     <div className={classes.news_item__img}>
                                         <img src={`/${newsItem.image[0]}`} alt="" />

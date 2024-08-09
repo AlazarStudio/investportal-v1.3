@@ -321,6 +321,10 @@
   font-weight: 600;
   line-height: 22px;
   text-transform: uppercase;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
 }
 
 .news_item__desc___hash {
