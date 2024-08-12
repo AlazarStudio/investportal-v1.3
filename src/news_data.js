@@ -1,6 +1,17 @@
 export const newsArray = [
     {
         date: "09.08.2024",
+        title: "Неделя HR и рекламы. Управление брендами, людьми, компаниями",
+        link: "Nedelya HR i reklamy. Upravlenie brendami, lyud'mi, kompaniyami",
+        image: [
+            "new3_1_12-08-2024.png",
+        ],
+        text: `
+        с 16 по 20 сентября 2024 года состоится Федеральное мероприятие по управлению людьми и командами, которое пройдёт в г. Екатеринбурге - ‘Национальная неделя HR и рекламы»
+        `,
+    },
+    {
+        date: "09.08.2024",
         title: "Оргкомитет Конкурса «Регионы – устойчивое развитие» объявляет о начале осеннего отбора инвестиционных проектов",
         link: "Orgkomitet Konkursa «Regiony – ustojchivoe razvitie» obyavlyaet o nachale osennego otbora investicionnyh proektov",
         image: [
