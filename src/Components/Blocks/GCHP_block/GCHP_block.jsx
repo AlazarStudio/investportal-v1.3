@@ -84,7 +84,7 @@ function GCHP_block({ children, ...props }) {
                 description: "",
                 files: [
                     { title: '19 УГ 155 О порядке согласования ОИВ проектов концесс соглашений', name: "19 UG 155 O poryadke soglasovaniya OIV proektov koncess soglashenij", path: "pdf" },
-                    { title: 'Об утверждении порядка принятия решений о заключении гос. контрактов на поставку товаров, соглашений о ГЧП и концессионных соглашений на срок, превышающий срок действия утвержденных лимитов', name: "Ob utverzhdenii poryadka prinyatiya reshenij o zaklyuchenii gos. kontraktov na postavku tovarov, soglashenij o GCHP i koncessionnyh soglashenij na srok, prevyshayushchij srok dejstviya utverzhdennyh limitov", path: "docx" },
+                    { title: 'Об утверждении порядка принятия решений о заключении гос. контрактов на поставку товаров, соглашений о ГЧП и концессионных соглашений на срок, превышающий срок действия утвержденных лимитов', name: "Ob utverzhdenii poryadka prinyatiya reshenij o zaklyuchenii gos", path: "docx" },
                     { title: 'Постановление Правительства Карачаево-Черкесской Республики от 06.12.2017 № 332', name: "Postanovlenie Pravitel'stva Karachaevo-CHerkesskoj Respubliki ot 06.12.2017 № 332", path: "docx" },
                     { title: 'Постановление Правительства КЧР Об определении уполномоченного органа исполнительной власти КЧР', name: "Postanovlenie Pravitel'stva KCHR Ob opredelenii upolnomochennogo organa ispolnitel'noj vlasti KCHR", path: "pdf" },
                     { title: 'РП КЧР 432-р О внесении сведений в систему ГАС Управление', name: "RP KCHR 432-r O vnesenii svedenij v sistemu GAS Upravlenie", path: "pdf" },
