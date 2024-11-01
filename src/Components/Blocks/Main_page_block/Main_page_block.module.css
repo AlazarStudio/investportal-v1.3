@@ -83,6 +83,18 @@
   letter-spacing: 0.6000000238418579px;
 }
 
+.catalog_banner {
+  height: 436px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.catalog_banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .map {
   display: flex;
   background-image: url("/mapImn.png");

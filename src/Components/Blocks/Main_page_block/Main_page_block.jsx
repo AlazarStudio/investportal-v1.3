@@ -103,6 +103,11 @@ function Main_page_block({ children, ...props }) {
 
                 <CenterBlock>
                     <WidthBlock className="MainPageWidthBlock">
+                        
+                        <a href="/catalog_prom_product_2024_razvoroty.pdf" target="_blank" className={classes.catalog_banner}>
+                            <img src="/catalog_banner.png" alt="" />
+                        </a>
+
                         <a href="https://map.investkchr.ru" target="_blank" className={classes.map}>
                             <div className={classes.map_left}>
                                 <div className={classes.map_left__title}>ИНВЕСТИЦИОННАЯ КАРТА</div>
