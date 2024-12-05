@@ -13,7 +13,7 @@ function KO_block({ children, ...props }) {
             files: [
                 { title: 'Об-утверждении-дорожной-карты-Стандарта-кадрового-обеспечения-промышленного-роста', name: "Ob-utverzhdenii-dorozhnoj-karty-Standarta-kadrovogo-obespecheniya-promyshlennogo-rosta", path: "pdf" },
                 { title: 'О-порядке-организации-кадрового-обеспечения-инвестиционных-проектов-в-КЧР', name: "O-poryadke-organizacii-kadrovogo-obespecheniya-investicionnyh-proektov-v-KCHR", path: "pdf" },
-                { title: 'О-координационном-совете-по-реализации-кадрового-обеспесения-промышленного-роста-в-КЧР', name: "O-koordinacionnom-sovete-po-realizacii-kadrovogo-obespeseniya-promyshlennogo-rosta-v-KCHR", path: "pdf" },
+                // { title: 'О-координационном-совете-по-реализации-кадрового-обеспесения-промышленного-роста-в-КЧР', name: "O-koordinacionnom-sovete-po-realizacii-kadrovogo-obespeseniya-promyshlennogo-rosta-v-KCHR", path: "pdf" },
             ],
         },
     };
