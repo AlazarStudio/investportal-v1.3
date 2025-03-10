@@ -140,6 +140,7 @@ function GCHP_block({ children, ...props }) {
                     { title: 'Об утверждении перечня объектов, которые могут быть переданы в концессию, ГЧП', name: "Ob utverzhdenii perechnya obektov, kotorye mogut byt peredany v koncessiyu, GCHP", path: "pdf" },
                     { title: 'РЕЕСТР ИНИЦИАТИВ ГЧП', name: "REESTR INICIATIV GCHP", path: "pdf" },
                     { title: 'Реестр заключенных соглашений ГЧП', name: "REESTR ZAKLUCHEN GCHP", path: "pdf" },
+                    { title: 'Об утверждении перечня объектов, которые могут быть переданы в концессию, ГЧП в 2025 году', name: "Ob_utverzhdenii_perechnya_ob_ktov,_kotorye_mogut_byt_peredany_v_koncessiyu_GChP_v_2025_godu", path: "pdf"}
 
                 ],
             },

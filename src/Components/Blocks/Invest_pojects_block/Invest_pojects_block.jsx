@@ -21,6 +21,7 @@ function Invest_pojects_block({ children, ...props }) {
             files: [
                 { title: 'РЕЕСТР инвестиционных соглашений 2024', name: "REESTR investicionnyh soglashenij 2024", path: "docx" },
                 { title: 'Об утверждении инвестиционного плана Карачаево-Черкесской Республики на 2023 год', name: "Ob utverzhdenii investicionnogo plana Karachaevo-CHerkesskoj Respubliki na 2023 god", path: "pdf" },
+                { title: 'Инвестиционный план на 2025 год', name: "invest_plan_na_2025_god", path: "pdf"},
             ],
         },
     };
