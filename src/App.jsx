@@ -46,9 +46,9 @@ function App() {
   return (
     <>
       <Routes>
-        <Route index element={<Block />} />
-        {/* <Route path="/" element={<Layout />}> */}
-          {/* <Route index element={<Main_Page />} />
+        {/* <Route index element={<Block />} /> */}
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Main_Page />} />
           <Route path="region" element={<Region_Page />} />
           <Route path="investor" element={<Investor_Page />} />
           <Route path="investor/:id" element={<Investor_Info_Page />} />
@@ -90,11 +90,11 @@ function App() {
           <Route path="documents" element={<Documents_Page />} />
           <Route path="documents_msp" element={<Documents_msp />} />
 
-          <Route path="feedback" element={<Feedback_Page />} /> */}
+          <Route path="feedback" element={<Feedback_Page />} />
           {/* <Route path="documents_export" element={<Documents_export />} /> */}
-          {/* <Route path="*" element={<Non_Found_Page />} /> */}
-        {/* </Route> */}
-          <Route path="*" element={<Block />} />
+          <Route path="*" element={<Non_Found_Page />} />
+        </Route>
+          {/* <Route path="*" element={<Block />} /> */}
 
       </Routes>
     </>
