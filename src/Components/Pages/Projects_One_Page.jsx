@@ -45,13 +45,14 @@ const Projects_One_Page = () => {
                     <LeftTitle center={"true"} color="var(--blue-color)">{foundItems[0].title}</LeftTitle>
                 </CenterBlock>
 
-                <div className="projectSlider">
+                {foundItems[0].img != '' && <div className="projectSlider">
                     <CenterBlock>
                         <WidthBlock>
                             <SliderNews slides={foundItems[0].img} />
                         </WidthBlock>
                     </CenterBlock>
                 </div>
+                }
 
                 <CenterBlock>
                     <WidthBlock>

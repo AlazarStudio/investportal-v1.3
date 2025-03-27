@@ -13,6 +13,7 @@
     background: linear-gradient(274.77deg, #058BBE 0%, #046FCB 100%),
         linear-gradient(0deg, #0470CA, #0470CA),
         linear-gradient(271.58deg, rgba(5, 136, 191, 0.54) 1.08%, rgba(0, 180, 255, 0) 85.53%);
+    /* background: #0470CA; */
     padding: 20px 80px;
 }
 

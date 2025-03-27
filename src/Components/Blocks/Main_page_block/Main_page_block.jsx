@@ -57,20 +57,21 @@ function Main_page_block({ children, ...props }) {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div className={classes.mainslider_slide} style={{ backgroundImage: `url('/main_slide2.png')` }} >
+                            <div className={classes.mainslider_slide} style={{ backgroundImage: `url('/main_slide2-new.jpg')` }} >
                                 <WidthBlock>
                                     <RowBlock justifyContent="space-between">
                                         <div className={classes.mainslider_slide__item}>
                                             <div className={classes.mainslider_slide__item___text}>
-                                                В 2024 году туристический поток в Карачаево-Черкесскую Республику вырос на 10%
+                                                В 2024 году туристический поток в Карачаево-Черкесскую Республику превысил 2,2 млн чел.
                                             </div>
                                         </div>
                                         <div className={classes.mainslider_slide__item}>
                                             <div className={classes.mainslider_slide__item___large}>
-                                                2 млн
+                                                2,2 млн
                                             </div>
                                             <div className={classes.mainslider_slide__item___text}>
-                                                100 тыс. туристов
+                                                {/* 200 тыс. туристов <br /> */}
+                                                + 10% к 2023 году
                                             </div>
                                         </div>
                                     </RowBlock>
@@ -83,15 +84,38 @@ function Main_page_block({ children, ...props }) {
                                     <RowBlock justifyContent="space-between">
                                         <div className={classes.mainslider_slide__item}>
                                             <div className={classes.mainslider_slide__item___text}>
-                                                По итогам 2022 года в хозяйствах всех категорий Карачаево-Черкесской Республики имеется более
+                                                {/* По итогам 2022 года в хозяйствах всех категорий Карачаево-Черкесской Республики имеется более */}
+                                                Площадь высаженных садов интенсивного типа более
                                             </div>
                                         </div>
                                         <div className={classes.mainslider_slide__item}>
                                             <div className={classes.mainslider_slide__item___large}>
-                                                149,8
+                                                {/* 149,8 */}
+                                                1 тыс. га
                                             </div>
                                             <div className={classes.mainslider_slide__item___text}>
-                                                тыс. голов крупного рогатого скота.
+                                                {/* тыс. голов крупного рогатого скота. */}
+                                                {/* тыс. га */}
+                                            </div>
+                                        </div>
+                                    </RowBlock>
+                                </WidthBlock>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className={classes.mainslider_slide} style={{ backgroundImage: `url('/main_slide7.jpg')` }} >
+                                <WidthBlock>
+                                    <RowBlock justifyContent="space-between">
+                                        <div className={classes.mainslider_slide__item}>
+                                            <div className={classes.mainslider_slide__item___text}>
+                                                Темп роста объема производства в обрабатывающих отраслях за 2024 год
+                                            </div>
+                                        </div>
+                                        <div className={classes.mainslider_slide__item}>
+                                            <div className={classes.mainslider_slide__item___large}>
+                                                135,3 %
+                                            </div>
+                                            <div className={classes.mainslider_slide__item___text}>
                                             </div>
                                         </div>
                                     </RowBlock>
@@ -103,7 +127,7 @@ function Main_page_block({ children, ...props }) {
 
                 <CenterBlock>
                     <WidthBlock className="MainPageWidthBlock">
-                        
+
                         <a href="/catalog_prom_product_2024_razvoroty.pdf" target="_blank" className={classes.catalog_banner}>
                             <img src="/catalog_banner.png" alt="" />
                         </a>

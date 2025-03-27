@@ -4,11 +4,17 @@ import { Link } from "react-router-dom";
 
 function SlideBlock({ children, ...props }) {
     let link = '/projects/' + props.link.replace(/\s+/g, "_");
-    return ( 
+
+    console.log(props.img)
+    return (
         <>
             <Link to={link} className={classes.SlideBlock}>
                 <div className={classes.SlideBlock_left}>
-                    <img src={props.img} alt="" />
+                    {props.img ?
+                        <img src={`/${props.img}`} alt="" />
+                        :
+                        'Нет картинки'
+                    }
                 </div>
                 <div className={classes.SlideBlock_right}>
                     <div className={classes.SlideBlock_right__title}>{props.title}</div>
@@ -16,7 +22,7 @@ function SlideBlock({ children, ...props }) {
                 </div>
             </Link>
         </>
-     );
+    );
 }
 
 export default SlideBlock;

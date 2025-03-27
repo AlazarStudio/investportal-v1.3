@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
 import SlideBlock from "../Blocks/SlideBlock/SlideBlock.jsx";
 
@@ -8,6 +8,7 @@ import CenterBlock from "../Standart/CenterBlock/CenterBlock.jsx";
 import LeftTitle from "../Blocks/leftTitle/LeftTitle.jsx";
 import Header from "../Blocks/Header/Header.jsx";
 import ColumnBlock from "../Standart/ColumnBlock/ColumnBlock.jsx";
+import Button from "../Standart/Button/Button.jsx";
 
 const Projects_All_Page = () => {
     useEffect(() => {
@@ -15,6 +16,9 @@ const Projects_All_Page = () => {
     }, []);
 
     let projects = getProjects();
+
+    const [type, setType] = useState('completed');
+    const filteredProjects = projects.filter(project => project.type === type);
 
     return (
         <>
@@ -26,8 +30,20 @@ const Projects_All_Page = () => {
                 </CenterBlock>
 
                 <CenterBlock>
+                    <BlockWidth style={{
+                        display: 'flex',
+                        justifyContent: 'center',
+                        flexDirection: 'row',
+                        gap: '20px'
+                    }}>
+                        <Button width='410px' onClick={() => setType('completed')} isActive={type === 'completed'}>Реализованные проекты</Button>
+                        <Button width='410px' onClick={() => setType('ongoing')} isActive={type === 'ongoing'}>Реализуемые проекты</Button>
+                    </BlockWidth>
+                </CenterBlock>
+
+                <CenterBlock>
                     <BlockWidth wrap={"wrap"} gap={'50px'}>
-                        {projects.map((item, index) => (
+                        {filteredProjects.map((item, index) => (
                             <SlideBlock
                                 key={index}
                                 img={`${item.img[0]}`}

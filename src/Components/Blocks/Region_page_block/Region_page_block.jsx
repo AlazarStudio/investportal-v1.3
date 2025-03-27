@@ -11,7 +11,7 @@ import { Navigation, Pagination } from 'swiper/modules';
 
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css'; 
+import 'swiper/css';
 
 function Region_page_block({ children, ...props }) {
     const [modalOpen, setModalOpen] = useState(false);
@@ -31,12 +31,12 @@ function Region_page_block({ children, ...props }) {
 
     function useCountUp(endValue, duration) {
         const [value, setValue] = useState(0);
-    
+
         useEffect(() => {
             let start = 0;
             const end = endValue;
             const incrementTime = duration / end;
-    
+
             const timer = setInterval(() => {
                 start += 1;
                 setValue(start);
@@ -44,10 +44,10 @@ function Region_page_block({ children, ...props }) {
                     clearInterval(timer);
                 }
             }, incrementTime);
-    
+
             return () => clearInterval(timer);
         }, [endValue, duration]);
-    
+
         return value;
     }
 
@@ -65,13 +65,7 @@ function Region_page_block({ children, ...props }) {
                         <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">о регионе</H2>
 
                         <div className={classes.region_text}>
-                            Карачаево-Черкесская Республика — один из наиболее успешных и динамично развивающихся
-                            регионов, входящих в состав Северо-Кавказского федерального округа, занимающий
-                            лидирующие позиции в Северо-Кавказском федеральном округе по многим
-                            социально-экономическим показателям. В Национальном рейтинге состояния инвестиционного
-                            климата, представленного на Петербургском международном экономическом форуме
-                            Агентством стратегических инициатив Карачаево-Черкесская Республика заняла высокие
-                            позиции, уступив только Чеченской Республике.
+                            Карачаево-Черкесия – динамично развивающийся субъект Российской Федерации, входящий в состав Северо-Кавказского федерального округа. Республика показывает устойчивые темпы развития в традиционных промышленном и сельскохозяйственном секторах, а также в отрасли туризма, ставшей за последнее десятилетие новым драйвером развития региональной экономики. Одной из первоочередных задач Правительства Карачаево-Черкесской Республики является формирование благоприятного инвестиционного климата в регионе и создание комфортных условий для привлечения инвестиций и реализации перспективных инвестиционных проектов.
                         </div>
 
                         <div className={classes.region_nums}>
@@ -81,8 +75,8 @@ function Region_page_block({ children, ...props }) {
                             </div>
 
                             <div className={classes.region_nums__item}>
-                                <div className={classes.region_nums__item___num}>{num2}</div>
-                                <div className={classes.region_nums__item___desc}>муниципальных районов</div>
+                                <div className={classes.region_nums__item___num}>{num5}</div>
+                                <div className={classes.region_nums__item___desc}>города</div>
                             </div>
 
                             <div className={classes.region_nums__item}>
@@ -91,14 +85,16 @@ function Region_page_block({ children, ...props }) {
                             </div>
 
                             <div className={classes.region_nums__item}>
+                                <div className={classes.region_nums__item___num}>{num2}</div>
+                                <div className={classes.region_nums__item___desc}>муниципальных районов</div>
+                            </div>
+
+
+                            <div className={classes.region_nums__item}>
                                 <div className={classes.region_nums__item___num}>{num4}</div>
                                 <div className={classes.region_nums__item___desc}>сельских поселений</div>
                             </div>
 
-                            <div className={classes.region_nums__item}>
-                                <div className={classes.region_nums__item___num}>{num5}</div>
-                                <div className={classes.region_nums__item___desc}>города</div>
-                            </div>
                         </div>
 
                         <div className={classes.region_video}>
@@ -129,7 +125,7 @@ function Region_page_block({ children, ...props }) {
                                     </div>
                                 </div>
                                 <div className={classes.region_glava__info___img}>
-                                    <img src="/galva.png" alt="" />
+                                    <img src="/glava-Photoroom.png" alt="" />
                                 </div>
                             </div>
                         </WidthBlock>
@@ -138,14 +134,14 @@ function Region_page_block({ children, ...props }) {
 
                 <div className="region_slider">
                     <Swiper
-                    breakpoints={{
-                        768: {
-                          slidesPerView: 3,
-                        },
-                        1300: {
-                            slidesPerView: 5,
-                        }
-                      }}
+                        breakpoints={{
+                            768: {
+                                slidesPerView: 3,
+                            },
+                            1300: {
+                                slidesPerView: 5,
+                            }
+                        }}
                         slidesPerView={1}
                         spaceBetween={-50}
                         centeredSlides={true}
@@ -254,7 +250,7 @@ function Region_page_block({ children, ...props }) {
                         <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">Причины инвестировать в <br /> Карачаево-Черкесскую Республику</H2>
 
                         <div className={classes.region_presentation}>
-                            <div className={classes.region_video__btn}  onClick={() => handleOpenModal('Причины инвестировать в Карачаево-Черкесскую Республику')}>
+                            <div className={classes.region_video__btn} onClick={() => handleOpenModal('Причины инвестировать в Карачаево-Черкесскую Республику')}>
                                 <img src="/play.png" alt="" />
                                 смотреть  презентацию
                             </div>

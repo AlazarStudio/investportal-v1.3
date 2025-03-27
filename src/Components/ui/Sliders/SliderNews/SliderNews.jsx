@@ -28,7 +28,7 @@ function SliderBottomNav({ children, ...props }) {
           {props.slides.map((item, index) => (
             <SwiperSlide key={index}>
               <CenterBlock >
-                  <img src={`/${item}`} alt="" style={{ width: "100%", height: "400px", objectFit: "cover" }} />
+                  <img src={`/${item}`} alt="" style={{ width: "100%", height: "400px", objectFit: "contain", background: '#fff' }} />
               </CenterBlock>
             </SwiperSlide>
           ))}
