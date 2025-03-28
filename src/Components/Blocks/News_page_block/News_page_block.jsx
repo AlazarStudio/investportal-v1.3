@@ -20,7 +20,7 @@ function News_page_block({ children, ...props }) {
                             {newsArray.map((newsItem, index) => (
                                 <Link key={index} to={`/news/${newsItem.link}`} className={classes.news_item}>
                                     <div className={classes.news_item__img}>
-                                        <img src={newsItem.image[0]} alt="" />
+                                        <img src={`/${newsItem.image[0]}`} alt="" />
                                     </div>
                                     <div className={classes.news_item__desc}>
                                         <div className={classes.news_item__desc___separate}>
