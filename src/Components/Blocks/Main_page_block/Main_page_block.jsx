@@ -79,7 +79,7 @@ function Main_page_block({ children, ...props }) {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div className={classes.mainslider_slide} style={{ backgroundImage: `url('/main_slide6.webp')` }} >
+                            <div className={classes.mainslider_slide} style={{ backgroundImage: `url('/main_slide6.jpg')` }} >
                                 <WidthBlock>
                                     <RowBlock justifyContent="space-between">
                                         <div className={classes.mainslider_slide__item}>
@@ -186,7 +186,7 @@ function Main_page_block({ children, ...props }) {
                                         <Link to={'/projects/' + item.link.replace(/\s+/g, "_")} className={classes.projects_slide}>
                                             <div className={classes.projects_slide__left}>
                                                 <div className={classes.projects_slide__left___img}>
-                                                    <img src={`/${item.img[0]}`} alt="" />
+                                                    {item.img[0] ? <img src={`/${item.img[0]}`} alt="" /> : 'Нет картинки'}
                                                 </div>
                                             </div>
                                             <div className={classes.projects_slide__right}>

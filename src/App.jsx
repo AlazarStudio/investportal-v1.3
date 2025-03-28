@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 
 import Main_Page from "./Components/Pages/Main_Page";
@@ -43,59 +43,63 @@ import MP_Open_Page from "./Components/Pages/MP_Open_Page/MP_Open_Page";
 import Block from "./Components/Pages/Block";
 
 function App() {
+  const [isBlock, setIsBlock] = useState(true);
   return (
     <>
       <Routes>
-        {/* <Route index element={<Block />} /> */}
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Main_Page />} />
-          <Route path="region" element={<Region_Page />} />
-          <Route path="investor" element={<Investor_Page />} />
-          <Route path="investor/:id" element={<Investor_Info_Page />} />
-          <Route path="ipb" element={<MSP_Page />} />
-          <Route path="msp" element={<MSP_main_Page />} />
+        {isBlock && <Route index element={<Block />} />}
 
-          <Route path="federalniye_mery_podderjki" element={<MP_Federal_Page />} />
-          <Route path="regionalniye_mery_podderjki" element={<MP_Region_Page />} />
-          <Route path="organizations" element={<MP_Organizations_Page />} />
+        {!isBlock &&
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Main_Page />} />
+            <Route path="region" element={<Region_Page />} />
+            <Route path="investor" element={<Investor_Page />} />
+            <Route path="investor/:id" element={<Investor_Info_Page />} />
+            <Route path="ipb" element={<MSP_Page />} />
+            <Route path="msp" element={<MSP_main_Page />} />
 
-          <Route path="federalniye_mery_podderjki/:id" element={<MP_Open_Page />} />
-          <Route path="regionalniye_mery_podderjki/:id" element={<MP_Open_Page />} />
+            <Route path="federalniye_mery_podderjki" element={<MP_Federal_Page />} />
+            <Route path="regionalniye_mery_podderjki" element={<MP_Region_Page />} />
+            <Route path="organizations" element={<MP_Organizations_Page />} />
 
-          <Route path="export_kchr" element={<Export_Page />} />
-          <Route path="export" element={<Export_main_Page />} />
+            <Route path="federalniye_mery_podderjki/:id" element={<MP_Open_Page />} />
+            <Route path="regionalniye_mery_podderjki/:id" element={<MP_Open_Page />} />
 
-          <Route path="regionalniy_exportniy_standart" element={<Regionalniy_exportniy_standart_Page />} />
-          <Route path="news" element={<News_Page />} />
-          <Route path="news/:id" element={<One_New_Page />} />
+            <Route path="export_kchr" element={<Export_Page />} />
+            <Route path="export" element={<Export_main_Page />} />
 
-          <Route path="projects" element={<Projects_All_Page />} />
-          <Route path="projects/:title" element={<Projects_One_Page />} />
+            <Route path="regionalniy_exportniy_standart" element={<Regionalniy_exportniy_standart_Page />} />
+            <Route path="news" element={<News_Page />} />
+            <Route path="news/:id" element={<One_New_Page />} />
 
-          <Route path="municipalnye_obrazovaniya" element={<Municipalnye_obrazovaniya_Page />} />
+            <Route path="projects" element={<Projects_All_Page />} />
+            <Route path="projects/:title" element={<Projects_One_Page />} />
 
-          <Route path="municipalnye_obrazovaniya/cherkessk" element={<Cherkessk_page />} />
-          <Route path="municipalnye_obrazovaniya/karachaevsk" element={<Karachaevsk_page />} />
-          <Route path="municipalnye_obrazovaniya/abazinskij_rajon" element={<Abazinskij_rajon_page />} />
-          <Route path="municipalnye_obrazovaniya/prikubanskij_rajon" element={<Pricubanskij_rajon_page />} />
-          <Route path="municipalnye_obrazovaniya/zelenchukskij_rajon" element={<Zelenchukskij_rajon_page />} />
-          <Route path="municipalnye_obrazovaniya/karachaevskij_rajon" element={<Karachaevskij_rajon_page />} />
-          <Route path="municipalnye_obrazovaniya/malokarachaevskij_rajon" element={<Malokarachaevskij_rajon_page />} />
-          <Route path="municipalnye_obrazovaniya/nogajskij_rajon" element={<Nogajskij_rajon_page />} />
-          <Route path="municipalnye_obrazovaniya/habezskij_rajon" element={<Habezskij_rajon_page />} />
-          <Route path="municipalnye_obrazovaniya/ustdzhegutinskij_rajon" element={<Ustdzhegutinskij_rajon_page />} />
-          <Route path="municipalnye_obrazovaniya/adygehablskij_rajon" element={<Adygehablskij_rajon_page />} />
-          <Route path="municipalnye_obrazovaniya/urupskij_rajon" element={<Urupskij_rajon_page />} />
-                    
-          <Route path="documents" element={<Documents_Page />} />
-          <Route path="documents_msp" element={<Documents_msp />} />
+            <Route path="municipalnye_obrazovaniya" element={<Municipalnye_obrazovaniya_Page />} />
 
-          <Route path="feedback" element={<Feedback_Page />} />
-          {/* <Route path="documents_export" element={<Documents_export />} /> */}
-          <Route path="*" element={<Non_Found_Page />} />
-        </Route>
-          {/* <Route path="*" element={<Block />} /> */}
+            <Route path="municipalnye_obrazovaniya/cherkessk" element={<Cherkessk_page />} />
+            <Route path="municipalnye_obrazovaniya/karachaevsk" element={<Karachaevsk_page />} />
+            <Route path="municipalnye_obrazovaniya/abazinskij_rajon" element={<Abazinskij_rajon_page />} />
+            <Route path="municipalnye_obrazovaniya/prikubanskij_rajon" element={<Pricubanskij_rajon_page />} />
+            <Route path="municipalnye_obrazovaniya/zelenchukskij_rajon" element={<Zelenchukskij_rajon_page />} />
+            <Route path="municipalnye_obrazovaniya/karachaevskij_rajon" element={<Karachaevskij_rajon_page />} />
+            <Route path="municipalnye_obrazovaniya/malokarachaevskij_rajon" element={<Malokarachaevskij_rajon_page />} />
+            <Route path="municipalnye_obrazovaniya/nogajskij_rajon" element={<Nogajskij_rajon_page />} />
+            <Route path="municipalnye_obrazovaniya/habezskij_rajon" element={<Habezskij_rajon_page />} />
+            <Route path="municipalnye_obrazovaniya/ustdzhegutinskij_rajon" element={<Ustdzhegutinskij_rajon_page />} />
+            <Route path="municipalnye_obrazovaniya/adygehablskij_rajon" element={<Adygehablskij_rajon_page />} />
+            <Route path="municipalnye_obrazovaniya/urupskij_rajon" element={<Urupskij_rajon_page />} />
 
+            <Route path="documents" element={<Documents_Page />} />
+            <Route path="documents_msp" element={<Documents_msp />} />
+
+            <Route path="feedback" element={<Feedback_Page />} />
+            {/* <Route path="documents_export" element={<Documents_export />} /> */}
+            <Route path="*" element={<Non_Found_Page />} />
+          </Route>
+        }
+
+        {isBlock && <Route path="*" element={<Block />} />}
       </Routes>
     </>
   )

@@ -207,6 +207,10 @@
   height: 100%;
   border-radius: 20px;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
 }
 
 .projects_slide__left___img img {
