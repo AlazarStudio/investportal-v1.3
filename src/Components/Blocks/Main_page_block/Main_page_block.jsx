@@ -62,12 +62,12 @@ function Main_page_block({ children, ...props }) {
                                     <RowBlock justifyContent="space-between">
                                         <div className={classes.mainslider_slide__item}>
                                             <div className={classes.mainslider_slide__item___text}>
-                                                В 2024 году туристический поток в Карачаево-Черкесскую Республику превысил 2,2 млн чел.
+                                                В 2024 году туристический поток в Карачаево-Черкесскую Республику превысил 
                                             </div>
                                         </div>
                                         <div className={classes.mainslider_slide__item}>
                                             <div className={classes.mainslider_slide__item___large}>
-                                                2,2 млн
+                                                2,2 <br /> млн чел
                                             </div>
                                             <div className={classes.mainslider_slide__item___text}>
                                                 {/* 200 тыс. туристов <br /> */}
