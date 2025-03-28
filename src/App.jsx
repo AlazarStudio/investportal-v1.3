@@ -43,7 +43,7 @@ import MP_Open_Page from "./Components/Pages/MP_Open_Page/MP_Open_Page";
 import Block from "./Components/Pages/Block";
 
 function App() {
-  const [isBlock, setIsBlock] = useState(true);
+  const [isBlock, setIsBlock] = useState(false);
   return (
     <>
       <Routes>
