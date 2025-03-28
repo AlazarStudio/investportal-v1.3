@@ -11,7 +11,7 @@ function Stroi_modal({ children, onClose, ...props }) {
     return (
         <>
             <div className={classes.modal_content}>
-                <h2>Строительство</h2>
+                {/* <h2>Строительство</h2> */}
 
                 <div className={classes.modalSlider}>
                     <Swiper
@@ -21,6 +21,16 @@ function Stroi_modal({ children, onClose, ...props }) {
                     >
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
+                                <img src="/new_stroi1.png" alt="" />
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className={classes.modalSlider_slide}>
+                                <img src="/new_stroi2.png" alt="" />
+                            </div>
+                        </SwiperSlide>
+                        {/* <SwiperSlide>
+                            <div className={classes.modalSlider_slide}>
                                 <img src="/stroi1.png" alt="" />
                             </div>
                         </SwiperSlide>
@@ -28,7 +38,7 @@ function Stroi_modal({ children, onClose, ...props }) {
                             <div className={classes.modalSlider_slide}>
                                 <img src="/stroi2.png" alt="" />
                             </div>
-                        </SwiperSlide>
+                        </SwiperSlide> */}
                     </Swiper>
                 </div>
 

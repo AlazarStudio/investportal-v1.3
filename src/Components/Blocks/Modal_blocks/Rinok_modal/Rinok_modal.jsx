@@ -11,7 +11,7 @@ function Rinok_modal({ children, onClose, ...props }) {
     return (
         <>
             <div className={classes.modal_content}>
-                <h2>Рынок труда и потребительский рынок</h2>
+                {/* <h2>Рынок труда и потребительский рынок</h2> */}
 
                 <div className={classes.modalSlider}>
                     <Swiper
@@ -21,10 +21,20 @@ function Rinok_modal({ children, onClose, ...props }) {
                     >
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
+                                <img src="/new_rinok1.png" alt="" />
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className={classes.modalSlider_slide}>
+                                <img src="/new_rinok2.png" alt="" />
+                            </div>
+                        </SwiperSlide>
+                        {/* <SwiperSlide>
+                            <div className={classes.modalSlider_slide}>
                                 <h3>Рынок труда</h3>
                                 <img src="/rinok1.png" alt="" />
                             </div>
-                        </SwiperSlide>
+                        </SwiperSlide> */}
 
                         {/* <SwiperSlide>
                             <div className={classes.modalSlider_slide}>

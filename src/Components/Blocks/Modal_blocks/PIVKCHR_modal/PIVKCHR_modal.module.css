@@ -32,6 +32,7 @@
 }
 
 .modal_close{
+    z-index: 99999;
     position: absolute;
     top: 20px;
     right: 20px;

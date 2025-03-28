@@ -11,7 +11,7 @@ function Nasel_modal({ children, onClose, ...props }) {
     return (
         <>
             <div className={classes.modal_content}>
-                <h2>Население и демография</h2>
+                {/* <h2>Население и демография</h2> */}
 
                 <div className={classes.modalSlider}>
                     <Swiper
@@ -20,6 +20,16 @@ function Nasel_modal({ children, onClose, ...props }) {
                         className="modalSlider"
                     >
                         <SwiperSlide>
+                            <div className={classes.modalSlider_slide}>
+                                <img src="/new_nasel1.png" alt="" />
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className={classes.modalSlider_slide}>
+                                <img src="/new_nasel2.png" alt="" />
+                            </div>
+                        </SwiperSlide>
+                        {/* <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
                                 <h3>Население</h3>
                                 <img src="/nasel1.png" alt="" />
@@ -30,7 +40,7 @@ function Nasel_modal({ children, onClose, ...props }) {
                                 <h3>Демография</h3>
                                 <img src="/nasel2.png" alt="" />
                             </div>
-                        </SwiperSlide>
+                        </SwiperSlide> */}
                     </Swiper>
                 </div>
 

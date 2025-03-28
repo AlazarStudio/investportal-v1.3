@@ -11,7 +11,7 @@ function Tur_modal({ children, onClose, ...props }) {
     return (
         <>
             <div className={classes.modal_content}>
-                <h2>Туризм</h2>
+                {/* <h2>Туризм</h2> */}
 
                 <div className={classes.modalSlider}>
                     <Swiper
@@ -20,6 +20,31 @@ function Tur_modal({ children, onClose, ...props }) {
                         className="modalSlider"
                     >
                         <SwiperSlide>
+                            <div className={classes.modalSlider_slide}>
+                                <img src="/new_tur1.png" alt="" />
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className={classes.modalSlider_slide}>
+                                <img src="/new_tur2.png" alt="" />
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className={classes.modalSlider_slide}>
+                                <img src="/new_tur3.png" alt="" />
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className={classes.modalSlider_slide}>
+                                <img src="/new_tur4.png" alt="" />
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className={classes.modalSlider_slide}>
+                                <img src="/new_tur5.png" alt="" />
+                            </div>
+                        </SwiperSlide>
+                        {/* <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
                                 <img src="/tur1.png" alt="" />
                             </div>
@@ -43,7 +68,7 @@ function Tur_modal({ children, onClose, ...props }) {
                             <div className={classes.modalSlider_slide}>
                                 <img src="/tur5.png" alt="" />
                             </div>
-                        </SwiperSlide>
+                        </SwiperSlide> */}
                     </Swiper>
                 </div>
 

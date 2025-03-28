@@ -11,7 +11,7 @@ function SER_modal({ children, onClose, ...props }) {
     return (
         <>
             <div className={classes.modal_content}>
-                <h2>Социально-экономическое развитие</h2>
+                {/* <h2>Социально-экономическое развитие</h2> */}
 
                 <div className={classes.modalSlider}>
                     <Swiper
@@ -20,6 +20,16 @@ function SER_modal({ children, onClose, ...props }) {
                         className="modalSlider"
                     >
                         <SwiperSlide>
+                            <div className={classes.modalSlider_slide}>
+                                <img src="/new_soc1.png" alt="" />
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className={classes.modalSlider_slide}>
+                                <img src="/new_soc2.png" alt="" />
+                            </div>
+                        </SwiperSlide>
+                        {/* <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
                                 <h3>Валовый региональный продукт</h3>
                                 <img src="/soc1.png" alt="" />
@@ -36,7 +46,7 @@ function SER_modal({ children, onClose, ...props }) {
                                 <h3>Внешнеэкономическая деятельность</h3>
                                 <img src="/soc3.png" alt="" />
                             </div>
-                        </SwiperSlide>
+                        </SwiperSlide> */}
                     </Swiper>
                 </div>
 

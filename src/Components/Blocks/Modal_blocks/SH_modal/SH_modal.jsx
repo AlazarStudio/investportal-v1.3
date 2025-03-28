@@ -11,7 +11,7 @@ function SH_modal({ children, onClose, ...props }) {
     return (
         <>
             <div className={classes.modal_content}>
-                <h2>Сельское хозяйство</h2>
+                {/* <h2>Сельское хозяйство</h2> */}
 
                 <div className={classes.modalSlider}>
                     <Swiper
@@ -20,6 +20,32 @@ function SH_modal({ children, onClose, ...props }) {
                         className="modalSlider"
                     >
                         <SwiperSlide>
+                            <div className={classes.modalSlider_slide}>
+                                <img src="/new_sh1.png" alt="" />
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className={classes.modalSlider_slide}>
+                                <img src="/new_sh2.png" alt="" />
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className={classes.modalSlider_slide}>
+                                <img src="/new_sh3.png" alt="" />
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className={classes.modalSlider_slide}>
+                                <img src="/new_sh4.png" alt="" />
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className={classes.modalSlider_slide}>
+                                <img src="/new_sh5.png" alt="" />
+                            </div>
+                        </SwiperSlide>
+                        
+                        {/* <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
                                 <img src="/sh1.png" alt="" />
                             </div>
@@ -33,7 +59,7 @@ function SH_modal({ children, onClose, ...props }) {
                             <div className={classes.modalSlider_slide}>
                                 <img src="/sh3.png" alt="" />
                             </div>
-                        </SwiperSlide>
+                        </SwiperSlide> */}
                     </Swiper>
                 </div>
 

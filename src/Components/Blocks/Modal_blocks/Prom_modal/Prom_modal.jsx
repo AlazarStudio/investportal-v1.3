@@ -11,7 +11,7 @@ function Prom_modal({ children, onClose, ...props }) {
     return (
         <>
             <div className={classes.modal_content}>
-                <h2>Промышленность</h2>
+                {/* <h2>Промышленность</h2> */}
 
                 <div className={classes.modalSlider}>
                     <Swiper
@@ -20,6 +20,31 @@ function Prom_modal({ children, onClose, ...props }) {
                         className="modalSlider"
                     >
                         <SwiperSlide>
+                            <div className={classes.modalSlider_slide}>
+                                <img src="/new_prom1.png" alt="" />
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className={classes.modalSlider_slide}>
+                                <img src="/new_prom2.png" alt="" />
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className={classes.modalSlider_slide}>
+                                <img src="/new_prom3.png" alt="" />
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className={classes.modalSlider_slide}>
+                                <img src="/new_prom4.png" alt="" />
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className={classes.modalSlider_slide}>
+                                <img src="/new_prom5.png" alt="" />
+                            </div>
+                        </SwiperSlide>
+                        {/* <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
                                 <img src="/prom1.png" alt="" />
                             </div>
@@ -43,7 +68,7 @@ function Prom_modal({ children, onClose, ...props }) {
                             <div className={classes.modalSlider_slide}>
                                 <img src="/prom5.png" alt="" />
                             </div>
-                        </SwiperSlide>
+                        </SwiperSlide> */}
                     </Swiper>
                 </div>
 

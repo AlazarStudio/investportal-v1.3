@@ -19,7 +19,6 @@ function Modal({ children, content, onClose, ...props }) {
         <>
             <div className={classes.modal}>
                 <div className={classes.modal_content}>
-                    {content=='Социально-экономическое развитие' ? <SER_modal onClose={onClose}/> : null}
                     {content=='Сельское хозяйство' ? <SH_modal onClose={onClose}/> : null}
                     {content=='Промышленность' ? <Prom_modal onClose={onClose}/> : null}
                     {content=='Туризм' ? <Tur_modal onClose={onClose}/> : null}
@@ -27,6 +26,8 @@ function Modal({ children, content, onClose, ...props }) {
                     {content=='Энергетика' ? <Energ_modal onClose={onClose}/> : null}
                     {content=='Рынок труда' ? <Rinok_modal onClose={onClose}/> : null}
                     {content=='Население' ? <Nasel_modal onClose={onClose}/> : null}
+                    {content=='Социально-экономическое развитие' ? <SER_modal onClose={onClose}/> : null}
+                    
                     {content=='РЕГИОНАЛЬНЫЙ ЭКСПОРТНЫЙ СТАНДАРТ' ? <RES_modal onClose={onClose}/> : null}
                     {content=='Причины инвестировать в Карачаево-Черкесскую Республику' ? <PIVKCHR_modal onClose={onClose}/> : null}
                     {content=='ДЕЙСТВУЮЩИЕ МЕХАНИЗМЫ ГОСУДАРСТВЕННОГО СТИМУЛИРОВАНИЯ ИНВЕСТИЦИОННОЙ ДЕЯТЕЛЬНОСТИ' ? <Dmgsid_modal onClose={onClose}/> : null}

@@ -11,7 +11,7 @@ function Energ_modal({ children, onClose, ...props }) {
     return (
         <>
             <div className={classes.modal_content}>
-                <h2>Энергетика</h2>
+                {/* <h2>Энергетика</h2> */}
 
                 <div className={classes.modalSlider}>
                     <Swiper
@@ -21,6 +21,16 @@ function Energ_modal({ children, onClose, ...props }) {
                     >
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
+                                <img src="/new_energ1.png" alt="" />
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className={classes.modalSlider_slide}>
+                                <img src="/new_energ2.png" alt="" />
+                            </div>
+                        </SwiperSlide>
+                        {/* <SwiperSlide>
+                            <div className={classes.modalSlider_slide}>
                                 <img src="/energ1.png" alt="" />
                             </div>
                         </SwiperSlide>
@@ -28,7 +38,7 @@ function Energ_modal({ children, onClose, ...props }) {
                             <div className={classes.modalSlider_slide}>
                                 <img src="/energ2.png" alt="" />
                             </div>
-                        </SwiperSlide>
+                        </SwiperSlide> */}
                     </Swiper>
                 </div>
 
