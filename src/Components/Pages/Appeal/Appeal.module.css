@@ -56,24 +56,6 @@
   border-radius: 10px;
 }
 
-.linkTo{
-  background: linear-gradient(0deg, #0470ca, #0470ca),
-    linear-gradient(
-      271.58deg,
-      rgba(5, 136, 191, 0.54) 1.08%,
-      rgba(0, 180, 255, 0) 85.53%
-    );
-  border: none;
-  color: #fff;
-  border-radius: 10px;
-  width: 520px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  margin-bottom: 40px;
-}
-
 @media (max-width: 768px) {
    .formFeedback {
     width: 100%;

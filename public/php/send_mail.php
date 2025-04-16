@@ -5,6 +5,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST['email'];
     $subject = $_POST['subject'];
     $comment = $_POST['comment'];
+    $orgName = $_POST['orgName'];
+
+    if (empty($subject) && !empty($orgName)) {
+        $subject = "Организация " + $orgName;
+    }
 
     $to = 'reception@investkchr.ru';
     $subject = "Новое сообщение: $subject";

@@ -41,6 +41,7 @@ import Karachaevskij_rajon_page from "./Components/Pages/Karachaevskij_rajon_pag
 
 import MP_Open_Page from "./Components/Pages/MP_Open_Page/MP_Open_Page";
 import Block from "./Components/Pages/Block";
+import Appeal from "./Components/Pages/Appeal/Appeal";
 
 function App() {
   const [isBlock, setIsBlock] = useState(false);
@@ -94,6 +95,7 @@ function App() {
             <Route path="documents_msp" element={<Documents_msp />} />
 
             <Route path="feedback" element={<Feedback_Page />} />
+            <Route path="appeal" element={<Appeal />} />
             {/* <Route path="documents_export" element={<Documents_export />} /> */}
             <Route path="*" element={<Non_Found_Page />} />
           </Route>

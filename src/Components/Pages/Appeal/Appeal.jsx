@@ -1,21 +1,21 @@
 import React, { useState, useEffect, useRef } from "react";
 import axios from 'axios';
-import classes from './Feedback_Page.module.css';
+import classes from './Appeal.module.css';
 
 import WidthBlock from "../../Standart/WidthBlock/WidthBlock";
 import CenterBlock from "../../Standart/CenterBlock/CenterBlock";
 import ColumnBlock from "../../Standart/ColumnBlock/ColumnBlock";
 import H2 from "../../Standart/H2/H2";
 import Header from "../../Blocks/Header/Header";
-import { Link } from "react-router-dom";
 
 
-function Feedback_Page({ children, ...props }) {
+function Appeal({ children, ...props }) {
     const [form, setForm] = useState({
         fio: '',
         phone: '',
         email: '',
         subject: '',
+        orgName: '',
         comment: ''
     });
 
@@ -34,8 +34,9 @@ function Feedback_Page({ children, ...props }) {
                 phone: '',
                 email: '',
                 subject: '',
+                orgName: '',
                 comment: ''
-            });
+              });
         } catch (error) {
             console.error('Ошибка при отправке сообщения:', error);
             alert('Произошла ошибка при отправке сообщения.');
@@ -48,10 +49,9 @@ function Feedback_Page({ children, ...props }) {
             <ColumnBlock gap="80px">
                 <CenterBlock>
                     <WidthBlock>
-                        <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">Обратная связь</H2>
+                        <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">Обращение в инвестиционный совет</H2>
 
                         <CenterBlock>
-                            {/* <Link to={"/appeal"} className={classes.linkTo}>Написать обращение в инвестиционный совет</Link> */}
                             <form onSubmit={handleSubmit} className={classes.formFeedback}>
 
                                 <input type="text" placeholder="ФИО*" name="fio" value={form.fio} onChange={handleChange} required />
@@ -60,14 +60,9 @@ function Feedback_Page({ children, ...props }) {
 
                                 <input type="email" placeholder="E-mail*" name="email" value={form.email} onChange={handleChange} required />
 
-                                <select name="subject" value={form.subject} onChange={handleChange} required>
-                                    <option value="" disabled>Суть обращения</option>
-                                    <option value="complaint">Жалоба</option>
-                                    <option value="suggestion">Предложение</option>
-                                    <option value="question">Вопрос</option>
-                                </select>
+                                <input type="text" placeholder="Название организации*" name="orgName" value={form.orgName} onChange={handleChange} />
 
-                                <textarea name="comment" placeholder="Комментарий" value={form.comment} onChange={handleChange} required></textarea>
+                                <textarea name="comment" placeholder="Комментарий" value={form.comment} onChange={handleChange}></textarea>
 
                                 <div className={classes.formFeedback_check}>
                                     <label>
@@ -81,7 +76,6 @@ function Feedback_Page({ children, ...props }) {
                                 <button type="submit">Отправить</button>
                             </form>
                         </CenterBlock>
-
                     </WidthBlock>
                 </CenterBlock>
             </ColumnBlock>
@@ -90,4 +84,4 @@ function Feedback_Page({ children, ...props }) {
     );
 }
 
-export default Feedback_Page;
+export default Appeal;
