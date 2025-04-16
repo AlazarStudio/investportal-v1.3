@@ -212,7 +212,7 @@ function getProjects() {
             `,
         },
         {
-            img: ["Stroitel'stvo novogo aeroportovogo kompleksa «Arhyz».jpg"],
+            img: ["Arhyz1.jpg"],
             type: 'ongoing',
             title: "Строительство нового аэропортового комплекса «Архыз»",
             link: "Stroitel'stvo novogo aeroportovogo kompleksa «Arhyz»",
@@ -224,7 +224,7 @@ function getProjects() {
 `,
         },
         {
-            img: ["Razvitie vsesezonnogo turistsko-rekreacionnogo kompleksa «Arhyz».jpg"],
+            img: ["SezonArhyz.jpg"],
             type: 'ongoing',
             title: "Развитие всесезонного туристско-рекреационного комплекса «Архыз»",
             link: "Razvitie vsesezonnogo turistsko-rekreacionnogo kompleksa «Arhyz»",
@@ -236,7 +236,7 @@ function getProjects() {
 `,
         },
         {
-            img: ["Kruglogodichnyj gornyj i bal'neologicheskij kurortnyj otel' «Amanauz».jpg"],
+            img: ["AmanauzSemya.jpg"],
             type: 'ongoing',
             title: "Круглогодичный горный и бальнеологический курортный отель «Аманауз»",
             link: "Kruglogodichnyj gornyj i bal'neologicheskij kurortnyj otel' «Amanauz»",
