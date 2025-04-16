@@ -26,7 +26,7 @@ function Energ_modal({ children, onClose, ...props }) {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/new_energ2.png" alt="" />
+                                <a href="https://www.rossetisk.ru/about/proizvodstvennyy_potentsial/karachaevo_cherkesskiy_filial/" target="_blank"><img src="/new_energ2.png" alt="" /></a>
                             </div>
                         </SwiperSlide>
                         {/* <SwiperSlide>

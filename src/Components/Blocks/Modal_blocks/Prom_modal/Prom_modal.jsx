@@ -41,7 +41,7 @@ function Prom_modal({ children, onClose, ...props }) {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/new_prom5.png" alt="" />
+                                <a href="https://minpromtorgkchr.ru/" target="_blank"><img src="/new_prom5.png" alt="" /></a>
                             </div>
                         </SwiperSlide>
                         {/* <SwiperSlide>

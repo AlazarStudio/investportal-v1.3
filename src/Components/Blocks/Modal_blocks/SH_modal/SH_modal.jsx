@@ -41,7 +41,7 @@ function SH_modal({ children, onClose, ...props }) {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/new_sh5.png" alt="" />
+                                <a href="https://mcxkchr.ru/" target="_blank"><img src="/new_sh5.png" alt="" /></a>
                             </div>
                         </SwiperSlide>
                         

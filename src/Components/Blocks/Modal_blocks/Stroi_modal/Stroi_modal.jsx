@@ -26,7 +26,7 @@ function Stroi_modal({ children, onClose, ...props }) {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/new_stroi2.png" alt="" />
+                                <a href="https://минстройкчр.рф/" target="_blank"><img src="/new_stroi2.png" alt="" /></a>
                             </div>
                         </SwiperSlide>
                         {/* <SwiperSlide>

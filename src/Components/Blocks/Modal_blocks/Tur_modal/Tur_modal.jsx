@@ -41,7 +41,7 @@ function Tur_modal({ children, onClose, ...props }) {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={classes.modalSlider_slide}>
-                                <img src="/new_tur5.png" alt="" />
+                                <a href="https://tourismkchr.ru/" target="_blank"><img src="/new_tur5.png" alt="" /></a>
                             </div>
                         </SwiperSlide>
                         {/* <SwiperSlide>

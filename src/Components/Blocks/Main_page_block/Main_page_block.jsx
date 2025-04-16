@@ -35,10 +35,7 @@ function Main_page_block({ children, ...props }) {
                                     <RowBlock justifyContent="space-between">
                                         <div className={classes.mainslider_slide__item}>
                                             <div className={classes.mainslider_slide__item___text}>
-                                                Инвестиционные
-                                                проекты
-                                                реализованы на
-                                                общую сумму
+                                                Объем инвестиций в основной капитал за 2023-2024 годы более 
                                             </div>
                                             <Link to={'/projects'} className={classes.mainslider_slide__item___button}>
                                                 Узнать больше
@@ -46,7 +43,7 @@ function Main_page_block({ children, ...props }) {
                                         </div>
                                         <div className={classes.mainslider_slide__item}>
                                             <div className={classes.mainslider_slide__item___large}>
-                                                18,9
+                                                70
                                             </div>
                                             <div className={classes.mainslider_slide__item___text}>
                                                 млрд. рублей
@@ -62,7 +59,7 @@ function Main_page_block({ children, ...props }) {
                                     <RowBlock justifyContent="space-between">
                                         <div className={classes.mainslider_slide__item}>
                                             <div className={classes.mainslider_slide__item___text}>
-                                                В 2024 году туристический поток в Карачаево-Черкесскую Республику превысил 
+                                                В 2024 году туристический поток в Карачаево-Черкесскую Республику превысил
                                             </div>
                                         </div>
                                         <div className={classes.mainslider_slide__item}>
@@ -94,6 +91,7 @@ function Main_page_block({ children, ...props }) {
                                                 1 тыс. га
                                             </div>
                                             <div className={classes.mainslider_slide__item___text}>
+                                                Валовый сбор яблок за 2024 год - 32 тыс. тонн
                                                 {/* тыс. голов крупного рогатого скота. */}
                                                 {/* тыс. га */}
                                             </div>
