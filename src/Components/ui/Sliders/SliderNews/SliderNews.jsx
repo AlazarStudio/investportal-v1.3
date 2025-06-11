@@ -9,6 +9,7 @@ import "swiper/css/navigation";
 
 import { Pagination, Navigation } from "swiper/modules";
 import CenterBlock from "../../../Standart/CenterBlock/CenterBlock";
+import uploadsConfig from "../../../../uploadsConfig";
 
 function SliderBottomNav({ children, ...props }) {
   return (
@@ -25,9 +26,10 @@ function SliderBottomNav({ children, ...props }) {
           modules={[Pagination, Navigation]}
           className="mySwiper"
         >
-          {props.slides.map((item, index) => (
+          {props?.slides?.map((item, index) => (
             <SwiperSlide key={index}>
               <CenterBlock >
+                  {/* <img src={`${uploadsConfig}${item}`} alt="" style={{ width: "100%", height: "400px", objectFit: "contain", background: '#fff' }} /> */}
                   <img src={`/${item}`} alt="" style={{ width: "100%", height: "400px", objectFit: "contain", background: '#fff' }} />
               </CenterBlock>
             </SwiperSlide>

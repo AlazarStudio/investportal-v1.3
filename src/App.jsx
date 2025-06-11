@@ -42,6 +42,7 @@ import Karachaevskij_rajon_page from "./Components/Pages/Karachaevskij_rajon_pag
 import MP_Open_Page from "./Components/Pages/MP_Open_Page/MP_Open_Page";
 import Block from "./Components/Pages/Block";
 import Appeal from "./Components/Pages/Appeal/Appeal";
+import AdminPage from "./Components/Pages/Admin/AdminPage";
 
 function App() {
   const [isBlock, setIsBlock] = useState(false);
@@ -51,6 +52,7 @@ function App() {
         {isBlock && <Route index element={<Block />} />}
 
         {!isBlock &&
+        <>
           <Route path="/" element={<Layout />}>
             <Route index element={<Main_Page />} />
             <Route path="region" element={<Region_Page />} />
@@ -99,6 +101,9 @@ function App() {
             {/* <Route path="documents_export" element={<Documents_export />} /> */}
             <Route path="*" element={<Non_Found_Page />} />
           </Route>
+					<Route path='/admin/*' element={<AdminPage />} />
+
+        </>
         }
 
         {isBlock && <Route path="*" element={<Block />} />}

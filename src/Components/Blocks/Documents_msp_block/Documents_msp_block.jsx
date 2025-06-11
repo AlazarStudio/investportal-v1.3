@@ -56,3 +56,69 @@ function Documents_msp_block({ children, ...props }) {
 }
 
 export default Documents_msp_block;
+
+
+// import React, { useState, useEffect } from "react";
+// import classes from "./Documents_msp_block.module.css";
+// import ColumnBlock from "../../Standart/ColumnBlock/ColumnBlock";
+// import CenterBlock from "../../Standart/CenterBlock/CenterBlock";
+// import WidthBlock from "../../Standart/WidthBlock/WidthBlock";
+// import H2 from "../../Standart/H2/H2";
+// import DocsBlock from "../DocsBlock/DocsBlock";
+// import serverConfig from "../../../serverConfig";
+// import axios from "axios";
+
+// function Documents_msp_block({ children, ...props }) {
+//   const [docs, setDocs] = useState([]);
+//   const [error, setError] = useState(null);
+
+//   useEffect(() => {
+//     // Ваш фильтр — здесь "Документы"
+//     const filterObj = { groupTitle: "Документы" };
+
+//     const fetchProduct = async () => {
+//       try {
+//         const response = await axios.get(`${serverConfig}/docs`, {
+//           params: {
+//             // Сервер ожидает строку JSON в query.filter
+//             filter: JSON.stringify(filterObj),
+//           },
+//         });
+//         // console.log(response.data)
+//         setDocs(response.data);
+//       } catch (error) {
+//         console.error("Error fetching product:", error);
+//       }
+//     };
+//     fetchProduct();
+//   }, []); // пустой массив — загрузить один раз при монтировании
+
+// //   console.log(docs);
+  
+
+//   return (
+//     <ColumnBlock gap="80px">
+//       <CenterBlock>
+//         <WidthBlock>
+//           <H2
+//             text_align="center"
+//             text_transform="uppercase"
+//             color="var(--blue_color)"
+//           >
+//             Документы МСП
+//           </H2>
+
+//           <div className="docsShowBlock">
+//             {error && <p className={classes.error}>{error}</p>}
+//             { !error && (
+//               // передаём полученный массив docs
+//               <DocsBlock array={docs} />
+//             )}
+//           </div>
+//         </WidthBlock>
+//       </CenterBlock>
+//     </ColumnBlock>
+//   );
+// }
+
+// export default Documents_msp_block;

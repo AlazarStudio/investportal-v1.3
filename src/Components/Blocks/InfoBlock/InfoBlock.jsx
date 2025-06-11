@@ -17,6 +17,7 @@ function InfoBlock({ children, ...props }) {
           }
         }
       >
+        {/* <div className={classes.infoBlock_title} dangerouslySetInnerHTML={{__html: props.title}}></div> */}
         <div className={classes.infoBlock_title} style={{ color: props.color, textAlign: props.textAlign}}>{props.title}</div>
 
         <div className={classes.infoBlock_data} style={{ flexDirection: props.column }}>
