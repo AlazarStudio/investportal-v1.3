@@ -123,12 +123,16 @@ function GCHP_block({ children, ...props }) {
                 ],
             },
             ps: {
+                // description: `
+                // <a href="http://old.economy.gov.ru/minec/activity/sections/privgovpartnerdev/" target="_blank">Министерство экономического развития Российской Федерации / Развитие частно-государственного партнерства в Российской Федерации</a>
+                // <a href="https://pppcenter.ru/" target="_blank">Центр развития ГЧП</a>
+                // <a href="https://rosinfra.ru/" target="_blank">ГЧП Инфо. Федеральный портал</a>
+                // <a href="http://old.economy.gov.ru/minec/ACTIVITY/sections/privgovpartnerdev/2017241101" target="_blank">Вебинар по вопросу реализации проектов ГЧП и концессионных соглашений в отношении объектов санаторно-курортного комплекса России</a>
+                // <a href="https://rosinfra.ru/" target="_blank">Торги в РФ</a>
+                // `,
                 description: `
-                <a href="http://old.economy.gov.ru/minec/activity/sections/privgovpartnerdev/" target="_blank">Министерство экономического развития Российской Федерации / Развитие частно-государственного партнерства в Российской Федерации</a>
                 <a href="https://pppcenter.ru/" target="_blank">Центр развития ГЧП</a>
                 <a href="https://rosinfra.ru/" target="_blank">ГЧП Инфо. Федеральный портал</a>
-                <a href="http://old.economy.gov.ru/minec/ACTIVITY/sections/privgovpartnerdev/2017241101" target="_blank">Вебинар по вопросу реализации проектов ГЧП и концессионных соглашений в отношении объектов санаторно-курортного комплекса России</a>
-                <a href="https://rosinfra.ru/" target="_blank">Торги в РФ</a>
                 `,
                 files: [
                     // { title: 'полезные ссылки', name: "poleznye ssylki", path: "docx" },
@@ -139,7 +143,8 @@ function GCHP_block({ children, ...props }) {
                 files: [
                     { title: 'Об утверждении перечня объектов, которые могут быть переданы в концессию, ГЧП', name: "Ob utverzhdenii perechnya obektov, kotorye mogut byt peredany v koncessiyu, GCHP", path: "pdf" },
                     { title: 'РЕЕСТР ИНИЦИАТИВ ГЧП', name: "REESTR INICIATIV GCHP", path: "pdf" },
-                    { title: 'Реестр заключенных соглашений ГЧП', name: "REESTR ZAKLUCHEN GCHP", path: "pdf" },
+                    { title: 'Реестр заключенных соглашений ГЧП', name: "REESTR_ZAKLUCHEN_GCHP", path: "pdf" },
+                    // { title: 'Реестр заключенных соглашений ГЧП', name: "REESTR ZAKLUCHEN GCHP", path: "pdf" },
                     { title: 'Об утверждении перечня объектов, которые могут быть переданы в концессию, ГЧП в 2025 году', name: "Ob_utverzhdenii_perechnya_ob_ktov,_kotorye_mogut_byt_peredany_v_koncessiyu_GChP_v_2025_godu", path: "pdf"}
 
                 ],

@@ -9,9 +9,9 @@ import Header from "../../Blocks/Header/Header";
 import useCountUp from '../../../useCountUp';
 
 function Cherkessk_page({ children, ...props }) {
-    const [num1, ref1] = useCountUp(112.8, 1000);
-    const [num2, ref2] = useCountUp(711.6, 1000);
-    const [num3, ref3] = useCountUp(3450, 1000);
+    const [num1, ref1] = useCountUp(112.9, 1000);
+    const [num2, ref2] = useCountUp(6986.02, 1000);
+    const [num3, ref3] = useCountUp(5248, 1000);
     return (
         <>
             <Header />
@@ -36,7 +36,7 @@ function Cherkessk_page({ children, ...props }) {
                                 <div className={classes.rajon_info__item___desc}>население</div>
                             </div>
                             <div className={classes.rajon_info__item}>
-                                <div className={classes.rajon_info__item___title} ref={ref2}>{num2} тыс. га</div>
+                                <div className={classes.rajon_info__item___title} ref={ref2}>{num2} га</div>
                                 <div className={classes.rajon_info__item___line}></div>
                                 <div className={classes.rajon_info__item___desc}>площадь территории</div>
                             </div>
@@ -165,6 +165,25 @@ function Cherkessk_page({ children, ...props }) {
                         </div> */}
 
                         <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">ГЛАВА МУНИЦИПАЛЬНОГО ОБРАЗОВАНИЯ </H2>
+
+                        <div className={classes.container}>
+                            <div className={classes.profile}>
+                                <div className={classes.profile_img}>
+                                    <img src="/deduk_v_n.jpg" alt="Profile Image" />
+                                </div>
+                                <div className={classes.info}>
+                                    <h2> Дедук Валерий Николаевич </h2>
+                                    <p><b> Дата рождения: </b> 24 октября 1964 года</p>
+                                    <p><b>Полное наименование должности:</b></p>
+                                    <p> Депутат Думы муниципального образования города Черкесска шестого созыва </p>
+                                    
+                                    {/* <p><b>Телефон:</b> 28-16-75 </p> */}
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <H2 text_align='center' text_transform="uppercase" color="var(--blue_color)">Руководитель мэрии муниципального образования</H2>
 
                         <div className={classes.container}>
                             <div className={classes.profile}>

@@ -178,6 +178,29 @@ function Main_page_block({ children, ...props }) {
 
         <CenterBlock>
           <WidthBlock className="MainPageWidthBlock">
+            <div className="banner-pb_wrapper">
+                <div className="banner-pb_container">
+                    <div className="banner-pb_image"></div>
+                    <div className="banner-pb_content">
+                        <div className="banner-pb_content__info">
+                            <p className="banner-pb_content__title">
+                                Возникли трудности при ведении бизнеса в регионе?
+                            </p>
+                            <p className="banner-pb_content__subtitle">
+                                Напишите, чтобы быстро получить ответ
+                            </p>
+                        </div>
+                        <div className="banner-pb_content__link">
+                            <a rel="noopener" href="https://www.gosuslugi.ru/help/obratitsya_business" target="_blank">
+                                <div className="banner-pb_button">
+                                    Написать
+                                </div>
+                            </a>
+                            <img className="banner-pb_icon" src="/gosuslugi.svg"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <a
               href="/catalog_prom_product_2024_razvoroty.pdf"
               target="_blank"
