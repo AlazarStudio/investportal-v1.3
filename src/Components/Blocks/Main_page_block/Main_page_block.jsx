@@ -189,6 +189,12 @@ function Main_page_block({ children, ...props }) {
                             <p className="banner-pb_content__subtitle">
                                 Напишите, чтобы быстро получить ответ
                             </p>
+                            {/* <p className="banner-pb_content__title">
+                                Вопросы по реализации инвестиционного проекта?
+                            </p>
+                            <p className="banner-pb_content__subtitle">
+                                Ответим в кратчайшие сроки
+                            </p> */}
                         </div>
                         <div className="banner-pb_content__link">
                             <a rel="noopener" href="https://www.gosuslugi.ru/help/obratitsya_business" target="_blank">
