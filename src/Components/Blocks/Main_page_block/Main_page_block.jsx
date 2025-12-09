@@ -179,34 +179,61 @@ function Main_page_block({ children, ...props }) {
         <CenterBlock>
           <WidthBlock className="MainPageWidthBlock">
             <div className="banner-pb_wrapper">
-                <div className="banner-pb_container">
-                    <div className="banner-pb_image"></div>
-                    <div className="banner-pb_content">
-                        <div className="banner-pb_content__info">
-                            <p className="banner-pb_content__title">
-                                Возникли трудности при ведении бизнеса в регионе?
-                            </p>
-                            <p className="banner-pb_content__subtitle">
-                                Напишите, чтобы быстро получить ответ
-                            </p>
-                            {/* <p className="banner-pb_content__title">
+              <div className="banner-pb_container">
+                <div className="banner-pb_image"></div>
+                <div className="banner-pb_content">
+                  <div className="banner-pb_content__info">
+                    <p className="banner-pb_content__title">
+                      Возникли трудности при ведении бизнеса в регионе?
+                    </p>
+                    <p className="banner-pb_content__subtitle">
+                      Напишите, чтобы быстро получить ответ
+                    </p>
+                    {/* <p className="banner-pb_content__title">
                                 Вопросы по реализации инвестиционного проекта?
                             </p>
                             <p className="banner-pb_content__subtitle">
                                 Ответим в кратчайшие сроки
                             </p> */}
-                        </div>
-                        <div className="banner-pb_content__link">
-                            <a rel="noopener" href="https://www.gosuslugi.ru/help/obratitsya_business" target="_blank">
-                                <div className="banner-pb_button">
-                                    Написать
-                                </div>
-                            </a>
-                            <img className="banner-pb_icon" src="/gosuslugi.svg"/>
-                        </div>
-                    </div>
+                  </div>
+                  <div className="banner-pb_content__link">
+                    <a
+                      rel="noopener"
+                      href="https://www.gosuslugi.ru/help/obratitsya_business"
+                      target="_blank"
+                    >
+                      <div className="banner-pb_button">Написать</div>
+                    </a>
+                    <img className="banner-pb_icon" src="/gosuslugi.svg" />
+                  </div>
                 </div>
+              </div>
             </div>
+
+            <picture
+              onClick={() =>
+                window.open(
+                  "https://наследие.дом.рф/?utm_source=partners&utm_medium=referral&utm_campaign=OKN_brand&utm_content=banners&utm_term=11_2025",
+                  "_blank"
+                )
+              }
+              style={{ cursor: "pointer" }}
+            >
+              <source
+                media="(min-width: 1300px)"
+                srcSet="/naseleniye.png"
+              />
+              <source
+                media="(min-width: 800px)"
+                srcSet="/naseleniyePlan.png"
+              />
+              <source
+                media="(max-width: 799px)"
+                srcSet="/naseleniyeMobile.png"
+              />
+              <img src="/naseleniye.png" alt="" />
+            </picture>
+
             <a
               href="/catalog_prom_product_2024_razvoroty.pdf"
               target="_blank"
