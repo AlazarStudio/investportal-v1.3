@@ -40,9 +40,9 @@ function GCHP_block({ children, ...props }) {
                 <p>- Соц. обслуживание населения.</p>
                 <p>- Сельское хозяйство</p>
                 `,
-                files: [
-                    { title: '1-п Об утверждении объектов, которые могут быть переданы в ГЧП в 2026 году', name: "1_p_ob_utverzhdenii_obektob_kotorye_mogut_bit_peredany_v_GCHP_v2026", path: "pdf" },
-                ],
+                // files: [
+                //     { title: '1-п Об утверждении объектов, которые могут быть переданы в ГЧП в 2026 году', name: "1_p_ob_utverzhdenii_obektob_kotorye_mogut_bit_peredany_v_GCHP_v2026", path: "pdf" },
+                // ],
             },
             ki: {
                 description: `
@@ -141,6 +141,7 @@ function GCHP_block({ children, ...props }) {
             pgchpks: {
                 description: "",
                 files: [
+                    { title: '1-п Об утверждении объектов, которые могут быть переданы в ГЧП в 2026 году', name: "1_p_ob_utverzhdenii_obektob_kotorye_mogut_bit_peredany_v_GCHP_v2026", path: "pdf" },
                     { title: 'Об утверждении перечня объектов, которые могут быть переданы в концессию, ГЧП', name: "Ob utverzhdenii perechnya obektov, kotorye mogut byt peredany v koncessiyu, GCHP", path: "pdf" },
                     { title: 'РЕЕСТР ИНИЦИАТИВ ГЧП', name: "REESTR INICIATIV GCHP", path: "pdf" },
                     { title: 'Реестр заключенных соглашений ГЧП', name: "REESTR_ZAKLUCHEN_GCHP", path: "pdf" },

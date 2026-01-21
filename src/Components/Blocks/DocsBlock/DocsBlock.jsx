@@ -5,7 +5,7 @@ function DocsBlock({ children, ...props }) {
     return (
         <>
             <div>
-                {props.array.map((file, index) => (
+                {props.array?.map((file, index) => (
                     <div key={index} className={classes.docBlock}>
                         <div className={classes.tabContentInfoElement}>
                             <img src={`/${file.path}.svg`} alt="document icon" />
