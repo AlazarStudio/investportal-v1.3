@@ -41,7 +41,7 @@ function GCHP_block({ children, ...props }) {
                 <p>- Сельское хозяйство</p>
                 `,
                 files: [
-                    { title: '1-п Об утверждении объектов, которые могут быть переданы в ГЧП в 2026 году', name: "1-п_ob_utverzhdenii_ob`ektob_kotorye_mogut_bit_peredany_v_GCHP_v2026", path: "pdf" },
+                    { title: '1-п Об утверждении объектов, которые могут быть переданы в ГЧП в 2026 году', name: "1_p_ob_utverzhdenii_obektob_kotorye_mogut_bit_peredany_v_GCHP_v2026", path: "pdf" },
                 ],
             },
             ki: {
